@@ -8,8 +8,6 @@ module.exports = withFonts(
     // images: {
     //   path: "/src/assets/image",
     // },
-    publicRuntimeConfig: {
-      target: "serverless",
-    },
+    target: "serverless",
   })
 );
