@@ -46,12 +46,12 @@ const Hero = ({ className, ...rest }) => {
               </p>
               <div className="mt-10 d-flex flex-wrap mb-n6">
                 <Link href="/#">
-                  <a className="btn btn-dark-green btn-3 rounded-5 mr-6 mb-6">
+                  <a className="btn btn-dodger-blue-2 btn-3 rounded-5 mr-6 mb-6">
                     Get Involved
                   </a>
                 </Link>
                 <Link href="/#">
-                  <a className="btn btn-dark-green btn-3 rounded-5 mb-6">
+                  <a className="btn btn-dodger-blue-2 btn-3 rounded-5 mb-6">
                     View Events
                   </a>
                 </Link>
