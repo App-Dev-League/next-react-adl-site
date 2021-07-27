@@ -1,11 +1,24 @@
-import React from "react"; 
+import React, { useEffect, useRef, useState } from "react"; 
 import Link from "next/link"; 
  
 import imgM from "../../assets/skills.png"; 
 import imgDP from "../../assets/image/home-2/png/dot-pattern-black.png"; 
 import ProgressBar from 'react-bootstrap/ProgressBar'
+import { useIsVisible } from 'react-is-visible'
 
-const Progress = ({ className, ...rest }) => { 
+const Progress = ({ className, ...rest }) => {
+  const nodeRef = useRef()
+  const isVisible = useIsVisible(nodeRef)
+  const [progressBarsFilled, setProgressBarsFilled] = useState(false)
+
+  useEffect(() => {
+    if (isVisible) {
+      setTimeout(() => {
+        setProgressBarsFilled(true)
+      }, 1200);
+    }
+  }, [isVisible])
+
   return ( 
     <> 
       <div className={className} {...rest}> 
@@ -50,35 +63,36 @@ const Progress = ({ className, ...rest }) => {
               className="col-lg-6 col-md-7 col-xs-12" 
               data-aos="fade-left" 
               data-aos-delay={500} 
-              data-aos-once="true" data-aos-duration={1000} 
+              data-aos-once="true" data-aos-duration={1000}
+              ref={nodeRef} 
             >
               <div className="mb-10">
                 <p className="d-flex justify-content-between mb-4">
                   Would recommend to a friend
                   <span>99%</span>
                 </p>
-                <ProgressBar now={99}/>
+                <ProgressBar now={progressBarsFilled ? 99 : 0}/>
               </div>
               <div className="mb-10">
                 <p className="d-flex justify-content-between mb-4">
                   Enjoyed our events
                   <span>90%</span>
                 </p>
-                <ProgressBar now={90}/>
+                <ProgressBar now={progressBarsFilled ? 90 : 0}/>
               </div>
               <div className="mb-10">
                 <p className="d-flex justify-content-between mb-4">
                   Knowledge gained from events
                   <span>95%</span>
                 </p>
-                <ProgressBar now={95}/>
+                <ProgressBar now={progressBarsFilled ? 95 : 0}/>
               </div>
               <div>
                 <p className="d-flex justify-content-between mb-4">
                   Would attend another event
                   <span>93%</span>
                 </p>
-                <ProgressBar now={93}/>
+                <ProgressBar now={progressBarsFilled ? 93 : 0}/>
               </div>
             </div> 
             {/* Left End */}
