@@ -97,7 +97,7 @@ const Content3 = ({ className, ...rest }) => {
                 <p className="heading-default-color font-size-6 mb-11">
                   The COVID global pandemic has affected billions of individuals worldwide and most importantly <strong>students’ education. </strong>Through our various iniatiatives from a <strong>free teaching app </strong>to our monthly events and <strong>conferences</strong>, our students will have the power to make a <strong>global impact </strong>right from their homes by creating cool websites and apps!
                 </p>
-                <div className="btn-group mb-12">
+                <div className="btn-group mb-8 mb-lg-12">
                   <Link href={"/about"}>
                     <a className="btn btn-dodger-blue-2 rounded-5">
                       Learn More About Us

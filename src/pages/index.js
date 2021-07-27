@@ -27,8 +27,8 @@ const IndexPage = () => {
         }}
       >
         <Hero className="position-relative pt-25 pt-md-31 pt-lg-35 pb-14 pb-md-19 pb-lg-33 position-relative overflow-hidden" />
-        <Content3 className="py-12 py-lg-25" />
-        <OurExperience className="pb-12 pb-lg-25" />
+        <Content3 className="bg-default-1 pt-12 pt-lg-25 pb-8 pb-lg-20" />
+        <OurExperience className="py-12 py-lg-25" />
         <Stats />
         <Company className="bg-default-1 pt-13 pt-md-17 pt-lg-24 pb-13 pb-md-14 pb-lg-23" />
         <Categories className="bg-default-1 pt-lg-13 pb-md-7 pb-lg-11 position-relative" />
