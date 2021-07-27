@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/home1/Hero";
@@ -12,6 +13,11 @@ import Blog from "../sections/home1/Blog";
 const IndexPage = () => {
   return (
     <>
+      <Head>
+        <title>Home | App Dev League</title>
+        <meta name="description" content="App Dev League, a student-led non profit, is devoted to bringing computer science education to underrepresented students." />
+        <meta property="og:description" content="App Dev League, a student-led non profit, is devoted to bringing computer science education to underrepresented students." />
+      </Head>
       <PageWrapper
         themeConfig={{
           headerClassName: "site-header--menu-right"

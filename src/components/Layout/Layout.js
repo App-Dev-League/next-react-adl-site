@@ -69,7 +69,7 @@ const Layout = ({ children, pageContext }) => {
     return (
       <>
         <Head>
-          <title>Finity</title>
+          <title>App Dev League</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
           <body data-theme={gContext.theme.bodyDark ? "dark" : "light"} />
         </Head>
@@ -89,7 +89,7 @@ const Layout = ({ children, pageContext }) => {
     <>
       <>
         <Head>
-          <title>Finity</title>
+          <title>App Dev League</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
           <body data-theme={gContext.theme.bodyDark ? "dark" : "light"} />
         </Head>
