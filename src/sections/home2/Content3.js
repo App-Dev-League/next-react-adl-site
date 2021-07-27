@@ -36,7 +36,7 @@ const Content3 = ({ className, ...rest }) => {
             >
               <div>
                 <p className="heading-default-color font-size-6 mb-0">
-                  App Dev League, a student-led nonprofit, is devoted to bringing computer science education to underrepresented students. We specifically focus on application development and AI. Our goals include:
+                  App Dev League, a student-led nonprofit, is devoted to bringing computer science education to underrepresented students. We specifically focus on application development and AI. <strong>Our goals include:</strong>
                 </p>
                 <div className="row justify-content-center py-7">
                   <div className="col-lg-4 col-md-6 col-xs-10">
