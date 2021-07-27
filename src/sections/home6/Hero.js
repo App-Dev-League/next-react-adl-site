@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import imgM from "../../assets/image/home-6/png/hero-mobile.png";
+import imgM from "../../assets/hero-img.png";
 import imgYS from "../../assets/image/home-6/png/cirle-yellow-shape.png";
 
 const Hero = ({ className, ...rest }) => {
@@ -38,17 +38,21 @@ const Hero = ({ className, ...rest }) => {
               data-aos="fade-left"
               data-aos-delay={750}
             >
-              <h1 className="font-size-13 mb-8 pr-sm-18 pr-md-8 pr-lg-0 line-height-84">
-                Take your business to next level.
+              <h1 className="font-size-112 mb-8 pr-sm-18 pr-md-8 pr-lg-0 line-height-84">
+                App Dev League
               </h1>
               <p className="font-size-7 mb-0 pr-sm-10 pr-md-10 pr-lg-0 pr-xl-18">
-                Your app is your tool for better solution with your followers,
-                making it easier for them to keep up to date.
+                Diversifying the Application Developer Community
               </p>
-              <div className="mt-10">
+              <div className="mt-10 d-flex flex-wrap mb-n6">
                 <Link href="/#">
-                  <a className="btn btn-dark-green btn-3 rounded-5">
-                    Request Free Access
+                  <a className="btn btn-dark-green btn-3 rounded-5 mr-6 mb-6">
+                    Get Involved
+                  </a>
+                </Link>
+                <Link href="/#">
+                  <a className="btn btn-dark-green btn-3 rounded-5 mb-6">
+                    View Events
                   </a>
                 </Link>
               </div>
