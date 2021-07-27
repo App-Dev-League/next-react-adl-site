@@ -6,7 +6,7 @@ const Stats = () => {
   return (
     <div className="bg-default-3 pt-13 pt-md-18 pt-lg-23 pb-5 pb-md-9 pb-lg-23">
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center text-center">
           {/* Single Counter */}
           <div className="col-lg-3 col-md-3 col-xs-6">
             <div
@@ -17,13 +17,14 @@ const Stats = () => {
               <h2 className="font-size-12 mb-5">
                 <LazyLoad>
                   <span className="counter">
-                    <CountUp duration={3} end={10} />
+                    <CountUp duration={2} end={5000} />
                   </span>
+                  +
                 </LazyLoad>
               </h2>
 
               <p className="heading-default-color mb-0 font-size-5">
-                Team Members
+                Students Reached
               </p>
             </div>
           </div>
@@ -33,18 +34,18 @@ const Stats = () => {
             <div
               className="mb-11 mb-lg-0"
               data-aos="fade-up"
-              data-aos-duration={600}
+              data-aos-duration={300}
             >
               <h2 className="font-size-12 mb-5">
                 <LazyLoad>
                   <span className="counter">
-                    <CountUp duration={3} end={45} />
+                    <CountUp duration={3} end={30} />
                   </span>
-                  K
+                  +
                 </LazyLoad>
               </h2>
               <p className="heading-default-color mb-0 font-size-5">
-                Monthly Active Users
+                Schools Worked With
               </p>
             </div>
           </div>
@@ -59,13 +60,12 @@ const Stats = () => {
               <h2 className="font-size-12 mb-5">
                 <LazyLoad>
                   <span className="counter">
-                    <CountUp duration={3} end={81} />
+                    <CountUp duration={3} end={20} />
                   </span>
-                  K
                 </LazyLoad>
               </h2>
               <p className="heading-default-color mb-0 font-size-5">
-                Solved Tickets
+                Partners
               </p>
             </div>
           </div>
@@ -79,15 +79,13 @@ const Stats = () => {
             >
               <h2 className="font-size-12 mb-5">
                 <LazyLoad>
-                  $
                   <span className="counter">
-                    <CountUp duration={3} end={93} />
+                    <CountUp duration={3} end={10} />
                   </span>
-                  K
                 </LazyLoad>
               </h2>
               <p className="heading-default-color mb-0 font-size-5">
-                Monthly Saved by The Users
+                Events Hosted
               </p>
             </div>
           </div>
