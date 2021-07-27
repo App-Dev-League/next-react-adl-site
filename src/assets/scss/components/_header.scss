@@ -22,6 +22,7 @@
 
     @include mobile-lg {
       min-height: 45px;
+      height: 45px;
     }
   }
 }
@@ -357,5 +358,26 @@
       top: 95%;
       pointer-events: visible;
     }
+  }
+}
+.brand-logo a {
+  display: flex;
+  align-items: center;
+  img {
+    max-height: 4.125rem;
+    position: relative;
+    top: .175rem;
+    @media (max-width: 992px) {
+      max-height: 3rem;
+      top: .125rem;
+    }
+  }
+  span {
+    font-family: $font-family-base;
+    display: block;
+    margin-left: .75rem;
+    font-size: 1.5rem;
+    color: $dark-cloud;
+    font-weight: bold;
   }
 }

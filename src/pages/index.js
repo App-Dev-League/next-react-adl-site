@@ -12,7 +12,11 @@ import Blog from "../sections/home1/Blog";
 const IndexPage = () => {
   return (
     <>
-      <PageWrapper>
+      <PageWrapper
+        themeConfig={{
+          headerClassName: "site-header--menu-right"
+        }}
+      >
         <Hero className="position-relative z-index-1" />
         <Company className="bg-default-1 pt-13 pt-md-17 pt-lg-24 pb-13 pb-md-14 pb-lg-23" />
         <Categories className="bg-default-1 pt-lg-13 pb-md-7 pb-lg-11 position-relative" />

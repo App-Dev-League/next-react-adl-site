@@ -1,17 +1,15 @@
 import React from "react";
 import Link from "next/link";
 
-import logoB from "../../assets/image/logo-main-black.png";
-import logoW from "../../assets/image/logo-main-white.png";
+import logo from "../../assets/adl-logo.png";
 
 const Logo = ({ className = "", ...rest }) => {
   return (
     <Link href="/#">
       <a className={`${className}`} {...rest}>
-        {/* <!-- light version logo (logo must be black)--> */}
-        <img src={logoB} alt="" className="light-version-logo" />
-        {/* <!-- Dark version logo (logo must be White)--> */}
-        <img src={logoW} alt="" className="dark-version-logo" />
+        <img src={logo} alt="" className="light-version-logo" />
+        <img src={logo} alt="" className="dark-version-logo" />
+        <span>ADL</span>
       </a>
     </Link>
   );

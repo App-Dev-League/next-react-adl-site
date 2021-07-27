@@ -14,7 +14,7 @@ const defaultOptions = [
 const Hero = ({ className, ...rest }) => {
   return (
     <div className={className} {...rest}>
-      <div className="pt-15 pt-lg-20">
+      <div className="pt-16 pt-lg-20">
         <div
           className="bg-img-1 bg-images pt-18 pt-lg-25 pt-xl-33 mx-lg-13 mx-xl-15 bg-gradient-2"
           style={{ backgroundImage: `url(${backgroundImage})` }}

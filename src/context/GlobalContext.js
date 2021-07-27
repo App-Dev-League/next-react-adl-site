@@ -11,9 +11,9 @@ export const themeConfigDefault = {
   headerFluid: true,
   headerButton: (
     <>
-      <Link href="/#">
+      <Link href="/get-involved">
         <a className="btn heading-default-color gr-hover-text-primary">
-          + Submit New Job
+          Get Involved
         </a>
       </Link>
     </>
