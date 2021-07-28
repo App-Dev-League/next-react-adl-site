@@ -19,10 +19,10 @@ const AboutUs = ({ className, ...rest }) => {
                 data-aos-once="true" data-aos-duration={1000}
               >
                 <h2 className="font-size-11 mb-6">
-                  About us
+                  About Us
                 </h2>
                 <h3 className="font-size-7 text-default-color mb-12">
-                  Largest Coalition of High School Student-Run App Development Teachers
+                  Largest Student-Run AppDev Non Profit
                 </h3>
               </div>
             </div>
