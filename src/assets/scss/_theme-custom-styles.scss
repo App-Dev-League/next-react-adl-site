@@ -69,3 +69,17 @@
 .cursor-pointer {
     cursor: pointer;
 }
+.transition-200 {
+    transition: 200ms all ease-in-out;
+}
+.testimonial-one {
+    .slick-track, .slick-dots {
+        display: flex !important;
+    }
+    .slick-slide {
+        height: auto;
+    }
+    .slick-slide > div {
+        height: 100%;
+    }
+}

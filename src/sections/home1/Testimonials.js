@@ -78,6 +78,27 @@ const items = [
   `,
     userlink: "- Joshua",
     grade: "9th Grader"
+  },
+  {
+    content:
+      `I really enjoyed attending the Intro App Dev course in July 2021, and I learned a lot. It was very organized and easy to follow and I like the variety of teachers, in case one learning style doesn't fit. We made a few apps and looking at the results, I felt really proud of what I made.
+  `,
+    userlink: "- Divya",
+    grade: "7th Grader"
+  },
+  {
+    content:
+      `I had a lot of fun during the Intro to Game Dev Course held by App Dev Leage! The instructors were super nice and helpful; I always felt comfortable to ask any questions I had. I like the way that the classes were more interactive in comparison to other online classes! Overall, I think I learned a lot, and I enjoyed all the projects we did!
+  `,
+    userlink: "- Eliza",
+    grade: "8th Grader"
+  },
+  {
+    content:
+      `I learned so much more about coding from the CS winter camp held in 2020 by App Dev League, and I especially enjoyed making my own website and learning about Machine Learning. I took lots of notes that I will hold onto for future coding!
+  `,
+    userlink: "- Hannah",
+    grade: "5th Grader"
   }
 ];
 
@@ -86,7 +107,7 @@ const Testimonials = ({ className, ...rest }) => {
 
   const slickSettings = {
     autoplay: false,
-    slidesToShow: 3,
+    slidesToShow: 2,
     arrows: false,
     infinite: true,
     dots: true,
@@ -169,14 +190,9 @@ const Testimonials = ({ className, ...rest }) => {
                 <Slider
                   ref={elSlider}
                   {...slickSettings}
-                  css={`
-                    .slick-dots {
-                      display: flex !important;
-                    }
-                  `}
                 >
                   {items.map((item, index) => (
-                    <div className="single-category focus-reset" key={index}>
+                    <div className="single-category focus-reset h-100" key={index}>
                       <TestimonialCard1 options={item} />
                     </div>
                   ))}

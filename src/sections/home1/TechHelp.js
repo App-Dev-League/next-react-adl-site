@@ -24,12 +24,14 @@ const TechHelp = ({ className, ...rest }) => {
             </div>
           </div>
           <div className="row my-n5">
-            <div className="col-lg-6 my-5">
+            <div
+              className="col-lg-6 my-5"
+              data-aos="fade-right"
+              data-aos-delay={500}
+              data-aos-once="true" data-aos-duration={1000}
+            >
               <Card
-                className="bg-white shadow-2 border-0 h-100"
-                data-aos="fade-right"
-                data-aos-delay={500}
-                data-aos-once="true" data-aos-duration={1000}
+                className="bg-white shadow-2 border-0 h-100 gr-hover-2 transition-200"
               >
                 <Card.Title className="my-7 px-7">Mentorship Program</Card.Title>
                 <hr className="mx-12 my-2" />
@@ -47,12 +49,14 @@ const TechHelp = ({ className, ...rest }) => {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-lg-6 my-5">
+            <div
+              className="col-lg-6 my-5"
+              data-aos="fade-left"
+              data-aos-delay={500}
+              data-aos-once="true" data-aos-duration={1000}
+            >
               <Card
-                className="bg-white shadow-2 border-0 h-100"
-                data-aos="fade-left"
-                data-aos-delay={500}
-                data-aos-once="true" data-aos-duration={1000}
+                className="bg-white shadow-2 border-0 h-100 gr-hover-2 transition-200"
               >
                 <Card.Title className="my-7 px-7">Devnetic App</Card.Title>
                 <hr className="mx-12 my-2" />
@@ -60,7 +64,7 @@ const TechHelp = ({ className, ...rest }) => {
                   <p>
                     App Dev League is launching an interactive teaching app for students to learn about Application Development and AI through a series of interactive multiple choice questions, videos, as well as a gamified leveling up system.
                   </p>
-                  <img src={img2} alt="" className="d-block w-75 mx-auto  rounded-lg"/>
+                  <img src={img2} alt="" className="d-block w-75 mx-auto rounded-lg"/>
                 </Card.Body>
               </Card>
             </div>

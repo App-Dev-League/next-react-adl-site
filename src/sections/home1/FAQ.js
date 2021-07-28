@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 import imageOne from "../../assets/why-us.png";
 
 const FAQ = ({ className, ...rest }) => {
+  const [activeKey, setActiveKey] = useState(0)
+  const handleCardHeaderClick = (cardKey) => {
+    if (activeKey === cardKey) setActiveKey(undefined)
+    else setActiveKey(cardKey)
+  }
+
   return (
     <div className="pt-10 pt-lg-20 pb-8 pb-lg-16" {...rest}>
       <div className="container">
@@ -23,7 +29,7 @@ const FAQ = ({ className, ...rest }) => {
         </div>
         <div className="row align-items-center justify-content-center">
           {/* Right Image */}
-          <div className="col-xl-6 col-lg-5 col-xs-12">
+          <div className="col-xl-7 col-lg-5 col-xs-12">
             <div
               className="mt-lg-0"
               data-aos="fade-left"
@@ -33,9 +39,11 @@ const FAQ = ({ className, ...rest }) => {
             >
               <Accordion defaultActiveKey="0" className="shadow-2 rounded-lg">
                 <Card>
-                  <Accordion.Toggle as={Card.Header} eventKey="0" className="font-size-7 d-flex bg-polar cursor-pointer">
+                  <Accordion.Toggle as={Card.Header} eventKey="0" className="font-size-7 d-flex bg-polar cursor-pointer align-items-center" onClick={() => handleCardHeaderClick(0)}>
                     <span className="text-blue mr-4">01</span>
                     <span className="heading-default-color">How can I sign up for your free events?</span>
+                    {activeKey !== 0 && <i className="fa fa-chevron-down ml-auto"></i>}
+                    {activeKey === 0 && <i className="fa fa-chevron-up ml-auto"></i>}
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="0">
                     <Card.Body>
@@ -44,9 +52,11 @@ const FAQ = ({ className, ...rest }) => {
                   </Accordion.Collapse>
                 </Card>
                 <Card>
-                  <Accordion.Toggle as={Card.Header} eventKey="1" className="font-size-7 d-flex bg-polar cursor-pointer">
+                  <Accordion.Toggle as={Card.Header} eventKey="1" className="font-size-7 d-flex bg-polar cursor-pointer align-items-center" onClick={() => handleCardHeaderClick(1)}>
                     <span className="text-blue mr-4">02</span>
                     <span className="heading-default-color">What types of events do you offer year round?</span>
+                    {activeKey !== 1 && <i className="fa fa-chevron-down ml-auto"></i>}
+                    {activeKey === 1 && <i className="fa fa-chevron-up ml-auto"></i>}
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="1">
                     <Card.Body>
@@ -55,9 +65,11 @@ const FAQ = ({ className, ...rest }) => {
                   </Accordion.Collapse>
                 </Card>
                 <Card>
-                  <Accordion.Toggle as={Card.Header} eventKey="2" className="font-size-7 d-flex bg-polar cursor-pointer">
+                  <Accordion.Toggle as={Card.Header} eventKey="2" className="font-size-7 d-flex bg-polar cursor-pointer align-items-center" onClick={() => handleCardHeaderClick(2)}>
                     <span className="text-blue mr-4">03</span>
                     <span className="heading-default-color">What skills will I acquire from attending your events?</span>
+                    {activeKey !== 2 && <i className="fa fa-chevron-down ml-auto"></i>}
+                    {activeKey === 2 && <i className="fa fa-chevron-up ml-auto"></i>}
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="2">
                     <Card.Body>
@@ -66,9 +78,11 @@ const FAQ = ({ className, ...rest }) => {
                   </Accordion.Collapse>
                 </Card>
                 <Card>
-                  <Accordion.Toggle as={Card.Header} eventKey="3" className="font-size-7 d-flex bg-polar cursor-pointer">
+                  <Accordion.Toggle as={Card.Header} eventKey="3" className="font-size-7 d-flex bg-polar cursor-pointer align-items-center" onClick={() => handleCardHeaderClick(3)}>
                     <span className="text-blue mr-4">04</span>
                     <span className="heading-default-color">What makes this program unique?</span>
+                    {activeKey !== 3 && <i className="fa fa-chevron-down ml-auto"></i>}
+                    {activeKey === 3 && <i className="fa fa-chevron-up ml-auto"></i>}
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="3">
                     <Card.Body>
@@ -80,7 +94,7 @@ const FAQ = ({ className, ...rest }) => {
             </div>
           </div>
           {/* End Right Image */}
-          <div className="col-xl-5 offset-lg-1 col-lg-6 col-md-8 mt-10 mt-lg-0">
+          <div className="col-xl-4 offset-lg-1 col-lg-6 col-md-8 mt-10 mt-lg-0">
             <img
               className="w-100"
               src={imageOne}

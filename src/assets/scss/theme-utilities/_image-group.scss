@@ -682,30 +682,27 @@
 
   @include desktops {
     position: absolute !important;
-    bottom: 65px;
-    left: -1%;
-    width: 50%;
+    bottom: 100px;
+    right: 5%;
+    width: 40%;
   }
 
   @include large-desktops {
-    bottom: 0;
-    left: 0;
-    width: 45%;
+    bottom: 50px;
+    right: 6%;
   }
 
   @include extra-large-desktops {
-    left: 0;
     bottom: -150px;
     width: 50%;
 
     img {
       width: auto !important;
     }
-  }
-
-  @include brk-point(1730px) {
-    left: 0;
-    width: 50%;
+    > img {
+      position: relative;
+      left: 10%;
+    }
   }
 
   .img-1 {
@@ -722,7 +719,7 @@
 
     @include large-desktops {
       left: 40%;
-      top: -10%;
+      top: 0%;
       transform: scale(1);
     }
 
