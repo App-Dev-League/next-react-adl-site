@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import imageOne from "../../assets/events.png";
-import imageTwo from "../../assets/monthly.jpg";
+import imageTwo from "../../assets/monthly.png";
 
 const ContentTwo = ({ className, ...rest }) => {
   return (
