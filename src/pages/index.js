@@ -13,6 +13,7 @@ import Blog from "../sections/home1/Blog";
 import OurExperience from "../sections/home1/OurExperience";
 import Stats from "../sections/home1/Stats";
 import Events from "../sections/home1/Events";
+import TechHelp from "../sections/home1/TechHelp";
 
 const IndexPage = () => {
   return (
@@ -32,6 +33,7 @@ const IndexPage = () => {
         <OurExperience className="py-12 py-lg-25" />
         <Stats />
         <Events />
+        <TechHelp className="bg-default-1 pt-12 pt-lg-25 pb-8 pb-lg-20" />
         <Company className="bg-default-1 pt-13 pt-md-17 pt-lg-24 pb-13 pb-md-14 pb-lg-23" />
         <Categories className="bg-default-1 pt-lg-13 pb-md-7 pb-lg-11 position-relative" />
         <Jobs className="pt-14 pt-md-18 pt-lg-30 bg-default-2 pb-9 pb-md-13 pb-lg-29" />
