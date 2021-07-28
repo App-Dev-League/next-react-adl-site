@@ -1,85 +1,106 @@
 import React from "react";
 import Link from "next/link";
-import imageOne from "../../assets/image/home-4/png/l4-card-1.png";
-import imageTwo from "../../assets/image/home-4/png/l4-card-2.png";
-import imageThree from "../../assets/image/home-4/png/l4-card-3.png";
+import imageOne from "../../assets/events.png";
+import imageTwo from "../../assets/monthly.jpg";
 
 const ContentTwo = ({ className, ...rest }) => {
   return (
-    <div className={className} {...rest}>
-      <div className="container">
-        <div className="row align-items-center justify-content-center">
-          {/* Right Image */}
-          <div className="col-xl-6 col-lg-5 col-md-8 col-xs-11">
-            {/* content img start */}
-            <div className="l4-content-img-group">
-              <div className="img-1">
-                <img
-                  className="w-100"
-                  src={imageOne}
-                  alt=""
-                  data-aos="fade-right"
-                  data-aos-duration={600}
-                  data-aos-delay={300}
-                  data-aos-once="true" data-aos-duration={1000}
-                />
-              </div>
-              <div className="img-2">
-                <img
-                  className="w-100"
-                  src={imageTwo}
-                  alt=""
-                  data-aos="fade-left"
-                  data-aos-duration={600}
-                  data-aos-delay={600}
-                  data-aos-once="true" data-aos-duration={1000}
-                />
-              </div>
-              <div className="img-3">
-                <img
-                  className="w-100"
-                  src={imageThree}
-                  alt=""
-                  data-aos="fade-up"
-                  data-aos-duration={600}
-                  data-aos-delay={900}
-                  data-aos-once="true" data-aos-duration={1000}
-                />
+    <>
+      <div className="bg-dark-cloud pt-10 pt-lg-20 pb-8 pb-lg-16" {...rest}>
+        <div className="container">
+          <div className="row"> 
+            <div className="col-xs-12">
+              <div
+                className="section-title dark-mode-texts"
+                data-aos="fade-left"
+                data-aos-delay={500}
+                data-aos-once="true" data-aos-duration={1000}
+              >
+                <h2 className="font-size-11 mb-8 sm-mb-16">
+                  Events
+                </h2>
               </div>
             </div>
           </div>
-          {/* End Right Image */}
-          <div className="col-xl-5 offset-lg-1 col-lg-6 col-md-8 mt-n13 mt-md-n8 mt-lg-n0">
-            <div
-              className="pt-xl-32 pt-lg-0 pt-27 mt-lg-0 dark-mode-texts"
-              data-aos="fade-left"
-              data-aos-duration={600}
-              data-aos-delay={500}
-              data-aos-once="true" data-aos-duration={1000}
-            >
-              <h6 className="font-size-3 text-dodger-blue-1 text-uppercase mb-9 letter-spacing-normal">
-                New feature
-              </h6>
-              <h2 className="font-size-10 mb-8 letter-spacing-n83 pr-xs-22 pr-sm-18 pr-md-0">
-                The best experience offered by Finity
-              </h2>
-              <p className="font-size-7 mb-0">
-                Minimize time consuming distractions, level up your team’s
-                productivity by letting finity handle your comm. Our focus is
-                always on finding the best people to work with.
-              </p>
-              <div className="mt-12">
-                <Link href={"/#"}>
-                  <a className="btn btn-sunset btn-xl h-55 rounded-5 font-weight-normal">
-                    Start 14 Days trial
+          <div className="row align-items-center justify-content-center">
+            {/* Right Image */}
+            <div className="col-xl-6 col-lg-5 col-xs-12">
+              <div
+                className="mt-lg-0 dark-mode-texts"
+                data-aos="fade-left"
+                data-aos-duration={600}
+                data-aos-delay={500}
+                data-aos-once="true" data-aos-duration={1000}
+              >
+                <h2 className="font-size-9 mb-5 letter-spacing-n83">
+                  Competitive Events
+                </h2>
+                <p className="font-size-7 mb-0">
+                  Every year, App Dev League hosts the <a href="http://appathon.appdevleague.org/" target="blank" rel="noopener noreferrer">ADL appathon.</a> The Appathon is the world's first Application Development Conference designed for students of all backgrounds.
+                </p>
+                <div className="mt-12">
+                  <a
+                    href="https://appathon.appdevleague.org/"
+                    className="btn btn-outline-primary btn-xl h-55 rounded-5 font-weight-normal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    ADL Appathon 2021
                   </a>
-                </Link>
+                </div>
+              </div>
+            </div>
+            {/* End Right Image */}
+            <div className="col-xl-5 offset-lg-1 col-lg-6 col-md-8 mt-10 mt-lg-0">
+              <img
+                className="w-100"
+                src={imageOne}
+                alt=""
+                data-aos="fade-right"
+                data-aos-duration={600}
+                data-aos-delay={300}
+                data-aos-once="true" data-aos-duration={1000}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-default-2 pt-8 pt-lg-16 pb-10 pb-lg-20" {...rest}>
+        <div className="container">
+          <div className="row align-items-center justify-content-center">
+            {/* Right Image */}
+            <div className="col-xl-6 col-lg-5 col-md-8 mb-10 mb-lg-0">
+              <img
+                className="w-100"
+                src={imageTwo}
+                alt=""
+                data-aos="fade-right"
+                data-aos-duration={600}
+                data-aos-delay={300}
+                data-aos-once="true" data-aos-duration={1000}
+              />
+            </div>
+            {/* End Right Image */}
+            <div className="col-xl-5 offset-lg-1 col-lg-6 col-xs-12">
+              <div
+                className="mt-lg-0"
+                data-aos="fade-left"
+                data-aos-duration={600}
+                data-aos-delay={500}
+                data-aos-once="true" data-aos-duration={1000}
+              >
+                <h2 className="font-size-9 mb-5 letter-spacing-n83">
+                  Monthly Events
+                </h2>
+                <p className="font-size-7 mb-0">
+                  App Dev League strives to offer monthly workshops, camps, and webinars on a variety of Computer Science disciplines with a focus on Application Development and AI. These project-oriented events are a great way for students to not only get introduced to a new concept, but also to apply it in a real-life applicable project.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
