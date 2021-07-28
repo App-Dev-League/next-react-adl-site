@@ -1,94 +1,64 @@
 import React from "react";
-import Select from "../../components/Select";
 import Link from "next/link";
-import imgA from "../../assets/image/home-1/png/arrow-down-big.png";
-import backgroundImage from "../../assets/image/home-1/jpg/hero-bg-1.jpg";
 
-const defaultOptions = [
-  { value: "NY", label: "New York" },
-  { value: "SI", label: "Singapore" },
-  { value: "LN", label: "London" },
-  { value: "DH", label: "Dhaka" },
-];
+import imgM from "../../assets/hero-img.png";
+import imgYS from "../../assets/image/home-6/png/cirle-yellow-shape.png";
 
 const Hero = ({ className, ...rest }) => {
   return (
     <div className={className} {...rest}>
-      <div className="pt-16 pt-lg-20">
-        <div
-          className="bg-img-1 bg-images pt-18 pt-lg-25 pt-xl-33 mx-lg-13 mx-xl-15 bg-gradient-2"
-          style={{ backgroundImage: `url(${backgroundImage})` }}
-        >
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-6 col-lg-7 col-md-8">
-                <div className="dark-mode-texts">
-                  <h1 className="font-size-12 mb-8">
-                    Join the most popular tech companies.
-                  </h1>
-                  <p className="font-size-7 mb-0 text-white">
-                    We’ve helped over 2,500 job seekers to get into{" "}
-                    <br className="d-none d-md-block" /> the most popular tech
-                    teams.
-                  </p>
-                  <Link href={"/#"}>
-                    <a className="pt-11">
-                      <img src={imgA} alt="" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-xl-12">
-                <div className="mt-13 mt-lg-18 mt-xl-23 w-100 shadow-1">
-                  <form
-                    action="/"
-                    className="search-form-one"
-                    data-aos="fade-up"
-                    data-aos-duration="800"
-                  >
-                    <div className="filter-search-form-2 bg-white rounded-0 shadow-7 d-lg-flex justify-content-between align-items-center pl-lg-6">
-                      <div className="filter-inputs d-xs-flex w-100">
-                        <div className="form-group mb-0 focus-reset w-100 w-lg-50 text-bali-gray position-relative d-flex align-items-center">
-                          <input
-                            className="form-control focus-reset pl-13 pr-10 pr-lg-0 border-0 w-100 font-size-5 text-bali-gray py-10 py-xs-5 py-lg-13 py-lg-0"
-                            type="text"
-                            id="keyword"
-                            placeholder="Try “Software Developer”"
-                          />
-                          <span className="form-icon font-size-5 absolute-top-left">
-                            <i className="icon icon-zoom-2 text-bali-gray font-weight-bold"></i>
-                          </span>
-                        </div>
-                        {/* <!-- .select-city starts --> */}
-                        <div className="form-group border-top-dotted mb-0 w-100 w-lg-50 position-relative pt-5 pb-6 pt-lg-9 pb-lg-10 py-lg-0 d-flex align-items-center">
-                          <Select
-                            options={defaultOptions}
-                            className="h-100 arrow-3 focus-reset w-100 text-dark-cloud hero-search-select font-size-5 pl-7"
-                            border={false}
-                            css={`
-                              border-left: 2px dotted #e2e4e8;
-                            `}
-                          />
-
-                          <span className="form-icon font-size-5 absolute-top-left">
-                            <i className="icon icon-pin-3 text-bali-gray font-weight-bold"></i>
-                          </span>
-                        </div>
-                        {/* <!-- ./select-city ends --> */}
-                      </div>
-                      <div className="button-block">
-                        <button className="btn btn-primary line-height-reset btn-hero-btn rounded-0 w-100 w-lg-inherit font-weight-medium">
-                          Search Job
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
+      <div className="container position-static">
+        <div className="row align-items-center justify-content-center position-static">
+          {/* Hero Image */}
+          <div className="col-xl-6 col-lg-6 col-md-7 col-xs-8 position-static">
+            <div className="l6-hero-image-group">
+              <img
+                className="w-100"
+                src={imgM}
+                alt=""
+                data-aos="fade-up"
+                data-aos-delay={500}
+              />
+              <div className="img-1">
+                <img
+                  className="w-100"
+                  src={imgYS}
+                  alt=""
+                  data-aos="fade-right"
+                  data-aos-delay={750}
+                />
               </div>
             </div>
           </div>
+          {/* End Hero Image */}
+          {/* Hero Content */}
+          <div className="col-lg-6 col-md-9 col-sm-11">
+            <div
+              className="mt-8 mt-lg-0 pr-md-11 pr-lg-0 pr-xl-10"
+              data-aos="fade-left"
+              data-aos-delay={750}
+            >
+              <h1 className="font-size-112 mb-8 pr-sm-18 pr-md-8 pr-lg-0 line-height-84">
+                App Dev League
+              </h1>
+              <p className="font-size-7 mb-0 pr-sm-10 pr-md-10 pr-lg-0 pr-xl-18">
+                Diversifying the Application Developer Community
+              </p>
+              <div className="mt-10 d-flex flex-wrap mb-n6">
+                <Link href="/#">
+                  <a className="btn btn-dodger-blue-2 btn-3 rounded-5 mr-6 mb-6">
+                    Get Involved
+                  </a>
+                </Link>
+                <Link href="/#">
+                  <a className="btn btn-dodger-blue-2 btn-3 rounded-5 mb-6">
+                    View Events
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+          {/* End Hero Content */}
         </div>
       </div>
     </div>

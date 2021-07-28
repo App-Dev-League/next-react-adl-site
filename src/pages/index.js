@@ -2,8 +2,8 @@ import React from "react";
 import Head from "next/head";
 
 import PageWrapper from "../components/PageWrapper";
-import Hero from "../sections/home6/Hero";
-import Content3 from "../sections/home2/Content3";
+import Hero from "../sections/home1/Hero";
+import AboutUs from "../sections/home1/AboutUs";
 import Company from "../sections/home1/Compnay";
 import Categories from "../sections/home1/Categories";
 import Jobs from "../sections/home1/Jobs";
@@ -11,8 +11,8 @@ import Content1 from "../sections/home1/Content1";
 import Blog from "../sections/home1/Blog";
 // import Section from "../layout/Section";
 import OurExperience from "../sections/home1/OurExperience";
-import Stats from "../sections/about/Stats";
-import ContentThree from "../sections/home4/ContentThree";
+import Stats from "../sections/home1/Stats";
+import Events from "../sections/home1/Events";
 
 const IndexPage = () => {
   return (
@@ -28,10 +28,10 @@ const IndexPage = () => {
         }}
       >
         <Hero className="position-relative pt-25 pt-md-31 pt-lg-35 pb-14 pb-md-19 pb-lg-33 position-relative overflow-hidden" />
-        <Content3 className="bg-default-1 pt-12 pt-lg-25 pb-8 pb-lg-20" />
+        <AboutUs className="bg-default-1 pt-12 pt-lg-25 pb-8 pb-lg-20" />
         <OurExperience className="py-12 py-lg-25" />
         <Stats />
-        <ContentThree />
+        <Events />
         <Company className="bg-default-1 pt-13 pt-md-17 pt-lg-24 pb-13 pb-md-14 pb-lg-23" />
         <Categories className="bg-default-1 pt-lg-13 pb-md-7 pb-lg-11 position-relative" />
         <Jobs className="pt-14 pt-md-18 pt-lg-30 bg-default-2 pb-9 pb-md-13 pb-lg-29" />
