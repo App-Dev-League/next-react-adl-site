@@ -33,7 +33,7 @@ const FAQ = ({ className, ...rest }) => {
             >
               <Accordion defaultActiveKey="0" className="shadow-2 rounded-lg">
                 <Card>
-                  <Accordion.Toggle as={Card.Header} eventKey="0" className="font-size-7 d-flex bg-polar">
+                  <Accordion.Toggle as={Card.Header} eventKey="0" className="font-size-7 d-flex bg-polar cursor-pointer">
                     <span className="text-blue mr-4">01</span>
                     <span className="heading-default-color">How can I sign up for your free events?</span>
                   </Accordion.Toggle>
@@ -44,7 +44,7 @@ const FAQ = ({ className, ...rest }) => {
                   </Accordion.Collapse>
                 </Card>
                 <Card>
-                  <Accordion.Toggle as={Card.Header} eventKey="1" className="font-size-7 d-flex bg-polar">
+                  <Accordion.Toggle as={Card.Header} eventKey="1" className="font-size-7 d-flex bg-polar cursor-pointer">
                     <span className="text-blue mr-4">02</span>
                     <span className="heading-default-color">What types of events do you offer year round?</span>
                   </Accordion.Toggle>
@@ -55,7 +55,7 @@ const FAQ = ({ className, ...rest }) => {
                   </Accordion.Collapse>
                 </Card>
                 <Card>
-                  <Accordion.Toggle as={Card.Header} eventKey="2" className="font-size-7 d-flex bg-polar">
+                  <Accordion.Toggle as={Card.Header} eventKey="2" className="font-size-7 d-flex bg-polar cursor-pointer">
                     <span className="text-blue mr-4">03</span>
                     <span className="heading-default-color">What skills will I acquire from attending your events?</span>
                   </Accordion.Toggle>
@@ -66,7 +66,7 @@ const FAQ = ({ className, ...rest }) => {
                   </Accordion.Collapse>
                 </Card>
                 <Card>
-                  <Accordion.Toggle as={Card.Header} eventKey="3" className="font-size-7 d-flex bg-polar">
+                  <Accordion.Toggle as={Card.Header} eventKey="3" className="font-size-7 d-flex bg-polar cursor-pointer">
                     <span className="text-blue mr-4">04</span>
                     <span className="heading-default-color">What makes this program unique?</span>
                   </Accordion.Toggle>
