@@ -12,6 +12,10 @@ import img8 from "../../assets/outreach/Zara.png";
 import img9 from "../../assets/outreach/KrishM.png";
 import img10 from "../../assets/outreach/amit.png";
 import img11 from "../../assets/outreach/Isha.png";
+import img12 from "../../assets/instructors/harsh.png";
+import img13 from "../../assets/instructors/chaitya.png";
+import img14 from "../../assets/instructors/joel.png";
+import img15 from "../../assets/instructors/reeva.png";
 
 
 const instructors = [
@@ -39,6 +43,26 @@ const instructors = [
     image: img5,
     name: "Pavan Yeddanapudi",
     title: "Competitive Coding Instructor",
+  },
+  {
+    image: img12,
+    name: "Harsh Nagouda",
+    title: "Machine Learning Instructor",
+  },
+  {
+    image: img13,
+    name: "Chaitya Jodhavat",
+    title: "Frontend Web Dev Instructor",
+  },
+  {
+    image: img14,
+    name: "Joel Johnson",
+    title: "Backend Web Dev Instructor",
+  },
+  {
+    image: img15,
+    name: "Reeva Khokar",
+    title: "Intro to CS instructor",
   }
 ];
 
