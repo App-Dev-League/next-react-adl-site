@@ -66,7 +66,7 @@ const OurCEO = ({ className, ...rest }) => {
               data-aos-once="true" data-aos-duration={1000}
               ref={nodeRef} 
             >
-              <p class="font-size-7 mb-0 pr-xs-15 pr-md-0 pl-xl-2 mt-7 mt-lg-0 pr-lg-18">
+              <p className="font-size-7 mb-0 pr-xs-15 pr-md-0 pl-xl-2 mt-7 mt-lg-0 pr-lg-18">
                 Krish Maniar is a junior at the Harker school. As the Founder and CEO of App Dev League, he hopes to impart free and readily available education to students who do not have access to many computer science resources and opportunities. He leads a diligent team of 25+ people to organize monthly courses/camps/webinars, as well as develop free resources for children and schools like our Teaching App and Mentorship program. Recognizing the lack of beginner-friendly content online, Krish believes App Dev League is one of the first steps towards a bright future for underprivileged children.
               </p>
             </div> 
