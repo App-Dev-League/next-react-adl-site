@@ -7,6 +7,7 @@ import Content from "../sections/about/Content";
 import Team from "../sections/about/Team";
 import Stats from "../sections/about/Stats";
 import OurCEO from "../sections/about/OurCEO";
+import Execs from "../sections/about/Execs";
 
 const PricingPage = () => {
   return (
@@ -19,6 +20,7 @@ const PricingPage = () => {
       >
         <Hero />
         <OurCEO className="py-12 py-lg-25" />
+        <Execs />
         <Team />
         <Stats />
       </PageWrapper>
