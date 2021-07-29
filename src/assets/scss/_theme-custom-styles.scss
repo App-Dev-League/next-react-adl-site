@@ -87,3 +87,9 @@
     background: url('../../assets/aboutUsHeaderImage-edit.png');
     background-repeat: no-repeat;
 }
+.single-brand-logo img {
+    max-height: 3.5rem;
+    @media (max-width: 768px) {
+        max-height: 2.5rem;
+    }
+}
