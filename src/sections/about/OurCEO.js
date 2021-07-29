@@ -21,7 +21,7 @@ const OurCEO = ({ className, ...rest }) => {
 
   return ( 
     <> 
-      <div className={className} {...rest}> 
+      <div className={className} {...rest} id="team"> 
         <div className="container"> 
           <div className="row"> 
           <div className="col-xs-12">

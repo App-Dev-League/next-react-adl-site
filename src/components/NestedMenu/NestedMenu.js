@@ -84,7 +84,20 @@ const MenuItem = ({
             open ? "active" : ""
           }`}
         >
-          <span>{label}</span>
+          <Link href={`/${name}`}>
+            <a
+              onClick={() => {
+                if (gContext.visibleOffCanvas) {
+                  gContext.toggleOffCanvas();
+                }
+                setTimeout(() => {
+                  setOpen(false)
+                }, 1);
+              }}
+            >
+              {label}
+            </a>
+          </Link>
           <span>{open ? <FaAngleDown /> : <FaAngleRight />}</span>
         </ListGroup.Item>
       ) : (

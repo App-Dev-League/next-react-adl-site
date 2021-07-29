@@ -16,7 +16,7 @@ const Sponsors = ({ className, ...rest }) => {
   return (
     <>
       {/* Company Section */}
-      <div className={className} {...rest}>
+      <div className={className} {...rest} id="sponsors">
         <div className="container">
           <div className="row">
             <div className="col-12">

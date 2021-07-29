@@ -34,7 +34,7 @@ const Partners = ({ className, ...rest }) => {
     <>
       {/* Company Section */}
       <div className={className} {...rest}>
-        <div className="container">
+        <div className="container" id="partners">
           <div className="row">
             <div className="col-12">
               <div className="mb-5 mb-lg-10 text-center text-lg-center">

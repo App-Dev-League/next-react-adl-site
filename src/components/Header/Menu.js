@@ -14,18 +14,18 @@ const Menu = () => {
               <React.Fragment key={name + index}>
                 {hasSubItems ? (
                   <li className="nav-item dropdown" {...rest}>
-                    <a
-                      className="nav-link dropdown-toggle gr-toggle-arrow"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                      href="/#"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      {label}
-                      <i className="icon icon-small-down"></i>
-                    </a>
+                    <Link href={`/${name}`}>
+                      <a
+                        className="nav-link dropdown-toggle gr-toggle-arrow"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        {label}
+                        <i className="icon icon-small-down"></i>
+                      </a>
+                    </Link>
                     <ul className="gr-menu-dropdown dropdown-menu">
                       {items.map((subItem, indexSub) => {
                         const hasInnerSubItems = Array.isArray(subItem.items);

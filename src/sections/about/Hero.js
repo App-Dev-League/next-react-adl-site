@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
         </div>
         {/* End Section Padding */}
-        <div className="row my-n5">
+        <div className="row my-n5" id="mission">
           <div
             className="col-lg-4 my-5"
             data-aos="fade-right"
