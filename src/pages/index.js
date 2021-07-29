@@ -21,7 +21,8 @@ const IndexPage = () => {
       </Head>
       <PageWrapper
         themeConfig={{
-          headerClassName: "site-header--menu-right"
+          headerClassName: "site-header--menu-right",
+          footerStyle: "style3"
         }}
       >
         <Hero className="position-relative pt-25 pt-md-31 pt-lg-35 pb-14 pb-md-19 pb-lg-33 position-relative overflow-hidden" />
