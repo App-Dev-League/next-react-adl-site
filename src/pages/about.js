@@ -12,6 +12,11 @@ import Sponsors from "../sections/about/Sponsors";
 const PricingPage = () => {
   return (
     <>
+      <Head>
+        <title>About | App Dev League</title>
+        <meta name="description" content="Learn more about the who, what, and why behind ADL! Who made ADL happen? What is our mission? Why do we do this?"></meta>
+        <meta property="og:description" content="Learn more about the who, what, and why behind ADL! Who made ADL happen? What is our mission? Why do we do this?"></meta>
+      </Head>
       <PageWrapper
         themeConfig={{
           headerClassName: "site-header--menu-right dark-mode-texts",
