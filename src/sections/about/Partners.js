@@ -3,9 +3,10 @@ import React from "react";
 import brand1 from "../../assets/partners/csforall-logo.svg";
 import brand2 from "../../assets/partners/logo.png";
 import brand3 from "../../assets/partners/codeart-logo-full-color-rgb.png";
-import brand4 from "../../assets/partners/1609798444498.jpeg";
+import brand4 from "../../assets/partners/1609798444498.png";
 import brand5 from "../../assets/partners/brand_logo.png";
 import brand6 from "../../assets/partners/Fly-High-Logo.png";
+import brand7 from "../../assets/partners/youthai.png";
 
 const SingleBrand = ({image, darkBg}) => {
   return (
@@ -26,7 +27,8 @@ const Partners = ({ className, ...rest }) => {
       brand3,
       brand4,
       brand5,
-      brand6
+      brand6,
+      brand7
     ];
   return (
     <>
