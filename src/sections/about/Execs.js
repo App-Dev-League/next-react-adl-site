@@ -122,15 +122,24 @@ const Execs = () => {
         {/* l5-slider-dots */}
         <div className="row justify-content-center">
           <div
-            className="col-xl-4 col-lg-5 col-md-6 col-sm-8 col-xs-9"
+            className="col-xl-4 col-lg-5 col-md-6 col-sm-8 col-xs-9 d-flex align-items-center mt-10 mx-xs-4 mx-md-0 mx-xl-6 justify-content-center"
             data-aos="zoom-in"
             data-aos-duration={500}
             data-aos-once="true" data-aos-duration={1000}
           >
+            <button
+              type="button"
+              className="slick-prev bg-white border-0"
+              onClick={() => {
+                nav1.slickPrev();
+              }}
+            >
+              <i className="icon icon-minimal-left"></i>
+            </button>
             <SliderSmall
               asNavFor={nav1}
               ref={(slider) => setNav2(slider)}
-              className="l5-slider-dots text-center mt-10 mx-xs-4 mx-md-0 mx-xl-6"
+              className="l5-slider-dots text-center"
               {...sliderConfig2}
             >
               <div className="single-img circle-50 mx-3">
@@ -143,6 +152,15 @@ const Execs = () => {
                 <img src={imgU3} alt="" className="w-100"  />
               </div>
             </SliderSmall>
+            <button
+              type="button"
+              className="slick-next bg-white border-0"
+              onClick={() => {
+                nav1.slickNext();
+              }}
+            >
+              <i className="icon icon-minimal-right"></i>
+            </button>
           </div>
         </div>
         {/* End l5-slider-dots */}
