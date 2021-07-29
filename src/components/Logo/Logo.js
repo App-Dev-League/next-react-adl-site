@@ -9,7 +9,7 @@ const Logo = ({ className = "", ...rest }) => {
       <a className={`${className}`} {...rest}>
         <img src={logo} alt="" className="light-version-logo" />
         <img src={logo} alt="" className="dark-version-logo" />
-        <span>ADL</span>
+        <span className="heading-default-color">ADL</span>
       </a>
     </Link>
   );
