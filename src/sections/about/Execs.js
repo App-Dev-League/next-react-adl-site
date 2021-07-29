@@ -48,7 +48,7 @@ const Execs = () => {
   const [nav2, setNav2] = useState();
 
   return (
-    <div className="pt-4 pt-md-9 pt-lg-14 pb-15 pb-md-19 pb-lg-26">
+    <div className="pt-4 pt-md-9 pt-lg-14 pb-4 pb-md-9 pb-lg-18">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-7 col-sm-10">

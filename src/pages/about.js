@@ -2,12 +2,11 @@ import React from "react";
 
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/about/Hero";
-import Masonry from "../sections/about/Masonry";
-import Content from "../sections/about/Content";
-import Team from "../sections/about/Team";
+import Officers from "../sections/about/Officers";
 import Stats from "../sections/about/Stats";
 import OurCEO from "../sections/about/OurCEO";
 import Execs from "../sections/about/Execs";
+import Directors from "../sections/about/Directors";
 
 const PricingPage = () => {
   return (
@@ -21,7 +20,8 @@ const PricingPage = () => {
         <Hero />
         <OurCEO className="py-12 py-lg-25" />
         <Execs />
-        <Team />
+        <Directors className="py-9 py-lg-12" />
+        <Officers />
         <Stats />
       </PageWrapper>
     </>
