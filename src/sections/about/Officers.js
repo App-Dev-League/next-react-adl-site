@@ -10,7 +10,7 @@ import img6 from "../../assets/outreach/desiree.png";
 import img7 from "../../assets/outreach/Pranav.png";
 import img8 from "../../assets/outreach/Zara.png";
 import img9 from "../../assets/outreach/KrishM.png";
-import img10 from "../../assets/outreach/Amit.png";
+import img10 from "../../assets/outreach/amit.png";
 import img11 from "../../assets/outreach/Isha.png";
 
 
