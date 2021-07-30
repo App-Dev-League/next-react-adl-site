@@ -78,6 +78,10 @@
     }
     .slick-slide {
         height: auto;
+        transition: 300ms ease-in-out;
+        &.slick-active+div {
+            filter: blur(2px)
+        }
     }
     .slick-slide > div {
         height: 100%;

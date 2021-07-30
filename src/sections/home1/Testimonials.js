@@ -99,6 +99,14 @@ const items = [
   `,
     userlink: "- Hannah",
     grade: "5th Grader"
+  },
+  
+  {
+    content:
+      `The App Dev League has been a wonderful place to volunteer. The founder and  VP's work very hard to keep the organization running smoothly, and never pressure anyone to do work beyond their capacity. App Dev League also provides a lot of benefits to volunteers including the PVSA. I have been able to grow myself as a person, developer, and mentor in ways I never could have otherwise by contributing to their amazing mission of bringing the magic of coding and App Dev to everyone.
+  `,
+    userlink: "- Sarthak",
+    grade: "Director @ ADL"
   }
 ];
 

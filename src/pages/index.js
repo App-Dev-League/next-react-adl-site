@@ -21,7 +21,7 @@ const IndexPage = () => {
       </Head>
       <PageWrapper
         themeConfig={{
-          headerClassName: "site-header--menu-right",
+          headerClassName: "site-header--menu-right dark-mode-texts bg-default-1",
           footerStyle: "style3"
         }}
       >

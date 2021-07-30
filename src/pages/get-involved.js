@@ -11,7 +11,7 @@ const Faq = () => {
     <>
       <PageWrapper
         themeConfig={{
-          headerClassName: "site-header--menu-right",
+          headerClassName: "site-header--menu-right dark-mode-texts bg-default-1",
           footerStyle: "style3",
         }}
       >
@@ -30,10 +30,10 @@ const Faq = () => {
                     Get Involved
                   </h2>
                   <p className="font-size-7 mb-5 px-md-10 px-xl-13">
-                  Are you ready to help App Dev League create opportunities for underrepresented groups to take part in full stack development?
+                    Are you ready to help App Dev League create opportunities for underrepresented groups to take part in full stack development?
                   </p>
-                  <p className="font-size-7 mb-0 px-md-10 px-xl-13">
-                  <strong>That's great!</strong> Take a look below to see how to get involved!
+                  <p className="font-size-5 mb-0 px-md-10 px-xl-13 text-black">
+                    <strong>That's great!</strong> Take a look below to see how to get involved!
                   </p>
                 </div>
               </div>

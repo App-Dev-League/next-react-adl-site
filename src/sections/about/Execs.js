@@ -129,7 +129,7 @@ const Execs = () => {
           >
             <button
               type="button"
-              className="slick-prev bg-white border-0"
+              className="slick-prev bg-white border-0 font-size-8"
               onClick={() => {
                 nav1.slickPrev();
               }}
@@ -142,19 +142,19 @@ const Execs = () => {
               className="l5-slider-dots text-center"
               {...sliderConfig2}
             >
-              <div className="single-img circle-50 mx-3">
+              <div className="single-img circle-73 mx-3 cursor-pointer">
                 <img src={imgU1} alt="" className="w-100"  />
               </div>
-              <div className="single-img circle-50 mx-3">
+              <div className="single-img circle-73 mx-3 cursor-pointer">
                 <img src={imgU2} alt="" className="w-100"  />
               </div>
-              <div className="single-img circle-50 mx-3">
+              <div className="single-img circle-73 mx-3 cursor-pointer">
                 <img src={imgU3} alt="" className="w-100"  />
               </div>
             </SliderSmall>
             <button
               type="button"
-              className="slick-next bg-white border-0"
+              className="slick-next bg-white border-0 font-size-8"
               onClick={() => {
                 nav1.slickNext();
               }}

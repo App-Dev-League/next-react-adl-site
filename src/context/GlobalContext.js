@@ -12,7 +12,7 @@ export const themeConfigDefault = {
   headerButton: (
     <>
       <Link href="/get-involved">
-        <a className="btn heading-default-color gr-hover-text-primary">
+        <a className="btn btn-blue-3 font-size-5 rounded-5 ml-4">
           Get Involved
         </a>
       </Link>

@@ -32,6 +32,7 @@ const ContentTwo = ({ className, ...rest }) => {
                 data-aos-delay={500}
                 data-aos-once="true" data-aos-duration={1000}
               >
+                <p className="font-size-5 font-weight-bold text-uppercase mb-1 text-gray" style={{letterSpacing: "3px"}}>ADL event</p>
                 <h2 className="font-size-9 mb-5 letter-spacing-n83">
                   Competitive Events
                 </h2>
@@ -89,6 +90,7 @@ const ContentTwo = ({ className, ...rest }) => {
                 data-aos-delay={500}
                 data-aos-once="true" data-aos-duration={1000}
               >
+                <p className="font-size-5 font-weight-bold text-uppercase mb-1 text-gray" style={{letterSpacing: "3px"}}>ADL event</p>
                 <h2 className="font-size-9 mb-5 letter-spacing-n83">
                   Monthly Events
                 </h2>

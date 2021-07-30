@@ -24,7 +24,7 @@ const Header = () => {
     } else {
       setShowScrolling(false);
     }
-    if (currPos.y < -300) {
+    if (currPos.y < -150) {
       setShowReveal(true);
     } else {
       setShowReveal(false);
