@@ -4,6 +4,7 @@ import Head from "next/head";
 
 import PageWrapper from "../components/PageWrapper";
 import { Button } from "react-bootstrap";
+import logo from "../assets/paypal.svg"
 
 const Faq = () => {
   return (
@@ -168,9 +169,11 @@ const Faq = () => {
                     <p className="font-size-5 pr-md-10 pr-lg-0 mb-7">
                       Regardless of the amount, every dollar helps us provide the necessary app development skills for underpriveleged youth. Your donations can help us obtain the resources we need that we can't afford othwerise. If you are interested in donating, please contact us by <a href="mailto:contact@appdevleague.org">email</a>.
                     </p>
-                    <p className="font-size-5 pr-md-10 pr-lg-0 mb-0 font-weight-bold text-red">
-                      Currently not accepting donations
-                    </p>
+                    <form action="https://www.paypal.com/donate" method="post" target="_top">
+                      <input type="hidden" name="hosted_button_id" value="L2TWT9EFVL6KE" />
+                      <button border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" value="Donate with PayPal" className="btn-dodger-blue-2 rounded-5 btn btn-primary btn-sm pr-4"><img src={logo} alt="" className="h-100 mr-4 p-1" />Donate with PayPal</button>
+                      <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                    </form>
                   </div>
                 </div>
               </div>
