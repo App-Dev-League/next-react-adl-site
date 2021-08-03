@@ -21,14 +21,14 @@ const pastEvents = [
     name: "ADL Appathon 2021",
     image: eventImage1,
     date: "August 2021",
-    description: "The Appathon works to educate the next generation of technologists, innovators, and leaders. From researchers to entrepreneurship trailblazers, this conference is a unique opportunity to interact with the leaders in the fields of AI and application development through workshops and panels. As part of this event, students will also have the chance to compete in a competition (ideathon), where they can submit business pitches and/or prototypes for an app that can have a real-world impact.",
+    description: "The Appathon is a unique opportunity for students of all backgrounds to learn how to use AppDev and AI for making a societal impact in their communities. As part of this event, students will get to hear from world-renowned speakers like the Director of USACO and Damian Musk, as well as compete in a competition with prizes totaling $20k.",
     learnMoreLink: {
       href: "https://appathon.appdevleague.org/",
       isExternal: true
     }
   },
   {
-    name: "Introductory Application Development Course",
+    name: "App Dev Course",
     image: eventImage2,
     date: "June 2021",
     description: "Interested in learning how to make apps? Well then this 5-week long course is for you. Students will learn how to construct websites using HTML/CSS/JS, as well as build mobile apps with MIT app inventor. No prior programming experience required.",
@@ -190,7 +190,7 @@ const EventList = () => {
           {pastEvents.map((eventData, index) => {
             return (
               <div
-                className="col-lg-6 my-5"
+                className="col-lg-4 my-5"
               >
                 <Card
                   className="bg-white shadow-2 border-0 h-100 gr-hover-2 transition-200"
