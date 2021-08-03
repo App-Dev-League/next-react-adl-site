@@ -3,19 +3,121 @@ import Image from "next/image"
 import Link from "next/link"
 import { Card } from "react-bootstrap";
 
-import event1Image from "../../assets/events/hero-bg.jpg"
+import eventImage1 from "../../assets/events/hero-bg.jpg"
+import eventImage2 from "../../assets/events/introductory-application-development-course-june-2021.jpeg"
+import eventImage3 from "../../assets/events/game-development-course-june-2021.jpeg"
+import eventImage4 from "../../assets/events/advanced-multi-disciplinary-cs-course-june-2021.png"
+import eventImage5 from "../../assets/events/CodeArt_Fest_2021_-_Hopin_Banner.jpg"
+import eventImage6 from "../../assets/events/december-camp-dec-2020.jpeg"
+import eventImage7 from "../../assets/events/learn-to-code-workshop-nov-2020.jpg"
+import eventImage8 from "../../assets/events/app-dev-webinar-sep-2020.png"
+import eventImage9 from "../../assets/events/ai-webinar-sep-2020.jpg"
+import eventImage10 from "../../assets/events/intro-to-programming-course-jul-2020.jpg"
+import eventImage11 from "../../assets/events/basic-web-dev-course-jul-2020.jpg"
+import eventImage12 from "../../assets/events/basic-app-dev-course-jul-2020.jpg"
 
 const pastEvents = [
   {
     name: "ADL Appathon 2021",
-    image: event1Image,
+    image: eventImage1,
     date: "August 2021",
     description: "The Appathon works to educate the next generation of technologists, innovators, and leaders. From researchers to entrepreneurship trailblazers, this conference is a unique opportunity to interact with the leaders in the fields of AI and application development through workshops and panels. As part of this event, students will also have the chance to compete in a competition (ideathon), where they can submit business pitches and/or prototypes for an app that can have a real-world impact.",
     learnMoreLink: {
       href: "https://appathon.appdevleague.org/",
       isExternal: true
     }
-  }
+  },
+  {
+    name: "Introductory Application Development Course",
+    image: eventImage2,
+    date: "June 2021",
+    description: "Interested in learning how to make apps? Well then this 5-week long course is for you. Students will learn how to construct websites using HTML/CSS/JS, as well as build mobile apps with MIT app inventor. No prior programming experience required.",
+    learnMoreLink: {
+      href: "/events/intro-ad-june-2021"
+    }
+  },
+  {
+    name: "Game Development Course",
+    image: eventImage3,
+    date: "June 2021",
+    description: "Do you enjoy playing games? Channel your passion for gaming in an educational manner by attending this 5-week long course. Students will learn how to create interactive video games with Pygame and Unity. Limited programming experience recommended.",
+    learnMoreLink: {
+      href: "/events/game-dev-june-2021"
+    }
+  },
+  {
+    name: "Advanced Multi-Disciplinary CS Course",
+    image: eventImage4,
+    date: "June 2021",
+    description: "Do you already have a strong CS foundation? In this course, we will explore advanced topics in Website Development, Machine Learning, and Competitive Programming. Highly recommended for students with 1-3 years or programming experience.",
+    learnMoreLink: {
+      href: "/events/adv-md-cs-june-2021"
+    }
+  },
+  {
+    name: "Code/Art Speaker Event",
+    image: eventImage5,
+    date: "March 2021",
+    learnMoreLink: {
+      href: "/events/code-art-speaker-mar-2021"
+    }
+  },
+  {
+    name: "CS Winter Bootcamp",
+    image: eventImage6,
+    date: "December 2020",
+    learnMoreLink: {
+      href: "/events/december-camp-dec-2020"
+    }
+  },
+  {
+    name: "Learn to Code Webinar",
+    image: eventImage7,
+    date: "November 2020",
+    learnMoreLink: {
+      href: "/events/learn-to-code-workshop-nov-2020"
+    }
+  },
+  {
+    name: "App Dev Webinar",
+    image: eventImage8,
+    date: "September 2020",
+    learnMoreLink: {
+      href: "/events/app-dev-webinar-sep-2020"
+    }
+  },
+  {
+    name: "AI Webinar",
+    image: eventImage9,
+    date: "September 2020",
+    learnMoreLink: {
+      href: "/events/ai-webinar-sep-2020"
+    }
+  },
+  {
+    name: "Intro to Programming",
+    image: eventImage10,
+    date: "July 2020",
+    learnMoreLink: {
+      href: "/events/intro-to-programming-course-jul-2020"
+    }
+  },
+  {
+    name: "Basic Web Dev",
+    image: eventImage11,
+    date: "July 2020",
+    learnMoreLink: {
+      href: "/events/basic-web-dev-course-jul-2020"
+    }
+  },
+  {
+    name: "Basic App Dev",
+    image: eventImage12,
+    date: "July 2020",
+    learnMoreLink: {
+      href: "/events/basic-app-dev-course-jul-2020"
+    }
+  },
 ];
 
 const EventList = () => {
