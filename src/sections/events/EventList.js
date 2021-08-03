@@ -28,7 +28,7 @@ const pastEvents = [
     }
   },
   {
-    name: "App Dev Course",
+    name: "App Development Course",
     image: eventImage2,
     date: "June 2021",
     description: "Interested in learning how to make apps? Well then this 5-week long course is for you. Students will learn how to construct websites using HTML/CSS/JS, as well as build mobile apps with MIT app inventor. No prior programming experience required.",
@@ -46,7 +46,7 @@ const pastEvents = [
     }
   },
   {
-    name: "Advanced Multi-Disciplinary CS Course",
+    name: "Advanced CS Course",
     image: eventImage4,
     date: "June 2021",
     description: "Do you already have a strong CS foundation? In this course, we will explore advanced topics in Website Development, Machine Learning, and Competitive Programming. Highly recommended for students with 1-3 years or programming experience.",
