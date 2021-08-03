@@ -136,7 +136,7 @@ const EventList = () => {
                 Upcoming Events
               </h2>
               <p className="font-size-6 font-weight-light mb-0 px-md-5 px-lg-0">
-                Due to COVID restrictions, all webinars and courses will be hosted online virtually through Zoom. <br /> Regardless of the circumstances, App Dev League strives to provide free and accessible education. <br/> Our next event is expected to be in May of 2021. More information will appear below closer to the date! <br/> If you would like to see some of our past events, please scroll below.
+                Due to COVID restrictions, all events will be hosted online virtually through Zoom. Regardless of the circumstances, App Dev League strives to provide free and accessible education for all students, especially underprivileged children. If you would like to see some of our past events, please scroll below.
               </p>
               <div className="bg-white d-inline-block p-6 border rounded mx-auto mt-8">
                 <p className="m-0">No upcoming events right now.</p>
