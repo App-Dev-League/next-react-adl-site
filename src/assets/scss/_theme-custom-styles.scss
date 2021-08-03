@@ -91,9 +91,17 @@
     background: url('../../assets/aboutUsHeaderImage-edit.png');
     background-repeat: no-repeat;
 }
+.events-hero {
+    background: /*url('../../assets/computer1.png')*/ linear-gradient(58.72deg, #485563 7.71%, #29323C 92.87%);;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .single-brand-logo img {
     max-height: 3.5rem;
     @media (max-width: 768px) {
         max-height: 2.5rem;
     }
+}
+.next-image-cover {
+    object-fit: cover;
 }

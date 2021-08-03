@@ -67,7 +67,7 @@ export const menuItems = [
     ],
   },
   {
-    name: "initiatives",
+    name: "events",
     label: "Initiatives",
     items: [
       { name: "events", label: "Events" },
