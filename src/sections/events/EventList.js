@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image"
-import Link from "next/link"
 import { Card } from "react-bootstrap";
 
 import eventImage1 from "../../assets/events/hero-bg.jpg"
@@ -221,9 +220,7 @@ const EventList = () => {
                       {eventData.description}
                     </p>
                     {!eventData.learnMoreLink.isExternal && (
-                      <Link href={eventData.learnMoreLink.href}>
-                        <a class="btn btn-dodger-blue-2 btn-sm rounded-5 border border-blue border">Learn More</a>
-                      </Link>
+                      <a href={eventData.learnMoreLink.href} class="btn btn-dodger-blue-2 btn-sm rounded-5 border border-blue border" target="_blank" rel="noopener noreferrer">Learn More</a>
                     )}
                     {eventData.learnMoreLink.isExternal && (
                       <a href={eventData.learnMoreLink.href} class="btn btn-dodger-blue-2 btn-sm rounded-5 border border-blue border" target="_blank" rel="noopener noreferrer">Learn More</a>
