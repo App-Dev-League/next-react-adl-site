@@ -95,18 +95,8 @@ const Footer = ({ className, ...rest }) => {
                       <ul className="list-unstyled d-flex align-items-center mb-0">
                         <li>
                           <a
-                            href="https://www.facebook.com/appdev.league"
-                            className="text-white gr-hover-text-blue-3"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a
                             href="https://www.instagram.com/appdevleague/"
-                            className="text-white gr-hover-text-blue-3 ml-7"
+                            className="text-white gr-hover-text-blue-3"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -141,6 +131,16 @@ const Footer = ({ className, ...rest }) => {
                             rel="noopener noreferrer"
                           >
                             <i className="fab fa-linkedin" />
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.facebook.com/appdev.league"
+                            className="text-white gr-hover-text-blue-3 ml-7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i className="fab fa-facebook-f" />
                           </a>
                         </li>
                       </ul>

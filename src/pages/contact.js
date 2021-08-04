@@ -67,18 +67,8 @@ const Contact = () => {
                       <ul className="list-unstyled d-flex align-items-center mb-0 mt-1">
                         <li>
                           <a
-                            href="https://www.facebook.com/appdev.league"
-                            className="heading-default-color gr-hover-text-blue-3"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a
                             href="https://www.instagram.com/appdevleague/"
-                            className="heading-default-color gr-hover-text-blue-3 ml-7"
+                            className="heading-default-color gr-hover-text-blue-3"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -113,6 +103,16 @@ const Contact = () => {
                             rel="noopener noreferrer"
                           >
                             <i className="fab fa-linkedin" />
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.facebook.com/appdev.league"
+                            className="heading-default-color gr-hover-text-blue-3 ml-7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i className="fab fa-facebook-f" />
                           </a>
                         </li>
                       </ul>
