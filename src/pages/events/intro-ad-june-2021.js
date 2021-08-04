@@ -72,6 +72,9 @@ const EventPage = () => {
                   <h2 className="font-size-11 font-weight-bold text-center mb-lg-15 mb-0 mt-15">
                     App Dev Course
                   </h2>
+                  <h3 className="font-size-8 font-weight-bold text-center text-green">
+                    Event Completed 🚀
+                  </h3>
                 </div>
               </div>
               <div className="col-xl-9 col-lg-10 px-xl-0 px-lg-6 px-md-0 px-6 pr-0">
@@ -210,7 +213,7 @@ const EventPage = () => {
                   <div className="mt-11 mt-md-16">
                     <h5 className="font-size-7 mb-7">Testimonials</h5>
                     <p className="font-size-5 heading-default-color mb-9 font-italic">
-                      This is an upcoming event; testimonials will be posted upon completion.
+                      Testimonials will be posted soon
                     </p>
                   </div>
                   <div className="apply-btn pt-7 pt-md-13">
