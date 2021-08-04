@@ -130,7 +130,8 @@ const EventList = () => {
             <div
               className="text-center mb-10"
               data-aos="fade-up"
-              data-aos-duration={600}
+              data-aos-duration={1000}
+              data-aos-delay={500}
             >
               <h2 className="font-size-10 mb-7 letter-spacing-n83">
                 Upcoming Events
@@ -178,7 +179,8 @@ const EventList = () => {
             <div
               className="text-center mb-10"
               data-aos="fade-up"
-              data-aos-duration={600}
+              data-aos-duration={1000}
+              data-aos-delay={500}
             >
               <h2 className="font-size-10 mb-7 letter-spacing-n83">
                 Past Events
@@ -186,7 +188,13 @@ const EventList = () => {
             </div>
           </div>
         </div>
-        <div className="row my-n5 justify-content-center" id="mission">
+        <div
+          className="row my-n5 justify-content-center"
+          id="mission"
+          data-aos="fade-up"
+          data-aos-duration={1000}
+          data-aos-delay={500}
+        >
           {pastEvents.map((eventData, index) => {
             return (
               <div

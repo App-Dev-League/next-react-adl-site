@@ -10,7 +10,7 @@ const Hero = () => {
             <div
               className="text-center"
               data-aos="zoom-in"
-              data-aos-duration={500}
+              data-aos-duration={1000}
               data-aos-delay={500}
             >
               <h2 className="font-size-11 mb-5">ADL Events</h2>
