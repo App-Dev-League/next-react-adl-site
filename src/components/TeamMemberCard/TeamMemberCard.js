@@ -8,10 +8,10 @@ const FeatureCard = ({ options }) => {
           <img src={options.image} alt="" className="w-100 rounded-circle" />
         </div>
         <div className="mb-0">
-          <h4 className="font-size-7 line-height-reset mb-2 text-dark-cloud">
+          <h4 className="font-size-7 line-height-reset text-dark-cloud mb-0">
             {options.name}
           </h4>
-          <p className="font-size-5 mb-0 text-bali-gray">{options.title}</p>
+          {options.title && <p className="font-size-5 mb-0 text-bali-gray mt-2">{options.title}</p>}
         </div>
       </div>
     </div>

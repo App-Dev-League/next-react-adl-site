@@ -17,33 +17,27 @@ const EventPage = () => {
   const instructors = [
     {
       image: img1,
-      name: "Shafin Haque",
-      title: "Days 3-7",
+      name: "Shafin Haque"
     },
     {
       image: img2,
-      name: "Kabir Ramzan",
-      title: "Days 1-2",
+      name: "Kabir Ramzan"
     },
     {
       image: img3,
-      name: "Vishnu Mangipudi",
-      title: "Days 3-4",
+      name: "Vishnu Mangipudi"
     },
     {
       image: img4,
-      name: "Joe Li",
-      title: "Days 5, 7-8",
+      name: "Joe Li"
     },
     {
       image: img5,
-      name: "Pavan Yeddanapudi",
-      title: "Days 7-8",
+      name: "Pavan Yeddanapudi"
     },
     {
       image: img6,
-      name: "Arjun Dixit",
-      title: "Day 5",
+      name: "Arjun Dixit"
     }
   ];
 

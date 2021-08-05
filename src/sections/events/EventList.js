@@ -57,6 +57,7 @@ const pastEvents = [
     name: "Code/Art Speaker Event",
     image: eventImage5,
     date: "March 2021",
+    description: "App Dev League will be giving a workshop at the Code/Art Festival on application development with MIT app inventor!",
     learnMoreLink: {
       href: "/events/code-art-speaker-mar-2021"
     }
@@ -65,6 +66,7 @@ const pastEvents = [
     name: "CS Winter Bootcamp",
     image: eventImage6,
     date: "December 2020",
+    description: "This CS Winter Boot Camp is geared towards students with some programming experience in grades 5-12. We will cover topics ranging from web dev to artificial intelligence in an interactive and hands-on manner, and you will have the necessary skills to do the impossible!",
     learnMoreLink: {
       href: "/events/december-camp-dec-2020"
     }
@@ -73,6 +75,7 @@ const pastEvents = [
     name: "Learn to Code Webinar",
     image: eventImage7,
     date: "November 2020",
+    description: "App Dev League will be giving a workshop at the Code/Art Festival on application development with MIT app inventor!",
     learnMoreLink: {
       href: "/events/learn-to-code-workshop-nov-2020"
     }

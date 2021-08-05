@@ -8,25 +8,17 @@ import PageWrapper from "../../components/PageWrapper";
 import heroPhoto from "../../assets/events/game-development-course-june-2021.jpeg"
 import img6 from "../../assets/execs/ishir.png";
 import img7 from "../../assets/directors/athreya.png";
-import img8 from "../../assets/krish-square.jpg";
 
 const EventPage = () => {
   const instructors = [
     {
       image: img6,
-      name: "Ishir Lakani",
-      title: "Days 2-4, 6, 8",
+      name: "Ishir Lakani"
     },
     {
       image: img7,
-      name: "Athreya Daniel",
-      title: "Days 1, 5, 7",
-    },
-    {
-      image: img8,
-      name: "Krish Maniar",
-      title: "Days 1, 8",
-    },
+      name: "Athreya Daniel"
+    }
   ];
 
   return (
