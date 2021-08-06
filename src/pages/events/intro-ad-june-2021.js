@@ -75,7 +75,11 @@ const EventPage = () => {
               </div>
             </div>
             <div className="row justify-content-center mt-11 mt-lg-15">
-              <div className="col-lg-6 mb-10 mb-lg-0">
+              <div
+                className="col-lg-6 mb-10 mb-lg-0"
+                data-aos="fade-right"
+                data-aos-duration={1000}
+              >
                 <div className="pt-8 pb-5 pt-lg-12 pb-lg-10 px-8 px-lg-10 px-xl-15 card shadow-2 border-0 gr-hover-2 transition-200 h-100">
                   <div className="article-block">
                     <h5 className="font-size-7 mb-6">Description</h5>
@@ -85,7 +89,11 @@ const EventPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div
+                className="col-lg-6"
+                data-aos="fade-left"
+                data-aos-duration={1000}
+              >
                 <div className="pt-8 pb-5 pt-lg-12 pb-lg-10 px-8 px-lg-10 px-xl-15 card shadow-2 border-0 gr-hover-2 transition-200 h-100">
                   {/* article-block */}
                   <div>
@@ -145,7 +153,11 @@ const EventPage = () => {
                 {/* terms-contents  */}
                 <div className="pt-lg-0 pt-10">
                   {/* article-block */}
-                  <div className="mt-11 mt-md-16">
+                  <div
+                    className="mt-11 mt-md-16"
+                    data-aos="fade-up"
+                    data-aos-duration={1000}
+                  >
                     <h5 className="font-size-7 mb-7">Agenda</h5>
                     <div className="row mb-n10">
                       <div className="col-lg-6 mb-8">
@@ -263,7 +275,11 @@ const EventPage = () => {
                     </div>
                   </div>
                   {/* article-block */}
-                  <div className="mt-11 mt-md-16">
+                  <div
+                    className="mt-11 mt-md-16"
+                    data-aos="fade-up"
+                    data-aos-duration={1000}
+                  >
                     <h5 className="font-size-7 mb-7">Instructors</h5>
                     <div className="row justify-content-center mb-n9">
                       {instructors.map((item, index) => (
@@ -276,13 +292,21 @@ const EventPage = () => {
                       ))}
                     </div>
                   </div>
-                  <div className="mt-11 mt-md-16">
+                  <div
+                    className="mt-11 mt-md-16"
+                    data-aos="fade-up"
+                    data-aos-duration={1000}
+                  >
                     <h5 className="font-size-7 mb-7">Testimonials</h5>
                     <p className="font-size-5 heading-default-color mb-9 font-italic">
                       Testimonials will be posted soon
                     </p>
                   </div>
-                  <div className="apply-btn pt-7 pt-md-13">
+                  <div
+                    className="apply-btn pt-7 pt-md-13"
+                    data-aos="fade-up"
+                    data-aos-duration={1000}
+                  >
                     <Link href="/events">
                       <a className="btn btn-sm btn-blue-3 rounded-5">
                         Back
