@@ -113,3 +113,17 @@
         max-height: 60px;
     }
 }
+.circle-event {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: .25rem;
+    i {
+        font-size: 13px;
+    }
+}
