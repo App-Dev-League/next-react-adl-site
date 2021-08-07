@@ -78,7 +78,7 @@ const EventPage = () => {
                 data-aos="fade-right"
                 data-aos-duration={1000}
               >
-                <div className="pt-8 pb-5 pt-lg-12 pb-lg-10 px-8 px-lg-10 px-xl-15 card shadow-2 border-0 gr-hover-2 transition-200 h-100">
+                <div className="pt-8 pb-5 pt-lg-12 pb-lg-10 px-8 px-lg-10 px-xl-15 card shadow-2 gr-hover-2 transition-200 h-100">
                   <div className="article-block">
                     <h5 className="font-size-7 mb-6">Description</h5>
                     <p className="font-size-5 heading-default-color">
@@ -92,7 +92,7 @@ const EventPage = () => {
                 data-aos="fade-left"
                 data-aos-duration={1000}
               >
-                <div className="pt-8 pb-5 pt-lg-12 pb-lg-10 px-8 px-lg-10 px-xl-15 card shadow-2 border-0 gr-hover-2 transition-200 h-100">
+                <div className="pt-8 pb-5 pt-lg-12 pb-lg-10 px-8 px-lg-10 px-xl-15 card shadow-2 gr-hover-2 transition-200 h-100">
                   {/* article-block */}
                   <div>
                     {/* block-title */}

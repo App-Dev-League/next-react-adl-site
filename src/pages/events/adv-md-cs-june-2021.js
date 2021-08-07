@@ -78,7 +78,7 @@ const EventPage = () => {
                 data-aos="fade-right"
                 data-aos-duration={1000}
               >
-                <div className="pt-8 pb-5 pt-lg-12 pb-lg-10 px-8 px-lg-10 px-xl-15 card shadow-2 border-0 gr-hover-2 transition-200 h-100">
+                <div className="pt-8 pb-5 pt-lg-12 pb-lg-10 px-8 px-lg-10 px-xl-15 card shadow-2 gr-hover-2 transition-200 h-100">
                   <div className="article-block">
                     <h5 className="font-size-7 mb-6">Description</h5>
                     <p className="font-size-5 heading-default-color">
@@ -92,7 +92,7 @@ const EventPage = () => {
                 data-aos="fade-left"
                 data-aos-duration={1000}
               >
-                <div className="pt-8 pb-5 pt-lg-12 pb-lg-10 px-8 px-lg-10 px-xl-15 card shadow-2 border-0 gr-hover-2 transition-200 h-100">
+                <div className="pt-8 pb-5 pt-lg-12 pb-lg-10 px-8 px-lg-10 px-xl-15 card shadow-2 gr-hover-2 transition-200 h-100">
                   {/* article-block */}
                   <div>
                     {/* block-title */}
@@ -159,7 +159,7 @@ const EventPage = () => {
                     <h5 className="font-size-7 mb-7">Agenda</h5>
                     <div className="row mb-n10">
                       <div className="col-lg-6 mb-8">
-                        <div className="py-5 px-8 p-lg-10 card shadow-2 border-0 gr-hover-2 transition-200 h-100 flex-row">
+                        <div className="py-5 px-8 p-lg-10 card shadow-2 gr-hover-2 transition-200 h-100 flex-row">
                           <div className="d-flex flex-column mr-10 align-items-center">
                             <span>Week</span>
                             <span className="font-size-10 heading-default-color">1</span>
@@ -187,7 +187,7 @@ const EventPage = () => {
                         </div>
                       </div>
                       <div className="col-lg-6 mb-8">
-                        <div className="py-5 px-8 p-lg-10 card shadow-2 border-0 gr-hover-2 transition-200 h-100 flex-row">
+                        <div className="py-5 px-8 p-lg-10 card shadow-2 gr-hover-2 transition-200 h-100 flex-row">
                           <div className="d-flex flex-column mr-10 align-items-center">
                             <span>Week</span>
                             <span className="font-size-10 heading-default-color">2</span>
@@ -215,7 +215,7 @@ const EventPage = () => {
                         </div>
                       </div>
                       <div className="col-lg-6 mb-8">
-                        <div className="py-5 px-8 p-lg-10 card shadow-2 border-0 gr-hover-2 transition-200 h-100 flex-row">
+                        <div className="py-5 px-8 p-lg-10 card shadow-2 gr-hover-2 transition-200 h-100 flex-row">
                           <div className="d-flex flex-column mr-10 align-items-center">
                             <span>Week</span>
                             <span className="font-size-10 heading-default-color">3</span>
@@ -243,7 +243,7 @@ const EventPage = () => {
                         </div>
                       </div>
                       <div className="col-lg-6 mb-8">
-                        <div className="py-5 px-8 p-lg-10 card shadow-2 border-0 gr-hover-2 transition-200 h-100 flex-row">
+                        <div className="py-5 px-8 p-lg-10 card shadow-2 gr-hover-2 transition-200 h-100 flex-row">
                           <div className="d-flex flex-column mr-10 align-items-center">
                             <span>Week</span>
                             <span className="font-size-10 heading-default-color">4</span>
@@ -279,7 +279,7 @@ const EventPage = () => {
                     data-aos-duration={1000}
                   >
                     <h5 className="font-size-7 mb-7">Instructors</h5>
-                    <div className="row justify-content-center mb-n9">
+                    <div className="row mb-n9">
                       {instructors.map((item, index) => (
                         <div
                           className="col-md-6 col-lg-4"
