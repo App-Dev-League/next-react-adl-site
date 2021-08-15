@@ -108,20 +108,31 @@ const Officers = () => {
             <div
               className="text-center mb-9 mb-lg-15"
               data-aos="fade-up"
-              data-aos-duration={500}
+              data-aos-delay={500}
+              data-aos-duration={1000}
             >
               <h2 className="font-size-10 mb-0">Officer Team</h2>
             </div>
           </div>
         </div>
         {/* Teammember card */}
-        <h3 className="mb-8">Instructor Team</h3>
-        <div className="row justify-content-center mb-6">
+        <h3
+          className="mb-8"
+          data-aos="fade-up"
+          data-aos-delay={500}
+          data-aos-duration={1000}
+        >
+          Instructor Team
+        </h3>
+        <div
+          className="row justify-content-center mb-6"
+          data-aos="zoom-in"
+          data-aos-delay={500}
+          data-aos-duration={1000}
+        >
           {instructors.map((item, index) => (
             <div
               className="col-lg-4 col-md-6 col-xs-9"
-              data-aos="zoom-in"
-              data-aos-duration={800}
               key={index}
             >
               <TeamMemberCard options={item} />
@@ -130,13 +141,23 @@ const Officers = () => {
         </div>
         {/* Teammember card */}
         {/* Teammember card */}
-        <h3 className="mb-8">Outreach Team</h3>
-        <div className="row justify-content-center">
+        <h3
+          className="mb-8"
+          data-aos="fade-up"
+          data-aos-delay={500}
+          data-aos-duration={1000}
+        >
+          Outreach Team
+        </h3>
+        <div
+          className="row justify-content-center"
+          data-aos="zoom-in"
+          data-aos-delay={500}
+          data-aos-duration={1000}
+        >
           {outreach.map((item, index) => (
             <div
               className="col-lg-4 col-md-6 col-xs-9"
-              data-aos="zoom-in"
-              data-aos-duration={800}
               key={index}
             >
               <TeamMemberCard options={item} />

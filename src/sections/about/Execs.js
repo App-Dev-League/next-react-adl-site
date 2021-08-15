@@ -55,6 +55,7 @@ const Execs = () => {
             <div
               className="text-center mb-9 mb-lg-15"
               data-aos="fade-up"
+              data-aos-delay={500}
               data-aos-duration={500}
             >
               <h2 className="font-size-10 mb-0">Executive Team</h2>
@@ -65,7 +66,7 @@ const Execs = () => {
           <div
             className="col-xl-7 col-lg-9 col-md-10"
             data-aos="zoom-in"
-            data-aos-duration={500}
+            data-aos-delay={500}
             data-aos-once="true" data-aos-duration={1000}
           >
             <Slider
@@ -124,7 +125,7 @@ const Execs = () => {
           <div
             className="col-xl-4 col-lg-5 col-md-6 col-sm-8 col-xs-9 d-flex align-items-center mt-10 mx-xs-4 mx-md-0 mx-xl-6 justify-content-center"
             data-aos="zoom-in"
-            data-aos-duration={500}
+            data-aos-delay={500}
             data-aos-once="true" data-aos-duration={1000}
           >
             <button

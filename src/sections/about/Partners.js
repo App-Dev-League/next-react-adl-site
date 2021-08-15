@@ -13,7 +13,7 @@ const SingleBrand = ({image, darkBg}) => {
     <>
       {/* Single Brand */}
       <div className={`single-brand-logo mx-5 my-6 ${darkBg ? 'bg-black' : ''}`}>
-        <img src={image} alt="" data-aos="fade-in" data-aos-once="true" data-aos-duration={1000} />
+        <img src={image} alt="" />
       </div>
       {/* Single Brand */}
     </>
@@ -34,7 +34,13 @@ const Partners = ({ className, ...rest }) => {
     <>
       {/* Company Section */}
       <div className={className} {...rest}>
-        <div className="container" id="partners">
+        <div
+          className="container" id="partners"
+          data-aos="fade-in"
+          data-aos-once="true"
+          data-aos-delay={500}
+          data-aos-duration={1000}
+        >
           <div className="row">
             <div className="col-12">
               <div className="mb-5 mb-lg-10 text-center text-lg-center">

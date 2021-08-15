@@ -17,7 +17,13 @@ const Sponsors = ({ className, ...rest }) => {
     <>
       {/* Company Section */}
       <div className={className} {...rest} id="sponsors">
-        <div className="container">
+        <div
+          className="container"
+          data-aos="fade-in"
+          data-aos-once="true"
+          data-aos-delay={500}
+          data-aos-duration={1000}
+        >
           <div className="row">
             <div className="col-12">
               <div className="mb-5 mb-lg-10 text-center text-lg-center">

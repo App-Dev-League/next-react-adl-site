@@ -102,7 +102,12 @@ const Directors = ({ className, ...rest }) => {
     <div className={className} {...rest}>
       <div className="container">
         {/* section title */}
-        <div className="row justify-content-center">
+        <div
+          className="row justify-content-center"
+          data-aos="fade-up"
+          data-aos-delay={500}
+          data-aos-once="true" data-aos-duration={1000}
+        >
           <div className="col-12">
             <div className="text-center mb-12 mb-lg-19">
               <h2 className="font-size-10 mb-8 letter-spacing-n83">
@@ -112,10 +117,18 @@ const Directors = ({ className, ...rest }) => {
           </div>
         </div>
         {/* section title */}
-        <div className="row justify-content-center">
+        <div
+          className="row justify-content-center"
+          data-aos="fade-up"
+          data-aos-delay={500}
+          data-aos-once="true" data-aos-duration={1000}
+        >
           {DirectorsData.map(({ image, name, position }, index) => {
             return (
-              <div className="col-lg-4 col-sm-6 col-xs-8" key={index}>
+              <div
+                className="col-lg-4 col-sm-6 col-xs-8"
+                key={index}
+              >
                 <DirectorCard image={image} name={name} position={position} />
               </div>
             );
