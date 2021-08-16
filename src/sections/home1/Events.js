@@ -6,7 +6,7 @@ import imageTwo from "../../assets/monthly.png";
 const ContentTwo = ({ className, ...rest }) => {
   return (
     <>
-      <div className="bg-dark-cloud pt-10 pt-lg-20 pb-8 pb-lg-16" {...rest}>
+      <div className="bg-adl-3 pt-10 pt-lg-20 pb-8 pb-lg-16" {...rest}>
         <div className="container">
           <div className="row"> 
             <div className="col-xs-12">

@@ -42,7 +42,7 @@ const AboutUs = ({ className, ...rest }) => {
                       data-aos-delay={500}
                       data-aos-once="true" data-aos-duration={1000}
                     >
-                      <div className="square-83 bg-blue-3 shadow-dodger-blue-3 rounded-10 text-white font-size-7">
+                      <div className="square-83 bg-adl-3 shadow-adl-3 rounded-10 text-white font-size-7">
                         <i className="fa fa-link" />
                       </div>
                       <div className="ml-8">
@@ -60,7 +60,7 @@ const AboutUs = ({ className, ...rest }) => {
                       data-aos-delay={700}
                       data-aos-once="true" data-aos-duration={1000}
                     >
-                      <div className="square-83 bg-sunset shadow-sunset rounded-10 text-white font-size-7">
+                      <div className="square-83 rounded-10 bg-blue-3 shadow-dodger-blue-3 text-white font-size-7">
                         <i className="fa fa-level-up-alt" />
                       </div>
                       <div className="ml-8">

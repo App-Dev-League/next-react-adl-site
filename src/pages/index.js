@@ -26,11 +26,11 @@ const IndexPage = () => {
         }}
       >
         <Hero className="position-relative pt-25 pt-md-31 pt-lg-35 pb-14 pb-md-19 pb-lg-33 position-relative overflow-hidden" />
-        <AboutUs className="bg-default-1 pt-12 pt-lg-25 pb-8 pb-lg-20" />
+        <AboutUs className="bg-adl-1 pt-12 pt-lg-25 pb-8 pb-lg-20" />
         <OurExperience className="py-12 py-lg-25" />
         <Stats />
         <Events />
-        <TechHelp className="bg-default-1 pt-12 pt-lg-25 pb-12 pb-lg-20" />
+        <TechHelp className="bg-adl-1 pt-12 pt-lg-25 pb-12 pb-lg-20" />
         <Testimonials className="pt-12 pt-lg-19 pb-12 pb-lg-17" />
         <FAQ />
       </PageWrapper>
