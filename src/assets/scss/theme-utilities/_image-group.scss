@@ -686,46 +686,28 @@
     right: 5%;
     width: 40%;
   }
-
   @include large-desktops {
-    bottom: 50px;
-    right: 6%;
+    position: absolute !important;
+    top: 50%;
+    bottom: 0;
+    transform: translateY(-50%);
+    width: 40%;
   }
-
-  @include extra-large-desktops {
-    bottom: -150px;
-    width: 50%;
-
-    img {
-      width: auto !important;
-    }
-    > img {
-      position: relative;
-      left: 10%;
-    }
+  > img {
+    z-index: 2000;
+    position: relative !important;
   }
 
   .img-1 {
     position: absolute;
     top: -6%;
     left: 35%;
-    z-index: -1;
+    z-index: 1;
 
     @include desktops {
       top: -10%;
       left: 35%;
       transform: scale(0.8);
-    }
-
-    @include large-desktops {
-      left: 40%;
-      top: 0%;
-      transform: scale(1);
-    }
-
-    @include extra-large-desktops {
-      left: 45%;
-      top: -6%;
     }
   }
 }

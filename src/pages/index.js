@@ -25,7 +25,7 @@ const IndexPage = () => {
           footerStyle: "style3"
         }}
       >
-        <Hero className="position-relative pt-25 pt-md-31 pt-lg-35 pb-14 pb-md-19 pb-lg-33 position-relative overflow-hidden" />
+        <Hero className="position-relative pt-25 pt-md-31 pt-lg-35 pb-14 pb-md-19 pb-lg-33 position-relative overflow-hidden hero-bg dark-mode-texts" />
         <AboutUs className="bg-adl-1 pt-12 pt-lg-25 pb-8 pb-lg-20" />
         <OurExperience className="py-12 py-lg-25" />
         <Stats />
