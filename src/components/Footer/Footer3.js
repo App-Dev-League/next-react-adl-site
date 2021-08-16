@@ -9,7 +9,7 @@ const Footer = ({ className, ...rest }) => {
   return (
     <>
       <div
-        className={`bg-dark-cloud pt-12 pt-sm-15 pb-7 dark-mode-texts position-relative ${className}`}
+        className={`bg-dark-cloud pt-12 pt-sm-15 pb-7 dark-mode-texts position-relative overflow-hidden ${className}`}
         {...rest}
       >
         <div className="container">
@@ -163,8 +163,8 @@ const Footer = ({ className, ...rest }) => {
             </div>
           </div>
         </div>
-        <div className="footer-yellow-shape-img">
-          <img src={imgFS} alt="" />
+        <div>
+          <img src={imgFS} alt="" className="footer-yellow-shape-img" />
         </div>
       </div>
     </>
