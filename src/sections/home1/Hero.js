@@ -23,12 +23,12 @@ const Hero = ({ className, ...rest }) => {
                 Diversifying the Application Developer Community
               </p>
               <div className="mt-10 d-flex flex-wrap mb-n6">
-                <Link href="/#">
+                <Link href="/get-involved">
                   <a className="btn btn-dodger-blue-2 btn-3 rounded-5 mr-6 mb-6">
                     Get Involved
                   </a>
                 </Link>
-                <Link href="/#">
+                <Link href="/events">
                   <a className="btn btn-dodger-blue-2 btn-3 rounded-5 mb-6">
                     View Events
                   </a>
