@@ -34,7 +34,7 @@ const offeringsData = [
 
 const Offerings = () => {
   return (
-    <div className="bg-default-3 pt-12 pt-md-18 pb-md-19 pb-15 pt-lg-22 pb-lg-26">
+    <div className="bg-adl-1 pt-12 pt-md-18 pb-md-19 pb-15 pt-lg-22 pb-lg-26">
       <div className="container">
         {/* section title */}
         <div className="row justify-content-center">

@@ -41,7 +41,7 @@ const Contact = () => {
               <div className="col-12">
                 {/* contact details */}
                 <div
-                  className="top-contact-info bg-default-1 max-w-700 mx-auto py-10 px-13 rounded-10"
+                  className="top-contact-info bg-adl-1 max-w-700 mx-auto py-10 px-13 rounded-10"
                   data-aos="fade-up"
                   data-aos-duration={600}
                   data-aos-once="true"
