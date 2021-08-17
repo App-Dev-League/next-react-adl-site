@@ -101,7 +101,7 @@ const outreach = [
 
 const Officers = () => {
   return (
-    <div className="pb-15 pb-md-19 pb-lg-24">
+    <div className="pb-15 pb-md-19">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-7 col-sm-10">
