@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 
 import PageWrapper from "../components/PageWrapper";
 
 const Contact = () => {
+  useEffect(() => {
+    // Here "addEventListener" is for standards-compliant web browsers and "attachEvent" is for IE Browsers.
+    var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+    var eventer = window[eventMethod];
+
+    var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+    // Listen to message from child IFrame window
+    eventer(messageEvent, function (e) {
+      try {
+        if (e.data.includes("TOGATECH_CODETOOLS_FRAME")) {
+          var size = JSON.parse(e.data.replace("TOGATECH_CODETOOLS_FRAME", ""));
+          var frame = document.querySelector('#contact-frame');
+          frame.width = size.width;
+          frame.height = size.height;
+        }
+      } catch (err) {
+      }
+    }, false);
+  }, [])
+
   return (
     <>
       <Head>
@@ -124,7 +145,7 @@ const Contact = () => {
                   <iframe
                     src="https://codetools.togatech.org/contact-form/KabirR/XV32iSd9cp/contact"
                     className="w-100 border-0"
-                    style={{width: "832px", height: "758px"}}
+                    id="contact-frame"
                   />
                 </div>
               </div>
