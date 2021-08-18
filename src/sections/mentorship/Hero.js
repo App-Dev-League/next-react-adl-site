@@ -20,9 +20,9 @@ const Hero = () => {
               data-aos-duration={1000}
               data-aos-delay={500}
             >
-              <h2 className="font-size-11 mb-5">ADL Mentorship</h2>
+              <h2 className="font-size-11 mb-5">MEET Program</h2>
               <p class="font-size-6 font-weight-light mb-0 px-md-5 px-lg-0">
-                App Dev League’s mentorship program is a tutoring program where students can learn Computer Science 1-on-1. We offer a variety of subjects, all split into different levels, and we further personalize our course to each and every student.
+                App Dev League’s MEET program is a tutoring program where students can learn Computer Science 1-on-1. We offer a variety of subjects, all split into different levels, and we further personalize our course to each and every student.
               </p>
             </div>
           </div>

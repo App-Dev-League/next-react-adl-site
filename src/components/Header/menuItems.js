@@ -72,7 +72,7 @@ export const menuItems = [
     items: [
       { name: "events", label: "Events" },
       { name: "https://appathon.appdevleague.org/", label: "Appathon", isExternal: true },
-      { name: "mentorship", label: "Mentorship" },
+      { name: "meet-program", label: "MEET Program" },
       { name: "youtube", label: "YouTube" },
     ],
   },

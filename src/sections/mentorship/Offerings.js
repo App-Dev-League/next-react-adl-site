@@ -15,19 +15,19 @@ const offeringsData = [
     description: "In Mobile App Development with MIT App Inventor, we’ll go through most of everything contained in the website, from images and videos to event handlers and layouts. We’ll also go through a brief recap of basic programming, but students are highly encouraged to have an ample understanding of the topic beforehand. The course will end with students creating their own, personalized apps.",
   },
   {
-    title: "Advanced Website Development Frameworks (Frontend & Backend)",
+    title: "Advanced Website Development with React/Node",
     description: "In Advanced Web Development Frameworks (Frontend and Backend), we will go more in depth on the inner workings of a website, including how to request responses from form elements into a database and how to then use the database. The final project will again involve students making their own webpages, but the websites will feel far more professional (and hopefully the students too!).",
   },
   {
-    title: "Basic Understanding of Artificial Intelligence and ML",
-    description: "In Basic Understanding of Artificial Intelligence and Machine Learning, we will go into some of the early machine learning concepts such as linear and logistic regression, neural networks, computer vision models, and natural language processing. For our final project, students would come up with a problem they want to try and make it themselves (data would be provided by official libraries).",
+    title: "Basic Intro to Artificial Intelligence and ML (Supervised)",
+    description: "Basic Intro to Artificial Intelligence and Machine Learning, we will go into some of the early machine learning concepts such as linear and logistic regression, neural networks, computer vision models, and natural language processing. For our final project, students would come up with a problem they want to try and make it themselves (data would be provided by official libraries).",
   },
   {
-    title: "Advanced Understanding of AI (TNNs, Reinforcement or Q Learning, Contrastive Learning)",
+    title: "Advanced Understanding of AI (NNs + Unsupervised)",
     description: "In Advanced Understanding of Artificial Intelligence, we would teach more complicated concepts, including but not limited to: ternary neural networks, q learning, and contrastive learning. The final project will involve solving a problem with AI, but the outcome will exemplify much more sophisticated code then in Basic Understanding of Artificial Intelligence and Machine Learning.",
   },
   {
-    title: "Competitive Coding",
+    title: "Competitive Coding (USACO preparation)",
     description: "In Competitive Coding, we will go over some of the more advanced concepts in problem solving, from arrays and matrices to recursion and even graph theory. Students will be tasked at the end with solving two USACO bronze level problems, as this course should prepare you for USACO bronze and possibly even USACO silver.",
   }
 ];

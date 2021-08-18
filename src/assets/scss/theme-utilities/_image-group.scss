@@ -358,6 +358,9 @@
 }
 
 .l2-content-image-group-2 {
+  @include large-desktops {
+    margin-left: 2rem;
+  }
   .img-1 {
     position: relative;
   }
@@ -366,13 +369,11 @@
     position: absolute;
     top: 0;
     width: 33%;
-    @include mobile {
+    @include large-desktops {
       top: -7%;
-      left: -10%;
     }
 
     @include large-desktops-mid {
-      top: -7%;
       left: -7px;
     }
   }
@@ -382,6 +383,7 @@
     top: 0;
     right: 0;
     width: 57%;
+    height: 80%;
 
     @include desktops {
       top: 0;
