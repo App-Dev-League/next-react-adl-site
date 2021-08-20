@@ -90,6 +90,9 @@
 .about-us-hero {
     background: url('/aboutUsHeaderImage-edit.png');
     background-repeat: no-repeat;
+    @media (min-width: 1921px) {
+        background-size: cover;
+    }
 }
 .events-hero {
     background: /*url('../../assets/computer1.png')*/ linear-gradient(58.72deg, #485563 7.71%, #29323C 92.87%);
