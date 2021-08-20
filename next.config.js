@@ -1,8 +1,6 @@
 const withOptimizedImages = require("next-optimized-images");
-const withFonts = require("next-fonts");
 
-module.exports = withFonts(
-  withOptimizedImages({
+module.exports = withOptimizedImages({
     /* config for next-optimized-images */
     // your config for other plugins or the general next.js here...
     // images: {
@@ -10,4 +8,3 @@ module.exports = withFonts(
     // },
     target: "serverless",
   })
-);

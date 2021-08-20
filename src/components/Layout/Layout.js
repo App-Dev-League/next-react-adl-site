@@ -72,6 +72,15 @@ const Layout = ({ children, pageContext }) => {
           <title>App Dev League</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
           <body data-theme={gContext.theme.bodyDark ? "dark" : "light"} />
+          <link rel="preload" href="/fonts/fontawesome-5/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/fontawesome-5/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/fontawesome-5/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/typography-font/CircularStd-Bold.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/typography-font/CircularStd-BoldItalic.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/typography-font/CircularStd-Book.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/typography-font/CircularStd-BookItalic.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/typography-font/CircularStd-Medium.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/icon-font/fonts/avasta.woff2" as="font" type="font/woff2" crossOrigin />
         </Head>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"} />
 
@@ -92,6 +101,15 @@ const Layout = ({ children, pageContext }) => {
           <title>App Dev League</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
           <body data-theme={gContext.theme.bodyDark ? "dark" : "light"} />
+          <link rel="preload" href="/fonts/fontawesome-5/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/fontawesome-5/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/fontawesome-5/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/typography-font/CircularStd-Bold.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/typography-font/CircularStd-BoldItalic.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/typography-font/CircularStd-Book.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/typography-font/CircularStd-BookItalic.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/typography-font/CircularStd-Medium.woff2" as="font" type="font/woff2" crossOrigin />
+          <link rel="preload" href="/fonts/icon-font/fonts/avasta.woff2" as="font" type="font/woff2" crossOrigin />
         </Head>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"} />
         <div className="site-wrapper overflow-hidden" ref={eleRef}>
