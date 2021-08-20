@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image"
 
 import memberImage1 from "../../assets/directors/claire.png";
 import memberImage2 from "../../assets/directors/cynthia.png";
@@ -14,7 +15,7 @@ const DirectorCard = ({ image, name, position, ...rest }) => {
       {/* Single Team */}
       <div className="text-center mb-10 mb-lg-15">
         <div className="mb-8 rounded-10">
-          <img className="w-50 w-md-75" src={image} alt="" />
+          <Image className="w-50 w-md-75" src={image} alt="" width={262} height={262} />
         </div>
         <div className="content">
           <h4 className="font-size-7 mb-1">{name}</h4>

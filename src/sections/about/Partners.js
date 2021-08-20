@@ -13,7 +13,7 @@ const SingleBrand = ({image, darkBg}) => {
     <>
       {/* Single Brand */}
       <div className={`single-brand-logo mx-5 my-6 ${darkBg ? 'bg-black' : ''}`}>
-        <img src={image} alt="" />
+        <img src={image} alt="" loading="lazy" />
       </div>
       {/* Single Brand */}
     </>

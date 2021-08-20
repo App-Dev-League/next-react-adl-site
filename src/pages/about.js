@@ -18,6 +18,7 @@ const PricingPage = () => {
         <title>About | App Dev League</title>
         <meta name="description" content="Learn more about the who, what, and why behind ADL! Who made ADL happen? What is our mission? Why do we do this?"></meta>
         <meta property="og:description" content="Learn more about the who, what, and why behind ADL! Who made ADL happen? What is our mission? Why do we do this?"></meta>
+        <link rel="preload" as="image" href="/aboutUsHeaderImage-edit.png" />
       </Head>
       <PageWrapper
         themeConfig={{

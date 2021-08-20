@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Slider from "react-slick";
+import Image from "next/image"
 
 import imgB from "../../assets/execs/kabir.png";
 import imgB2 from "../../assets/execs/shafin.png";
@@ -78,7 +79,7 @@ const Execs = () => {
               {/* Single Review */}
               <div className="single-review text-center focus-reset">
                 <div className="mb-8 circle-265 mx-auto">
-                  <img src={imgB} alt="" className="w-100" />
+                  <Image src={imgB} alt="" className="w-100" width={265} height={265}/>
                 </div>
                 <div>
                   <h5 className="font-size-7 mb-0">Kabir Ramzan</h5>
@@ -92,7 +93,7 @@ const Execs = () => {
               {/* Single Review */}
               <div className="single-review text-center focus-reset">
                 <div className="mb-8 circle-265 mx-auto">
-                  <img src={imgB2} alt="" className="w-100" />
+                  <Image src={imgB2} alt="" className="w-100" width={265} height={265} />
                 </div>
                 <div>
                   <h5 className="font-size-7 mb-0">Shafin Haque</h5>
@@ -106,7 +107,7 @@ const Execs = () => {
               {/* Single Review */}
               <div className="single-review text-center focus-reset">
                 <div className="mb-8 circle-265 mx-auto">
-                  <img src={imgB3} alt="" className="w-100" />
+                  <Image src={imgB3} alt="" className="w-100" width={265} height={265} />
                 </div>
                 <div>
                   <h5 className="font-size-7 mb-0">Ishir Lakhani</h5>
@@ -144,13 +145,13 @@ const Execs = () => {
               {...sliderConfig2}
             >
               <div className="single-img circle-73 mx-3 cursor-pointe exec-image">
-                <img src={imgU1} alt="" className="w-100" />
+                <Image src={imgU1} alt="" className="w-100" width={73} height={73} />
               </div>
               <div className="single-img circle-73 mx-3 cursor-pointer exec-image">
-                <img src={imgU2} alt="" className="w-100" />
+                <Image src={imgU2} alt="" className="w-100" width={73} height={73} />
               </div>
               <div className="single-img circle-73 mx-3 cursor-pointer exec-image">
-                <img src={imgU3} alt="" className="w-100" />
+                <Image src={imgU3} alt="" className="w-100" width={73} height={73} />
               </div>
             </SliderSmall>
             <button

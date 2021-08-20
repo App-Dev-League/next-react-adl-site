@@ -1,7 +1,9 @@
 import React from "react"; 
  
 import imgM from "../../assets/krish.jpg"; 
-import imgDP from "../../assets/image/home-2/png/dot-pattern-black.png"; 
+import imgDP from "../../assets/image/home-2/png/dot-pattern-black.png";
+
+import Image from "next/image"
 
 const OurCEO = ({ className, ...rest }) => {
   return ( 
@@ -35,7 +37,7 @@ const OurCEO = ({ className, ...rest }) => {
             > 
               <div className="content-image-group-3 mb-17 mb-lg-0 mr-xl-16"> 
                 <div className="img-1"> 
-                  <img className="w-100 rounded-lg" src={imgM} alt="" /> 
+                  <Image className="w-100 rounded-lg" src={imgM} alt="" width={475} height={633} /> 
                   <div className="img-2"> 
                     <img className="w-100" src={imgDP} alt="" /> 
                   </div> 
