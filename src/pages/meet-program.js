@@ -8,7 +8,7 @@ import Benefits from "../sections/mentorship/Benefits";
 import Overview from "../sections/mentorship/Overview";
 import NextSteps from "../sections/mentorship/NextSteps";
 
-const PricingPage = () => {
+const MEETProgram = () => {
   return (
     <>
       <Head>
@@ -31,4 +31,4 @@ const PricingPage = () => {
     </>
   );
 };
-export default PricingPage;
+export default MEETProgram;
