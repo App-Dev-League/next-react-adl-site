@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react"; 
-import Link from "next/link"; 
+import Image from "next/image"; 
  
 import imgM from "../../assets/skills.png"; 
 import imgDP from "../../assets/image/home-2/png/dot-pattern-black.png"; 
@@ -50,7 +50,7 @@ const Progress = ({ className, ...rest }) => {
             > 
               <div className="content-image-group-3 mb-17 mb-lg-0 mr-xl-16"> 
                 <div className="img-1"> 
-                  <img className="w-100" src={imgM} alt="" /> 
+                  <Image className="w-100" src={imgM} alt="" width={495} height={292} /> 
                   <div className="img-2"> 
                     <img className="w-100" src={imgDP} alt="" /> 
                   </div> 

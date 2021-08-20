@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import Image from "next/image";
 import imageOne from "../../assets/events.png";
 import imageTwo from "../../assets/monthly.png";
 
@@ -52,15 +52,19 @@ const ContentTwo = ({ className, ...rest }) => {
               </div>
             </div>
             {/* End Right Image */}
-            <div className="col-xl-5 offset-lg-1 col-lg-6 col-md-8 mt-10 mt-lg-0">
-              <img
+            <div
+              className="col-xl-5 offset-lg-1 col-lg-6 col-md-8 mt-10 mt-lg-0"
+              data-aos="fade-right"
+              data-aos-duration={600}
+              data-aos-delay={300}
+              data-aos-once="true" data-aos-duration={1000}
+            >
+              <Image
                 className="w-100"
                 src={imageOne}
                 alt=""
-                data-aos="fade-right"
-                data-aos-duration={600}
-                data-aos-delay={300}
-                data-aos-once="true" data-aos-duration={1000}
+                width={445}
+                height={318}
               />
             </div>
           </div>
@@ -70,15 +74,19 @@ const ContentTwo = ({ className, ...rest }) => {
         <div className="container">
           <div className="row align-items-center justify-content-center">
             {/* Right Image */}
-            <div className="col-xl-6 col-lg-5 col-md-8 mb-10 mb-lg-0">
-              <img
+            <div
+              className="col-xl-6 col-lg-5 col-md-8 mb-10 mb-lg-0"
+              data-aos="fade-right"
+              data-aos-duration={600}
+              data-aos-delay={300}
+              data-aos-once="true" data-aos-duration={1000}
+            >
+              <Image
                 className="w-100"
                 src={imageTwo}
                 alt=""
-                data-aos="fade-right"
-                data-aos-duration={600}
-                data-aos-delay={300}
-                data-aos-once="true" data-aos-duration={1000}
+                width={540}
+                height={360}
               />
             </div>
             {/* End Right Image */}

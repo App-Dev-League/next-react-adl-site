@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image"
 
 import img1 from "../../assets/events_background.png";
 import img2 from "../../assets/devnetic.png";
@@ -45,7 +46,9 @@ const TechHelp = ({ className, ...rest }) => {
                     <li><strong>Hands On -</strong> Numerous projects along the course</li>
                     <li><strong>Personalized Help -</strong> 1 v 1 sessions with personalized content</li>
                   </ul>
-                  <img src={img1} alt="" className="d-block w-75 mx-auto mt-8 rounded-lg"/>
+                  <div className="d-flex justify-content-center mt-8">
+                    <Image src={img1} alt="" className="d-block mx-auto rounded-lg" width={375} height={248} />
+                  </div>
                 </Card.Body>
               </Card>
             </div>
@@ -64,7 +67,9 @@ const TechHelp = ({ className, ...rest }) => {
                   <p>
                     App Dev League is launching an interactive teaching app for students to learn about Application Development and AI through a series of interactive multiple choice questions, videos, as well as a gamified leveling up system.
                   </p>
-                  <img src={img2} alt="" className="d-block w-75 mx-auto rounded-lg"/>
+                  <div className="d-flex justify-content-center">
+                    <Image src={img2} alt="" className="d-block mx-auto rounded-lg" width={375} height={248}/>
+                  </div>
                 </Card.Body>
               </Card>
             </div>
