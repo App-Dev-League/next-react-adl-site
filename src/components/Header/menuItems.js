@@ -75,7 +75,6 @@ export const menuItems = [
       { name: "meet-program", label: "MEET Program" },
       { name: "star-program", label: "STAR Program" },
       { name: "afi-program", label: "AFI Program" },
-      { name: "youtube", label: "YouTube" },
     ],
   },
   {

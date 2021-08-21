@@ -25,7 +25,6 @@ const STARProgram = () => {
         <Hero />
         <Overview className="pt-12 pt-lg-25" />
         <Benefits className="py-12 py-lg-25" />
-        <Offerings />
         <NextSteps className="pb-lg-21 border-top border-default-color-1" />
       </PageWrapper>
     </>
