@@ -19,11 +19,11 @@ const offeringsData = [
     description: "In Advanced Web Development Frameworks (Frontend and Backend), we will go more in depth on the inner workings of a website, including how to request responses from form elements into a database and how to then use the database. The final project will again involve students making their own webpages, but the websites will feel far more professional (and hopefully the students too!).",
   },
   {
-    title: "Basic Intro to Artificial Intelligence and ML (Supervised)",
+    title: "Basic Intro to Artificial Intelligence and ML",
     description: "Basic Intro to Artificial Intelligence and Machine Learning, we will go into some of the early machine learning concepts such as linear and logistic regression, neural networks, computer vision models, and natural language processing. For our final project, students would come up with a problem they want to try and make it themselves (data would be provided by official libraries).",
   },
   {
-    title: "Advanced Understanding of AI (NNs + Unsupervised)",
+    title: "Advanced Understanding of AI",
     description: "In Advanced Understanding of Artificial Intelligence, we would teach more complicated concepts, including but not limited to: ternary neural networks, q learning, and contrastive learning. The final project will involve solving a problem with AI, but the outcome will exemplify much more sophisticated code then in Basic Understanding of Artificial Intelligence and Machine Learning.",
   },
   {
