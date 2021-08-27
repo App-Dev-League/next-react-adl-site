@@ -2,12 +2,10 @@ import React from "react";
 import Image from "next/image"
 
 import memberImage1 from "../../assets/directors/claire.png";
-import memberImage2 from "../../assets/directors/cynthia.png";
 import memberImage3 from "../../assets/directors/aniketh.png";
-import memberImage4 from "../../assets/directors/athreya.png";
-import memberImage5 from "../../assets/directors/joe.png";
 import memberImage6 from "../../assets/directors/sarthak.png";
-import memberImage7 from "../../assets/directors/Luis.png";
+import memberImage8 from "../../assets/directors/kamil.png";
+import memberImage9 from "../../assets/directors/desiree.png";
 
 const DirectorCard = ({ image, name, position, ...rest }) => {
   return (
@@ -39,39 +37,9 @@ const Directors = ({ className, ...rest }) => {
       },
     },
     {
-      image: memberImage2,
-      name: "Cynthia Wang",
-      position: "Director of Graphic Design",
-      animation: {
-        animationName: "fade-up",
-        delay: 300,
-        duration: null,
-      },
-    },
-    {
       image: memberImage3,
       name: "Aniketh Tummala",
-      position: "Director of Mentorship Program",
-      animation: {
-        animationName: "fade-up",
-        delay: 300,
-        duration: null,
-      },
-    },
-    {
-      image: memberImage4,
-      name: "Athreya Daniel",
-      position: "Director of Artificial Intelligence",
-      animation: {
-        animationName: "fade-up",
-        delay: 300,
-        duration: null,
-      },
-    },
-    {
-      image: memberImage5,
-      name: "Joe Li",
-      position: "Director of Python Development",
+      position: "Director of MEET Program",
       animation: {
         animationName: "fade-up",
         delay: 300,
@@ -81,7 +49,7 @@ const Directors = ({ className, ...rest }) => {
     {
       image: memberImage6,
       name: "Sarthak Dayal",
-      position: "Director of App Development",
+      position: "Director of STAR Program",
       animation: {
         animationName: "fade-up",
         delay: 300,
@@ -98,6 +66,26 @@ const Directors = ({ className, ...rest }) => {
         duration: null,
       },
     },*/
+    {
+      image: memberImage8,
+      name: "Kamil Pawlak",
+      position: "Director of Web Development",
+      animation: {
+        animationName: "fade-up",
+        delay: 300,
+        duration: null,
+      },
+    },
+    {
+      image: memberImage9,
+      name: "Desiree Luo",
+      position: "Director of Marketing",
+      animation: {
+        animationName: "fade-up",
+        delay: 300,
+        duration: null,
+      },
+    },
   ];
   return (
     <div className={className} {...rest}>

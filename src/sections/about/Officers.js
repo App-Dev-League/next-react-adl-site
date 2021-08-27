@@ -2,21 +2,21 @@ import React from "react";
 
 import TeamMemberCard from "../../components/TeamMemberCard";
 import img1 from "../../assets/instructors/Matthew.jpg";
-import img2 from "../../assets/instructors/arcade.png";
+/*import img2 from "../../assets/instructors/arcade.png"*/;
 import img3 from "../../assets/instructors/Kunal.png";
-import img4 from "../../assets/instructors/vishnu.png";
 import img5 from "../../assets/instructors/pavan.png";
-import img6 from "../../assets/outreach/desiree.png";
 import img7 from "../../assets/outreach/Pranav.png";
 import img8 from "../../assets/outreach/Zara.png";
 import img9 from "../../assets/outreach/KrishM.png";
 import img10 from "../../assets/outreach/amit.png";
 import img11 from "../../assets/outreach/Isha.png";
 import img12 from "../../assets/instructors/harsh.png";
-import img13 from "../../assets/instructors/chaitya.png";
-import img14 from "../../assets/instructors/joel.png";
 import img15 from "../../assets/instructors/reeva.png";
-
+import img16 from "../../assets/instructors/kenneth.png";
+import img17 from "../../assets/instructors/athreya.png";
+import img18 from "../../assets/instructors/joe.png";
+import img19 from "../../assets/instructors/anish.png";
+import img20 from "../../assets/instructors/panth.png";
 
 const instructors = [
   {
@@ -24,20 +24,15 @@ const instructors = [
     name: "Matthew Lau",
     title: "Basic Web Dev Instructor",
   },
-  {
+  /*{
     image: img2,
     name: "Arcade Wise",
     title: "Advanced Web Dev Instructor",
-  },
+  },*/
   {
     image: img3,
     name: "Kunal Jain",
-    title: "Mobile App Dev Instructor",
-  },
-  {
-    image: img4,
-    name: "Vishnu Mangipudi",
-    title: "Deep Learning Instructor",
+    title: "Basic Web Dev Mentor",
   },
   {
     image: img5,
@@ -47,45 +42,50 @@ const instructors = [
   {
     image: img12,
     name: "Harsh Nagouda",
-    title: "Machine Learning Instructor",
-  },
-  {
-    image: img13,
-    name: "Chaitya Jodhavat",
-    title: "Frontend Web Dev Instructor",
-  },
-  {
-    image: img14,
-    name: "Joel Johnson",
-    title: "Backend Web Dev Instructor",
+    title: "Advanced AI Instructor",
   },
   {
     image: img15,
     name: "Reeva Khokar",
-    title: "Intro to CS instructor",
+    title: "Intro to CS Mentor",
+  },
+  {
+    image: img16,
+    name: "Kenneth Choi",
+    title: "Basic AI Mentor",
+  },
+  {
+    image: img17,
+    name: "Athreya Daniel",
+    title: "Basic AI Instructor",
+  },
+  {
+    image: img18,
+    name: "Joe Li",
+    title: "Competitive Coding Mentor",
+  },
+  {
+    image: img19,
+    name: "Anish Gupta",
+    title: "Workshop Coordinator",
   }
 ];
 
 const outreach = [
   {
-    image: img6,
-    name: "Desiree Luo",
-    title: "Social Media Coordinator",
-  },
-  {
     image: img7,
     name: "Pranav Gunhal",
-    title: "Contact List Coordinator",
+    title: "Low-Income Outreach Coordinator",
   },
   {
     image: img8,
     name: "Zara Siddiqui",
-    title: "Sponsorship/Grant Coordinator",
+    title: "School Outreach Coordinator",
   },
   {
     image: img9,
     name: "Krish Mendapara",
-    title: "Sponsorship Scouter",
+    title: "Grant Coordinator",
   },
   {
     image: img10,
@@ -95,7 +95,12 @@ const outreach = [
   {
     image: img11,
     name: "Isha Kotalwar",
-    title: "Outreach Activity Coordinator",
+    title: "Onboarding Manager",
+  },
+  {
+    image: img20,
+    name: "Panth Desai",
+    title: "Sponsorship Coordinator",
   }
 ];
 
