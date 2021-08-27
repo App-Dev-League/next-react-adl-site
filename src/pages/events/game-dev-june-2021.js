@@ -7,7 +7,7 @@ import TeamMemberCard from "../../components/TeamMemberCard";
 import PageWrapper from "../../components/PageWrapper";
 import heroPhoto from "../../assets/events/game-development-course-june-2021.jpeg"
 import img6 from "../../assets/execs/ishir.png";
-import img7 from "../../assets/directors/athreya.png";
+import img7 from "../../assets/instructors/athreya.png";
 
 const EventPage = () => {
   const instructors = [

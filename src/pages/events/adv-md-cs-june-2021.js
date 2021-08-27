@@ -9,7 +9,7 @@ import heroPhoto from "../../assets/events/advanced-multi-disciplinary-cs-course
 import img1 from "../../assets/execs/shafin.png";
 import img2 from "../../assets/execs/kabir.png";
 import img3 from "../../assets/instructors/vishnu.png";
-import img4 from "../../assets/directors/joe.png";
+import img4 from "../../assets/instructors/joe.png";
 import img5 from "../../assets/instructors/pavan.png";
 import img6 from "../../assets/instructors/Arjun.png";
 
