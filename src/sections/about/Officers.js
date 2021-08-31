@@ -2,7 +2,7 @@ import React from "react";
 
 import TeamMemberCard from "../../components/TeamMemberCard";
 import img1 from "../../assets/instructors/Matthew.jpg";
-/*import img2 from "../../assets/instructors/arcade.png"*/;
+import img2 from "../../assets/instructors/joshua.png";
 import img3 from "../../assets/instructors/Kunal.png";
 import img5 from "../../assets/instructors/pavan.png";
 import img7 from "../../assets/outreach/Pranav.png";
@@ -17,6 +17,10 @@ import img17 from "../../assets/instructors/athreya.png";
 import img18 from "../../assets/instructors/joe.png";
 import img19 from "../../assets/instructors/anish.png";
 import img20 from "../../assets/instructors/panth.png";
+import img21 from "../../assets/instructors/aldrich.png";
+import img22 from "../../assets/instructors/nolan.png";
+import img23 from "../../assets/outreach/fernando.png";
+import img24 from "../../assets/outreach/raisa.png";
 
 const instructors = [
   {
@@ -24,11 +28,11 @@ const instructors = [
     name: "Matthew Lau",
     title: "Basic Web Dev Instructor",
   },
-  /*{
+  {
     image: img2,
-    name: "Arcade Wise",
+    name: "Joshua Zou",
     title: "Advanced Web Dev Instructor",
-  },*/
+  },
   {
     image: img3,
     name: "Kunal Jain",
@@ -45,6 +49,11 @@ const instructors = [
     title: "Advanced AI Instructor",
   },
   {
+    image: img21,
+    name: "Aldrich Alvarez",
+    title: "Advanced AI Instructor",
+  },
+  {
     image: img15,
     name: "Reeva Khokar",
     title: "Intro to CS Mentor",
@@ -53,6 +62,11 @@ const instructors = [
     image: img16,
     name: "Kenneth Choi",
     title: "Basic AI Mentor",
+  },
+  {
+    image: img22,
+    name: "Nolan Dagum",
+    title: "Advanced AI Mentor",
   },
   {
     image: img17,
@@ -101,6 +115,16 @@ const outreach = [
     image: img20,
     name: "Panth Desai",
     title: "Sponsorship Coordinator",
+  },
+  {
+    image: img23,
+    name: "Fernando Rojas",
+    title: "Social Media Designer",
+  },
+  {
+    image: img24,
+    name: "Raisa Nirjhar",
+    title: "Blog Writer",
   }
 ];
 
