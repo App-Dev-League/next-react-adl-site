@@ -21,6 +21,7 @@ import img21 from "../../assets/instructors/aldrich.png";
 import img22 from "../../assets/instructors/nolan.png";
 import img23 from "../../assets/outreach/fernando.png";
 import img24 from "../../assets/outreach/raisa.png";
+import img25 from "../../assets/outreach/claire-su.png";
 
 const instructors = [
   {
@@ -119,6 +120,11 @@ const outreach = [
   {
     image: img23,
     name: "Fernando Rojas",
+    title: "Social Media Designer",
+  },
+  {
+    image: img25,
+    name: "Claire Su",
     title: "Social Media Designer",
   },
   {
