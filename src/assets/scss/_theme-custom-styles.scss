@@ -165,7 +165,7 @@
 .hero-bg {
     position: relative;
     &::after {
-        background-image: url(../hero-background.jpg);
+        background-image: url('/hero-background.jpg');
         background-size: cover;
         position: absolute;
         top: 0;

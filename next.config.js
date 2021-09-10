@@ -6,5 +6,8 @@ module.exports = withOptimizedImages({
     // images: {
     //   path: "/src/assets/image",
     // },
+    images: {
+      disableStaticImages: true
+    },
     target: "serverless",
   })
