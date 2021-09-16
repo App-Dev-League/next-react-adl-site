@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image"
 
-import memberImage1 from "../../assets/directors/claire.png";
 import memberImage3 from "../../assets/directors/aniketh.png";
 import memberImage6 from "../../assets/directors/sarthak.png";
 import memberImage8 from "../../assets/directors/kamil.png";
 import memberImage9 from "../../assets/directors/desiree.png";
+import memberImage10 from "../../assets/directors/zara.png";
 
 const DirectorCard = ({ image, name, position, ...rest }) => {
   return (
@@ -27,8 +27,8 @@ const DirectorCard = ({ image, name, position, ...rest }) => {
 const Directors = ({ className, ...rest }) => {
   const DirectorsData = [
     {
-      image: memberImage1,
-      name: "Claire Miao",
+      image: memberImage10,
+      name: "Zara Siddiqui",
       position: "Director of Partnerships",
       animation: {
         animationName: "fade-up",

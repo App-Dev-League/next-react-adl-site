@@ -6,7 +6,6 @@ import img2 from "../../assets/instructors/joshua.png";
 import img3 from "../../assets/instructors/Kunal.png";
 import img5 from "../../assets/instructors/pavan.png";
 import img7 from "../../assets/outreach/Pranav.png";
-import img8 from "../../assets/outreach/Zara.png";
 import img9 from "../../assets/outreach/KrishM.png";
 import img10 from "../../assets/outreach/amit.png";
 import img11 from "../../assets/outreach/Isha.png";
@@ -22,6 +21,8 @@ import img22 from "../../assets/instructors/nolan.png";
 import img23 from "../../assets/outreach/fernando.png";
 import img24 from "../../assets/outreach/raisa.png";
 import img25 from "../../assets/outreach/claire-su.png";
+import img26 from "../../assets/instructors/aarav.png";
+import img27 from "../../assets/instructors/chiling.png";
 
 const instructors = [
   {
@@ -32,6 +33,11 @@ const instructors = [
   {
     image: img2,
     name: "Joshua Zou",
+    title: "Advanced Web Dev Instructor",
+  },
+  {
+    image: img26,
+    name: "Aarav Borthakur",
     title: "Advanced Web Dev Instructor",
   },
   {
@@ -52,6 +58,11 @@ const instructors = [
   {
     image: img21,
     name: "Aldrich Alvarez",
+    title: "Advanced AI Instructor",
+  },
+  {
+    image: img27,
+    name: "Chiling Han",
     title: "Advanced AI Instructor",
   },
   {
@@ -91,11 +102,6 @@ const outreach = [
     image: img7,
     name: "Pranav Gunhal",
     title: "Low-Income Outreach Coordinator",
-  },
-  {
-    image: img8,
-    name: "Zara Siddiqui",
-    title: "School Outreach Coordinator",
   },
   {
     image: img9,
