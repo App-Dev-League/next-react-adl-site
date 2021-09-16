@@ -5,7 +5,7 @@ import memberImage3 from "../../assets/directors/aniketh.png";
 import memberImage6 from "../../assets/directors/sarthak.png";
 import memberImage8 from "../../assets/directors/kamil.png";
 import memberImage9 from "../../assets/directors/desiree.png";
-import memberImage10 from "../../assets/directors/zara.png";
+import memberImage10 from "../../assets/directors/Zara.png";
 
 const DirectorCard = ({ image, name, position, ...rest }) => {
   return (
