@@ -77,7 +77,7 @@ const NextSteps = ({ className, ...rest }) => {
                   <div className="">
                     <h3 className="font-size-8 m-0">Set up a call</h3>
                     <p className="font-size-5 line-height-28 mb-0">
-                    with our AFI manager
+                    with our CAMP manager
                     </p>
                   </div>
                 </div>

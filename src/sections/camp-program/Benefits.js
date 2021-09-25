@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react"; 
  
-import imgM from "../../assets/afi-program/benefits.jpg"; 
+import imgM from "../../assets/camp-program/benefits.jpg"; 
 import imgDP from "../../assets/image/home-2/png/dot-pattern-black.png"; 
 import Image from "next/image"
 
@@ -65,7 +65,7 @@ const Benefits = ({ className, ...rest }) => {
                   </div>
                   <div className="mt-2">
                     <strong className="font-size-8 mb-3 d-block">Community</strong>
-                    <p>By joining the AFI program, your organization will be able to access not only all the free benefits we provide but also our community of students, allowing you to expand your organization's presence. </p>
+                    <p>By joining the CAMP program, your organization will be able to access not only all the free benefits we provide but also our community of students, allowing you to expand your organization's presence. </p>
                   </div>
                 </li>
               </ul>

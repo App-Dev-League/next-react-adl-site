@@ -78,7 +78,7 @@ export const menuItems = [
       { name: "https://appathon.appdevleague.org/", label: "Appathon", isExternal: true },
       { name: "meet-program", label: "MEET Program" },
       { name: "star-program", label: "STAR Program" },
-      { name: "afi-program", label: "AFI Program" },
+      { name: "camp-program", label: "CAMP Program" },
     ],
   },
   {
