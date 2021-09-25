@@ -1,6 +1,6 @@
 import React from "react";
 
-import imgC from "../../assets/afi-program/overview.jpg";
+import imgC from "../../assets/camp-program/overview.jpg";
 import imgP from "../../assets/image/home-2/png/patterns-dot-green.png";
 import imgH from "../../assets/image/home-2/png/right-circlehalf-shape.png";
 
@@ -19,10 +19,10 @@ const Overview = ({ className, ...rest }) => {
             >
               <p className="font-size-5 font-weight-bold text-uppercase mb-1 text-gray" style={{letterSpacing: "3px"}}>Overview</p>
               <h2 className="font-size-9 mb-12">
-              Apps For Impact
+              Community App Management and Production
               </h2>
               <p>
-              The AFI program allows organizations (non profits, school clubs, etc..) to have their websites and apps built within weeks. For free. Our goal for this initiative is to build Apps For Impact and help communities, especially those that were hit hard by COVID and racial discrimination, in any aspect we can through the power of Apps. 
+              The CAMP program allows organizations (non profits, school clubs, etc..) to have their websites and apps built within weeks. For free. Our goal for this initiative is to build applications to help communities, especially those that were hit hard by COVID and racial discrimination, in any aspect we can through the power of apps. 
               </p>
             </div>
             {/* Left End */}
