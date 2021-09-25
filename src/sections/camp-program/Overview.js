@@ -22,7 +22,7 @@ const Overview = ({ className, ...rest }) => {
               Community App Management and Production
               </h2>
               <p>
-              The CAMP program allows organizations (non profits, school clubs, etc..) to have their websites and apps built within weeks. For free. Our goal for this initiative is to build applications to help communities, especially those that were hit hard by COVID and racial discrimination, in any aspect we can through the power of apps. 
+              The CAMP program allows organizations (non profits, school clubs, etc.) to have their websites and apps built within weeks. For free. Our goal for this initiative is to build applications to help communities, especially those that were hit hard by COVID and racial discrimination, in any aspect we can through the power of apps. 
               </p>
             </div>
             {/* Left End */}
