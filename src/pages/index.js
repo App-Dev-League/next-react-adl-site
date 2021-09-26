@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Head from "next/head";
 
 import PageWrapper from "../components/PageWrapper";
@@ -10,8 +10,19 @@ import Events from "../sections/home1/Events";
 import TechHelp from "../sections/home1/TechHelp";
 import Testimonials from "../sections/home1/Testimonials";
 import FAQ from "../sections/home1/FAQ"; 
+import Popup from 'reactjs-popup';
 
 const IndexPage = () => {
+  const [open, setOpen] = useState(false);
+  useEffect(() => {
+    setOpen(!localStorage.getItem("adl-recap-2021-popup-closed"))
+  }, [])
+  const closeModal = () => {
+    setOpen(false)
+    localStorage.setItem("adl-recap-2021-popup-closed", "true")
+  };
+
+
   return (
     <>
       <Head>
@@ -33,6 +44,19 @@ const IndexPage = () => {
         <TechHelp className="bg-adl-1 pt-12 pt-lg-25 pb-12 pb-lg-20" />
         <Testimonials className="pt-12 pt-lg-19 pb-12 pb-lg-17" />
         <FAQ />
+        <div suppressHydrationWarning={true}>
+          {process.browser && (
+            <Popup open={open} closeOnDocumentClick onClose={closeModal}>
+              <div className="d-flex flex-column align-items-center">
+                <button onClick={closeModal} className="button btn h-auto w-auto d-flex justify-content-end align-self-end py-0 px-3" style={{minWidth: "0"}}>
+                  <i className="fa fa-times font-size-8" />
+                </button>
+                <p>Our appathon event was a great success, check out our recap video!</p>
+                <iframe width="480" height="270" src="https://www.youtube-nocookie.com/embed/yscfPiaSpmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </Popup>
+          )}
+        </div>
       </PageWrapper>
     </>
   );
