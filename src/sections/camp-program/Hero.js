@@ -20,7 +20,7 @@ const Hero = () => {
               data-aos-duration={1000}
               data-aos-delay={500}
             >
-              <h2 className="font-size-11 mb-5">AFI Program</h2>
+              <h2 className="font-size-11 mb-5">CAMP Program</h2>
             </div>
           </div>
         </div>

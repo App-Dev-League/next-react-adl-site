@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image"
-import img1 from "../../assets/afi-program/site1.jpg"
-import img2 from "../../assets/afi-program/site2.jpg"
+import img1 from "../../assets/camp-program/site1.jpg"
+import img2 from "../../assets/camp-program/site2.jpg"
 
 const sitesData = [
   {
