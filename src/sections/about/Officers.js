@@ -23,6 +23,7 @@ import img24 from "../../assets/outreach/raisa.png";
 import img25 from "../../assets/outreach/claire-su.png";
 import img26 from "../../assets/instructors/aarav.png";
 import img27 from "../../assets/instructors/chiling.png";
+import img28 from "../../assets/instructors/aarush.png";
 
 const instructors = [
   {
@@ -44,6 +45,11 @@ const instructors = [
     image: img3,
     name: "Kunal Jain",
     title: "Basic Web Dev Mentor",
+  },
+  {
+    image: img28,
+    name: "Aarush Vailaya",
+    title: "Web Dev Mentor",
   },
   {
     image: img5,
