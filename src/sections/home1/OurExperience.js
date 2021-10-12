@@ -82,7 +82,7 @@ const Progress = ({ className, ...rest }) => {
               </div>
               <div className="mb-10">
                 <p className="d-flex justify-content-between mb-4">
-                  Knowledge gained from events
+                  Gained knowledge from events
                   <span>95%</span>
                 </p>
                 <ProgressBar now={progressBarsFilled ? 95 : 0}/>
