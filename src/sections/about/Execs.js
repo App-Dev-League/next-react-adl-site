@@ -86,7 +86,7 @@ const Execs = () => {
                   <p className="font-size-5">VP of Technology</p>
                 </div>
                 <p className="font-size-6 heading-default-color mt-7">
-                  Kabir Ramzan is a sophomore at The Harker School who is passionate about software development. As the VP of tech, he manages the technological operations and infrastructure of ADL, as well as oversees most internal teams. His skills include python and full-stack development. In his free time, Kabir enjoys building apps for his school to aid in remote learning and developing his software company (TogaTech).
+                  Kabir Ramzan is a sophomore at The Harker School who is passionate about software development. As the VP of tech, he manages the technological operations and infrastructure of ADL, as well as oversees most internal teams. His skills include full-stack web development and Python. In his free time, Kabir enjoys building apps for his school and developing his software company (TogaTech).
                 </p>
               </div>
               {/* End Single Review */}
