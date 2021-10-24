@@ -23,20 +23,23 @@ const upcomingEvents = [
     description: "Are you a student who wants to learn the basics of Artificial Intelligence? Well then this event is for you! App Dev League will host this 1-day workshop in partnership with StartOnAI on November 6th.",
     learnMoreLink: {
       href: "/events/startonai-november-2021"
+    },
+    signUpLink: {
+      href: "https://docs.google.com/forms/d/e/1FAIpQLSd03Dzuwlaojjk3HTlS7qPOcN8UT9jq0k0YZFoprFMyur-9zw/viewform"
     }
   },
+]
+
+const pastEvents = [
   {
-    name: "YAPA Kids",
+    name: "App Developer Workshop",
     image: eventImage2,
     date: "October 2021",
     description: "Are you interested in learning how to make mobile and web applications? Look no further to our 2-day interactive workshop. Students will learn how to develop mobile apps by using MIT App Inventor and create websites by using a combination of HTML, CSS, and Javascript. No prior programming experience is required.",
     learnMoreLink: {
       href: "/events/yapa-kids-october-2021"
     }
-  }
-]
-
-const pastEvents = [
+  },
   {
     name: "ADL Appathon 2021",
     image: eventImage1,
@@ -181,6 +184,11 @@ const EventList = () => {
                 >
                   <div style={{position: "relative", width: "100%", height: "250px", borderRadius: "0.625rem 0.625rem 0 0", overflow: "hidden"}}>
                     <Image src={eventData.image} layout="fill" className="next-image-cover" />
+                    {eventData.signUpLink && (
+                      <div style={{position: "absolute", bottom: "1.5rem"}} className="w-100 d-flex justify-content-center">
+                        <a href={eventData.signUpLink.href} class="btn-sm btn-info rounded-5 border border-blue border" target="blank" rel="noopener noreferrer">Sign Up</a>
+                      </div>
+                    )}
                   </div>
                   <Card.Title className="my-7 px-7">
                     {eventData.name}

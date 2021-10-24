@@ -10,9 +10,9 @@ const EventPage = () => {
   return (
     <>
       <Head>
-        <title>YAPA Kids | App Dev League</title>
-        <meta name="description" content="The YAPA Kids-ADL App Developer Workshop is a 2-day interactive event that covers the basics of web and app development."></meta>
-        <meta property="og:description" content="The YAPA Kids-ADL App Developer Workshop is a 2-day interactive event that covers the basics of web and app development."></meta>
+        <title>App Developer Workshop | App Dev League</title>
+        <meta name="description" content="The ADL App Developer Workshop is a 2-day interactive event that covers the basics of web and app development."></meta>
+        <meta property="og:description" content="The ADL App Developer Workshop is a 2-day interactive event that covers the basics of web and app development."></meta>
       </Head>
       <PageWrapper
         themeConfig={{
@@ -30,7 +30,7 @@ const EventPage = () => {
                     <Image src={heroPhoto} layout="fill" className="next-image-cover" alt="" priority={true} />
                   </div>
                   <h2 className="font-size-11 font-weight-bold text-center mb-8 mt-15">
-                  YAPA Kids
+                  App Developer Workshop
                   </h2>
                 </div>
               </div>
@@ -45,7 +45,7 @@ const EventPage = () => {
                   <div className="article-block">
                     <h5 className="font-size-7 mb-6">Description</h5>
                     <p className="font-size-5 heading-default-color">
-                    The YAPA Kids-ADL App Developer Workshop is a 2-day interactive event that covers the basics of web and app development.
+                    The ADL App Developer Workshop is a 2-day interactive event that covers the basics of web and app development.
                     <br/> <br/>
                     This workshop will be held on the weekend of October 23-24. Our beginner session will be on the 23rd from 10 am - 12 pm (PDT). Our intermediate session will be on the 24th from 10 am - 12 pm (PDT). Students may sign up for both sessions of the workshops.
                     <br/> <br/>
