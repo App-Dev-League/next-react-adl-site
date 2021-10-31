@@ -6,6 +6,7 @@ import memberImage6 from "../../assets/directors/sarthak.png";
 import memberImage8 from "../../assets/directors/kamil.png";
 import memberImage9 from "../../assets/directors/desiree.png";
 import memberImage10 from "../../assets/directors/Zara.png";
+import memberImage11 from "../../assets/directors/anish.png";
 
 const DirectorCard = ({ image, name, position, ...rest }) => {
   return (
@@ -80,6 +81,16 @@ const Directors = ({ className, ...rest }) => {
       image: memberImage9,
       name: "Desiree Luo",
       position: "Director of Marketing",
+      animation: {
+        animationName: "fade-up",
+        delay: 300,
+        duration: null,
+      },
+    },
+    {
+      image: memberImage11,
+      name: "Anish Gupta",
+      position: "Director of Events",
       animation: {
         animationName: "fade-up",
         delay: 300,

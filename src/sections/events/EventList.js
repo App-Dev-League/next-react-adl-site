@@ -35,7 +35,7 @@ const pastEvents = [
     name: "App Developer Workshop",
     image: eventImage2,
     date: "October 2021",
-    description: "Are you interested in learning how to make mobile and web applications? Look no further to our 2-day interactive workshop. Students will learn how to develop mobile apps by using MIT App Inventor and create websites by using a combination of HTML, CSS, and Javascript. No prior programming experience is required.",
+    description: "Are you interested in learning how to make mobile and web applications? Look no further to our 2-day interactive workshop with YapaKids. Students will learn how to develop mobile apps by using MIT App Inventor and create websites  using HTML, CSS, and Javascript. No prior programming experience is required.",
     learnMoreLink: {
       href: "/events/yapa-kids-october-2021"
     }
