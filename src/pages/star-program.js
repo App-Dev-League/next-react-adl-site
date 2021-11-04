@@ -6,7 +6,9 @@ import Hero from "../sections/star-program/Hero";
 import Benefits from "../sections/star-program/Benefits";
 import Overview from "../sections/star-program/Overview";
 import NextSteps from "../sections/star-program/NextSteps";
-//import PreviewOfContent from "../sections/star-program/PreviewOfContent";
+import PreviewOfContent1 from "../sections/star-program/PreviewOfContent1";
+import PreviewOfContent2 from "../sections/star-program/PreviewOfContent2";
+import PreviewOfContent3 from "../sections/star-program/PreviewOfContent3";
 
 const STARProgram = () => {
   return (
@@ -25,7 +27,9 @@ const STARProgram = () => {
         <Hero />
         <Overview className="pt-12 pt-lg-25" />
         <Benefits className="py-12 py-lg-25" />
-        {/*<PreviewOfContent className="py-12 py-lg-25" />*/}
+        <PreviewOfContent1 className="py-12 py-lg-25" />
+        <PreviewOfContent2 className="py-12 py-lg-25" />
+        <PreviewOfContent3 className="py-12 py-lg-25" />
         <NextSteps className="pb-lg-21 border-top border-default-color-1" />
       </PageWrapper>
     </>
