@@ -10,22 +10,10 @@ const PreviewOfContent2 = ({ className, ...rest }) => {
     <> 
       <div className={className} {...rest}> 
         <div className="container"> 
-          <div className="row"> 
-            {/* Right */} 
-            <div 
-              className="col-lg-7 col-xs-12 d-flex flex-column justify-content-center pr-lg-10 pb-10 pb-lg-0" 
-              data-aos="fade-right" 
-              data-aos-delay={500} 
-              data-aos-once="true" data-aos-duration={1000} 
-            > 
-              <div className="w-100 h-100 position-relative" style={{maxHeight: "360px", paddingTop: "60%"}}>
-                <Image src={imgM} alt="" layout="fill" className="next-image-cover rounded-lg" />
-              </div> 
-            </div> 
-            {/* Right */} 
+          <div className="row flex-column-reverse flex-lg-row"> 
             {/* Left */} 
             <div 
-              className="col-lg-5 col-xs-12 pl-lg-12" 
+              className="col-lg-5 col-xs-12" 
               data-aos="fade-left" 
               data-aos-delay={500} 
               data-aos-once="true" data-aos-duration={1000}
@@ -56,6 +44,18 @@ const PreviewOfContent2 = ({ className, ...rest }) => {
               </Dropdown>
             </div> 
             {/* Left End */}
+            {/* Right */} 
+            <div 
+              className="col-lg-7 col-xs-12 d-flex flex-column justify-content-center pl-lg-12 pb-10 pb-lg-0" 
+              data-aos="fade-right" 
+              data-aos-delay={500} 
+              data-aos-once="true" data-aos-duration={1000} 
+            > 
+              <div className="w-100 h-100 position-relative" style={{maxHeight: "360px", paddingTop: "60%"}}>
+                <Image src={imgM} alt="" layout="fill" className="next-image-cover rounded-lg" />
+              </div> 
+            </div> 
+            {/* Right */} 
           </div> 
         </div> 
       </div> 
