@@ -37,7 +37,7 @@ const PreviewOfContent3 = ({ className, ...rest }) => {
                 Artificial Intelligence
               </h2>
               <h3 className="font-size-7 mb-7 mb-lg-12 text-gray">
-                Week 1 Curriculum
+                8-week curriculum
               </h3>
               <p className="mb-8">
                 In this day and age, CS is applied everywhere. Joining the STAR program will allow your Title 1 school or low-income center to develop your reputation as a CS school with the improved tech infrastructure (laptops, internet, etc..) and valuable content that we provide. 
