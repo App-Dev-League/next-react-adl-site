@@ -30,7 +30,7 @@ const Directors = ({ className, ...rest }) => {
     {
       image: memberImage10,
       name: "Zara Siddiqui",
-      position: "Director of Partnerships",
+      position: "Director of Chapter Program",
       animation: {
         animationName: "fade-up",
         delay: 300,

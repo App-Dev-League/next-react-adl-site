@@ -48,13 +48,13 @@ const Apply = ({ className, ...rest }) => {
                   <div className="circle-60 bg-bluewood mr-6 mr-sm-8 font-size-8 text-white">
                     <i className="fa fa-copy"></i>
                   </div>
-                  <p className="font-size-7 heading-default-color mb-0">Read the application packet</p>
+                  <p className="font-size-7 heading-default-color mb-0">Read the <a href="https://docs.google.com/document/u/2/d/1ZqExx6XgUdbDkFHi502d_eY3gW3uHf5oojaJoBAp4Rs/edit" target="__blank" rel="noopener noreferrer">application packet</a></p>
                 </div>
                 <div className="d-flex align-items-center mb-8">
                   <div className="circle-60 bg-bluewood mr-6 mr-sm-8 font-size-8 text-white">
                     <i className="fa fa-marker"></i>
                   </div>
-                  <p className="font-size-7 heading-default-color mb-0">Fill out the leadership application</p>
+                  <p className="font-size-7 heading-default-color mb-0">Fill out the <a href="https://tiny.cc/teamapplicantADL" target="__blank" rel="noopener noreferrer">leadership application</a></p>
                 </div>
                 <div className="d-flex align-items-center mb-8">
                   <div className="circle-60 bg-bluewood mr-6 mr-sm-8 font-size-8 text-white">

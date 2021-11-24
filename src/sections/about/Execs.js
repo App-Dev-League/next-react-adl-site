@@ -111,7 +111,7 @@ const Execs = () => {
                 </div>
                 <div>
                   <h5 className="font-size-7 mb-0">Ishir Lakhani</h5>
-                  <p className="font-size-5">VP of Marketing</p>
+                  <p className="font-size-5">VP of Outreach</p>
                 </div>
                 <p className="font-size-6 heading-default-color mt-7">
                   Ishir Lakhani is a junior at Saratoga High School who got into programming in order to express his creativity through personal projects. As the VP of marketing, he manages the social media, graphic design, and video editing teams. His skills include interpersonal communication, as well as C++, Python, Java, and JavaScript.
