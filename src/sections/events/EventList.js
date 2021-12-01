@@ -16,6 +16,9 @@ import eventImage11 from "../../assets/events/basic-web-dev-course-jul-2020.jpg"
 import eventImage12 from "../../assets/events/basic-app-dev-course-jul-2020.jpg"
 
 const upcomingEvents = [
+]
+
+const pastEvents = [
   {
     name: "StartOnAI",
     image: eventImage9,
@@ -28,9 +31,6 @@ const upcomingEvents = [
       href: "https://docs.google.com/forms/d/e/1FAIpQLSd03Dzuwlaojjk3HTlS7qPOcN8UT9jq0k0YZFoprFMyur-9zw/viewform"
     }
   },
-]
-
-const pastEvents = [
   {
     name: "App Developer Workshop",
     image: eventImage2,
@@ -162,10 +162,13 @@ const EventList = () => {
               <h2 className="font-size-10 mb-7 letter-spacing-n83">
                 Upcoming Events
               </h2>
+              <div className="bg-white d-inline-block p-6 border rounded mx-auto mt-8"> 
+                <p className="m-0">No upcoming events right now.</p> 
+              </div> 
             </div>
           </div>
         </div>
-        <div
+        {/*<div
           className="row my-n5 justify-content-center"
           id="mission"
           data-aos="fade-up"
@@ -210,7 +213,7 @@ const EventList = () => {
               </div>
             )
           })}
-        </div>
+        </div>*/}
         {/* section title */}
         <div className="row justify-content-center mt-12">
           <div className="col-md-10">
