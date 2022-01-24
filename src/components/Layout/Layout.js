@@ -12,7 +12,6 @@ import ModalVideo from "../ModalVideo";
 
 import GlobalContext from "../../context/GlobalContext";
 
-import imgFavicon from "../../assets/adl-logo.png";
 
 const Loader = styled.div`
   position: fixed;
@@ -68,31 +67,6 @@ const Layout = ({ children, pageContext }) => {
   if (pageContext.layout === "mini") {
     return (
       <>
-        <Head>
-          <title>App Dev League</title>
-          <link rel="icon" type="image/png" href={imgFavicon} />
-          <body data-theme={gContext.theme.bodyDark ? "dark" : "light"} />
-          <link rel="preload" href="/fonts/fontawesome-5/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/fontawesome-5/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/fontawesome-5/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/typography-font/CircularStd-Bold.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/typography-font/CircularStd-BoldItalic.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/typography-font/CircularStd-Book.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/typography-font/CircularStd-BookItalic.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/typography-font/CircularStd-Medium.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/icon-font/fonts/avasta.woff2" as="font" type="font/woff2" crossOrigin />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-CL3739N1T4"></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-CL3739N1T4');
-              `,
-            }}
-          />
-        </Head>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"} />
 
         <div className="site-wrapper overflow-hidden" ref={eleRef}>
@@ -108,31 +82,6 @@ const Layout = ({ children, pageContext }) => {
   return (
     <>
       <>
-        <Head>
-          <title>App Dev League</title>
-          <link rel="icon" type="image/png" href={imgFavicon} />
-          <body data-theme={gContext.theme.bodyDark ? "dark" : "light"} />
-          <link rel="preload" href="/fonts/fontawesome-5/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/fontawesome-5/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/fontawesome-5/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/typography-font/CircularStd-Bold.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/typography-font/CircularStd-BoldItalic.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/typography-font/CircularStd-Book.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/typography-font/CircularStd-BookItalic.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/typography-font/CircularStd-Medium.woff2" as="font" type="font/woff2" crossOrigin />
-          <link rel="preload" href="/fonts/icon-font/fonts/avasta.woff2" as="font" type="font/woff2" crossOrigin />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-CL3739N1T4"></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-CL3739N1T4');
-              `,
-            }}
-          />
-        </Head>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"} />
         <div className="site-wrapper overflow-hidden" ref={eleRef}>
           <Header />
