@@ -184,9 +184,9 @@ const EventPage = () => {
                   <div className="article-block">
                     <h5 className="font-size-7 mb-6">Judging Criteria</h5>
                     <p className="font-size-5 heading-default-color">
-                    <strong>Technicality:</strong> How technical is your project?
-                    <br/><br/>
-                    <strong>Impact:</strong> How impactful is your game for students?
+                    <div>
+                      Games will be judged based on three criteria: <strong>technicality</strong>, <strong>impact</strong>, and <strong>demo</strong>. Teams can earn a score of 0 to 5 points for each category, and each project will be graded by multiple judges. Technicality involves the code, and how complex an app is. Although teams must use the given resources, teams can still be creative and write more complex code. Impact is based on how helpful the game is for students, as well as how big the target audience is. Lastly, the demo portion is graded on how well a team displays its project’s features, as well as the experience users have while playing the game.
+                    </div>
                     </p>
                   </div>
                 </div>
