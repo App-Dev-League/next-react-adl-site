@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 import PageWrapper from "../../components/PageWrapper";
-import heroPhoto from "../../assets/events/game-jam-apr-2022.jpg"
+import heroPhoto from "../../assets/events/game-jam-apr-2022.jpeg"
 
 const EventPage = () => {
   return (
@@ -30,7 +30,7 @@ const EventPage = () => {
                     <Image src={heroPhoto} layout="fill" className="next-image-cover" alt="" priority={true} />
                   </div>
                   <h2 className="font-size-11 font-weight-bold text-center mb-8 mt-15">
-                  StartOnAI
+                  Game Jam
                   </h2>
                 </div>
               </div>
@@ -51,9 +51,10 @@ const EventPage = () => {
                     <br/><br/>
                     Awards will be given to the top teams, and they include cash, licenses, and sponsor credits, totaling $10k.
                     <br/><br/>
-                    Judging Criteria:
+                    <span style={{textDecoration: "underline"}}>Judging Criteria:</span>
                     <br/>
                     <strong>Technicality:</strong> How technical is your project?
+                    <br/>
                     <strong>Impact:</strong> How impactful is your game for students?
                     </p>
                   </div>
