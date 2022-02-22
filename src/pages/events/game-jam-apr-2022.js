@@ -204,18 +204,22 @@ const EventPage = () => {
                     data-aos-duration={1000}
                   >
                     <h5 className="font-size-7 mb-7">Schedule</h5>
-                    <p className="font-size-5 heading-default-color mb-9">
-                    <ul>
-                      <li>Keynote Speaker</li>
-                      <li>School Presentations</li>
-                      <li>Award Ceremony</li>
-                    </ul>
-                    </p>
-                    <p className="font-size-5 heading-default-color mb-9 font-italic">
-                    If you would like more information about our event curriculum, please contact us <Link href="/contact">
-                      <a>here.</a>
-                    </Link>
-                    </p>
+                    <div>
+                      <p className="font-size-5 heading-default-color mb-9">
+                        <ul>
+                          <li>Keynote Speaker</li>
+                          <li>School Presentations</li>
+                          <li>Award Ceremony</li>
+                        </ul>
+                      </p>
+                    </div>
+                    <div>
+                      <p className="font-size-5 heading-default-color mb-9 font-italic">
+                      If you would like more information about our event curriculum, please contact us <Link href="/contact">
+                        <a>here.</a>
+                        </Link>
+                      </p>
+                    </div>
                   </div>
                   <div
                     className="apply-btn pt-7 pt-md-13"
