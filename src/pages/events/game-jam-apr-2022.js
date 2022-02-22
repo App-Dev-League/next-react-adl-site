@@ -33,6 +33,17 @@ const EventPage = () => {
                   Game Jam
                   </h2>
                 </div>
+                <div
+                    className="apply-btn pt-0 pt-md-0 text-center"
+                    data-aos="fade-up"
+                    data-aos-duration={1000}
+                  >
+                    <Link href="https://docs.google.com/forms/d/1AQYOL67oakKUzPXPgGTTpR1QJvLroPxISzE-XVsMakk/edit">
+                      <a className="btn btn-sm btn-blue-3 rounded-5" target="_blank">
+                        Sign Up!
+                      </a>
+                    </Link>
+                  </div>
               </div>
             </div>
             <div className="row justify-content-center mt-11 mt-lg-15">
@@ -50,12 +61,6 @@ const EventPage = () => {
                     The theme for the 2022 Game Jam is education, and teams have to create an educational game that helps students with their learning. Examples of this include Quizlet, Kahoot!, DragonBox, and more.
                     <br/><br/>
                     Awards will be given to the top teams, and they include cash, licenses, and sponsor credits, totaling $10k.
-                    <br/><br/>
-                    <span style={{textDecoration: "underline"}}>Judging Criteria:</span>
-                    <br/>
-                    <strong>Technicality:</strong> How technical is your project?
-                    <br/>
-                    <strong>Impact:</strong> How impactful is your game for students?
                     </p>
                   </div>
                 </div>
@@ -95,7 +100,43 @@ const EventPage = () => {
                           <i className="fa fa-check" />
                         </div>
                         <div>
-                          The game also should be built on a codebase that uses the resources that are provided to all schools.
+                          All code must be written during the time frame.
+                        </div>
+                      </li>
+                      <li className="position-relative font-size-5 heading-default-color pl-0 d-flex mb-7">
+                        <div className="circle-event mr-3 text-white">
+                          <i className="fa fa-check" />
+                        </div>
+                        <div>
+                          Code can not be plagiarized, but online resources may be used for help.
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row justify-content-center mt-11 mt-lg-15">
+              <div
+                className="col-lg-6 mb-10 mb-lg-0"
+                data-aos="fade-right"
+                data-aos-duration={1000}
+              >
+                <div className="pt-8 pb-5 pt-lg-12 pb-lg-10 px-8 px-lg-10 px-xl-15 card shadow-2 gr-hover-2 transition-200 h-100">
+                  {/* article-block */}
+                  <div>
+                    {/* block-title */}
+                    <h5 className="font-size-7 mb-6">
+                      Submission Guidelines
+                    </h5>
+                    {/* term-list */}
+                    <ul className="p-0 m-0 list-disc">
+                      <li className="position-relative font-size-5 heading-default-color pl-0 d-flex mb-7">
+                        <div className="circle-event mr-3 text-white">
+                          <i className="fa fa-check" />
+                        </div>
+                        <div>
+                          The game should be built on a codebase that uses the resources that are provided to all schools.
                         </div>
                       </li>
                       <li className="position-relative font-size-5 heading-default-color pl-0 d-flex mb-7">
@@ -130,26 +171,27 @@ const EventPage = () => {
                           All games must have a public link to the demo video (on YouTube or another similar platform) as well as the codebase (on GitHub, for example).
                         </div>
                       </li>
-                      <li className="position-relative font-size-5 heading-default-color pl-0 d-flex mb-7">
-                        <div className="circle-event mr-3 text-white">
-                          <i className="fa fa-check" />
-                        </div>
-                        <div>
-                          All code must be written during the time frame.
-                        </div>
-                      </li>
-                      <li className="position-relative font-size-5 heading-default-color pl-0 d-flex mb-7">
-                        <div className="circle-event mr-3 text-white">
-                          <i className="fa fa-check" />
-                        </div>
-                        <div>
-                          Code can not be plagiarized, but online resources may be used for help.
-                        </div>
-                      </li>
                     </ul>
                   </div>
                 </div>
               </div>
+              <div
+                className="col-lg-6"
+                data-aos="fade-left"
+                data-aos-duration={1000}
+              >
+                <div className="pt-8 pb-5 pt-lg-12 pb-lg-10 px-8 px-lg-10 px-xl-15 card shadow-2 gr-hover-2 transition-200 h-100">
+                  <div className="article-block">
+                    <h5 className="font-size-7 mb-6">Judging Criteria</h5>
+                    <p className="font-size-5 heading-default-color">
+                    <strong>Technicality:</strong> How technical is your project?
+                    <br/><br/>
+                    <strong>Impact:</strong> How impactful is your game for students?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div className="row justify-content-center">
               <div className="col-12">
