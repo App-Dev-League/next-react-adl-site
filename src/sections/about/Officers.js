@@ -19,6 +19,10 @@ import img25 from "../../assets/outreach/claire-su.png";
 import img26 from "../../assets/instructors/aarav.png";
 import img27 from "../../assets/instructors/chiling.png";
 import img28 from "../../assets/instructors/aarush.png";
+import img29 from "../../assets/instructors/lester.png";
+import img30 from "../../assets/outreach/rashu.png";
+import img31 from "../../assets/outreach/srivibha.png";
+import img32 from "../../assets/outreach/nyna.png";
 
 const instructors = [
   {
@@ -81,6 +85,11 @@ const instructors = [
     name: "Athreya Daniel",
     title: "Basic AI Instructor",
   },
+  {
+    image: img29,
+    name: "Lester Heredia-Gopar",
+    title: "Basic Web Dev Instructor",
+  },
 ];
 
 const outreach = [
@@ -113,6 +122,21 @@ const outreach = [
     image: img24,
     name: "Raisa Nirjhar",
     title: "Blog Writer",
+  },
+  {
+    image: img30,
+    name: "Rashu Sharda",
+    title: "Onboarding Manager",
+  },
+  {
+    image: img31,
+    name: "Srivibha Madarapu",
+    title: "Social Media Designer",
+  },
+  {
+    image: img32,
+    name: "Nyna Pinnamaraju",
+    title: "Social Media Designer",
   }
 ];
 
