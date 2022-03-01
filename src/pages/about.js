@@ -10,6 +10,7 @@ import Directors from "../sections/about/Directors";
 import Partners from "../sections/about/Partners";
 import Sponsors from "../sections/about/Sponsors";
 import Apply from "../sections/about/Apply";
+import Chapters from "../sections/about/Chapters";
 
 const PricingPage = () => {
   return (
@@ -32,6 +33,7 @@ const PricingPage = () => {
         <Directors className="py-9 py-lg-12" />
         <Officers />
         <Apply className="pb-12 pb-lg-25" />
+        <Chapters />
         <Partners className="bg-adl-1 py-10 py-md-15 py-lg-18 "/>
         <Sponsors className="bg-default-2 py-10 py-md-15 py-lg-18 "/>
       </PageWrapper>
