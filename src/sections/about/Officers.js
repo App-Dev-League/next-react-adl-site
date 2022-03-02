@@ -41,11 +41,6 @@ const instructors = [
     title: "Advanced Web Dev Instructor",
   },
   {
-    image: img3,
-    name: "Kunal Jain",
-    title: "Basic Web Dev Mentor",
-  },
-  {
     image: img28,
     name: "Aarush Vailaya",
     title: "Web Dev Mentor",

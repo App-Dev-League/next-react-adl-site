@@ -43,7 +43,7 @@ const members = [
 
 const Chapters = () => {
   return (
-    <div className="pb-15 pb-md-19">
+    <div className="pb-15 pb-md-19" id="chapters">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-7 col-sm-10">
