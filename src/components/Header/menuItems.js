@@ -66,9 +66,9 @@ export const menuItems = [
     items: [
       { name: "about#mission", label: "Our Mission" },
       { name: "about#team", label: "The Team" },
+      { name: "about#chapters", label: "Chapter Leads" },
       { name: "about#partners", label: "Partners" },
       { name: "about#sponsors", label: "Sponsors" },
-      { name: "about#chapters", label: "Chapter Leads" },
     ],
   },
   {
