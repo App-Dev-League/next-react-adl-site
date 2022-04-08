@@ -20,7 +20,7 @@ const Footer = ({ className, ...rest }) => {
                   <p className="font-weight-bold font-size-9">ADL</p>
                 </div>
                 <p className="font-size-5 text-bali-gray">
-                  Copyright © 2019-21 by App Dev League, Inc.
+                  Copyright © 2019-2022 by App Dev League, Inc.
                 </p>
                 <p className="font-size-5 text-bali-gray">
                   Registered as a 501(c)(3) tax-deductible non profit organization <br/> (EIN: 85-3376559)
