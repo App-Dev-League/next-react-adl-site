@@ -53,7 +53,7 @@ const Chapters = () => {
               data-aos-delay={500}
               data-aos-duration={1000}
             >
-              <h2 className="font-size-10 mb-0">International Chapter Leaders</h2>
+              <h2 className="font-size-9 mb-0">International Chapter Leaders</h2>
               <p className="mt-8 mb-10">
               <strong>Passionate about what we do? </strong>Want to join an international team of leaders, creators, and app dev enthusiasts? <a href="https://docs.google.com/forms/d/e/1FAIpQLSczBe_2sbRhR5QK0Ek-KrZa7JCNlvVBQZHlEHBNbLwqRcl3ug/viewform" target="_blank" rel="noopener noreferrer">Apply here.</a>
               </p>
