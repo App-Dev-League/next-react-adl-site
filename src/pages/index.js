@@ -51,7 +51,7 @@ const IndexPage = () => {
                 <button onClick={closeModal} className="button btn h-auto w-auto d-flex justify-content-end align-self-end py-0 px-3" style={{minWidth: "0"}}>
                   <i className="fa fa-times font-size-8" />
                 </button>
-                <p>Our appathon event held this past August 2021 was a great success with 300 participants, 50 submissions, 20 sponsors, and 10 speakers! 🥳 Check out our recap video!</p>
+                <p>Our Appathon event held this past August 2021 was a great success with 300 participants, 50 submissions, 20 sponsors, and 10 speakers! 🥳 Check out our recap video!</p>
                 <iframe width="480" height="270" src="https://www.youtube-nocookie.com/embed/yscfPiaSpmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </Popup>

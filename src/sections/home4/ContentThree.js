@@ -36,7 +36,7 @@ const ContentTwo = ({ className, ...rest }) => {
                   Competitive Events
                 </h2>
                 <p className="font-size-7 mb-0">
-                  Every year, App Dev League hosts the <a href="http://appathon.appdevleague.org/" target="blank" rel="noopener noreferrer">ADL appathon.</a> The Appathon is the world's first Application Development Conference designed for students of all backgrounds.
+                  Every year, App Dev League hosts the <a href="http://appathon.appdevleague.org/" target="blank" rel="noopener noreferrer">ADL Appathon.</a> The Appathon is the world's first Application Development Conference designed for students of all backgrounds.
                 </p>
                 <div className="mt-12">
                   <a

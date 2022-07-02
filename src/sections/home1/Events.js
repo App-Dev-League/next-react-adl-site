@@ -8,17 +8,16 @@ const ContentTwo = ({ className, ...rest }) => {
     <>
       <div className="bg-adl-3 pt-10 pt-lg-20 pb-8 pb-lg-16" {...rest}>
         <div className="container">
-          <div className="row"> 
+          <div className="row">
             <div className="col-xs-12">
               <div
                 className="section-title dark-mode-texts"
                 data-aos="fade-left"
                 data-aos-delay={500}
-                data-aos-once="true" data-aos-duration={1000}
+                data-aos-once="true"
+                data-aos-duration={1000}
               >
-                <h2 className="font-size-11 mb-8 sm-mb-16">
-                  Events
-                </h2>
+                <h2 className="font-size-11 mb-8 sm-mb-16">Events</h2>
               </div>
             </div>
           </div>
@@ -30,14 +29,30 @@ const ContentTwo = ({ className, ...rest }) => {
                 data-aos="fade-left"
                 data-aos-duration={600}
                 data-aos-delay={500}
-                data-aos-once="true" data-aos-duration={1000}
+                data-aos-once="true"
               >
-                <p className="font-size-5 font-weight-bold text-uppercase mb-1 text-gray" style={{letterSpacing: "3px"}}>ADL event</p>
+                <p
+                  className="font-size-5 font-weight-bold text-uppercase mb-1 text-gray"
+                  style={{ letterSpacing: "3px" }}
+                >
+                  ADL event
+                </p>
                 <h2 className="font-size-9 mb-5 letter-spacing-n83">
                   Competitive Events
                 </h2>
                 <p className="font-size-7 mb-0">
-                  Every year, App Dev League hosts the <a href="http://appathon.appdevleague.org/" target="blank" rel="noopener noreferrer">ADL appathon.</a> The Appathon is the world's first Application Development Conference designed for students of all backgrounds.
+                  Every year, App Dev League hosts the{" "}
+                  <a
+                    href="http://appathon.appdevleague.org/"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    ADL Appathon.
+                  </a>{" "}
+                  The Appathon is the world's largest Application Development
+                  Conference with well-renowned speakers, a beginner-friendly
+                  hackathon, and a powerful impact. Run by students, designed
+                  for students.
                 </p>
                 <div className="mt-12">
                   <a
@@ -57,7 +72,7 @@ const ContentTwo = ({ className, ...rest }) => {
               data-aos="fade-right"
               data-aos-duration={600}
               data-aos-delay={300}
-              data-aos-once="true" data-aos-duration={1000}
+              data-aos-once="true"
             >
               <Image
                 className="w-100"
@@ -79,7 +94,7 @@ const ContentTwo = ({ className, ...rest }) => {
               data-aos="fade-right"
               data-aos-duration={600}
               data-aos-delay={300}
-              data-aos-once="true" data-aos-duration={1000}
+              data-aos-once="true"
             >
               <Image
                 className="w-100"
@@ -96,14 +111,24 @@ const ContentTwo = ({ className, ...rest }) => {
                 data-aos="fade-left"
                 data-aos-duration={600}
                 data-aos-delay={500}
-                data-aos-once="true" data-aos-duration={1000}
+                data-aos-once="true"
               >
-                <p className="font-size-5 font-weight-bold text-uppercase mb-1 text-gray" style={{letterSpacing: "3px"}}>ADL event</p>
+                <p
+                  className="font-size-5 font-weight-bold text-uppercase mb-1 text-gray"
+                  style={{ letterSpacing: "3px" }}
+                >
+                  ADL event
+                </p>
                 <h2 className="font-size-9 mb-5 letter-spacing-n83">
                   Monthly Events
                 </h2>
                 <p className="font-size-7 mb-0">
-                  App Dev League strives to offer monthly workshops, camps, and webinars on a variety of Computer Science disciplines with a focus on Application Development and AI. These project-oriented events are a great way for students to not only get introduced to a new concept, but also to apply it in a real-life applicable project.
+                  App Dev League strives to offer monthly workshops, camps, and
+                  webinars on a variety of Computer Science disciplines with a
+                  focus on Application Development and AI. These
+                  project-oriented events are a great way for students to not
+                  only get introduced to a new concept, but also to apply it in
+                  a real-life applicable project.
                 </p>
               </div>
             </div>

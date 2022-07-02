@@ -12,13 +12,12 @@ const AboutUs = ({ className, ...rest }) => {
                 className="section-title"
                 data-aos="fade-left"
                 data-aos-delay={500}
-                data-aos-once="true" data-aos-duration={1000}
+                data-aos-once="true"
+                data-aos-duration={1000}
               >
-                <h2 className="font-size-11 mb-6">
-                  About Us
-                </h2>
+                <h2 className="font-size-11 mb-6">About Us</h2>
                 <h3 className="font-size-7 text-default-color mb-12">
-                  Largest Student-Run AppDev Non Profit
+                  World's largest student-run application development nonprofit
                 </h3>
               </div>
             </div>
@@ -28,11 +27,16 @@ const AboutUs = ({ className, ...rest }) => {
               className="col-xs-12"
               data-aos="fade-left"
               data-aos-delay={500}
-              data-aos-once="true" data-aos-duration={1000}
+              data-aos-once="true"
+              data-aos-duration={1000}
             >
               <div>
                 <p className="heading-default-color font-size-6 mb-0">
-                  App Dev League, a student-led nonprofit, is devoted to bringing computer science education to underrepresented students. We specifically focus on application development and AI. <strong>Our goals include:</strong>
+                  App Dev League, a student-led nonprofit, is devoted to
+                  introducing the world of application development to
+                  underrepresented students. We don't just teach students how to
+                  code. We teach them how to make an impact with their code.
+                  <strong>Our goals include:</strong>
                 </p>
                 <div className="row justify-content-center py-7">
                   <div className="col-lg-4 col-md-6 col-xs-10">
@@ -40,7 +44,8 @@ const AboutUs = ({ className, ...rest }) => {
                       className="py-7 d-flex"
                       data-aos="fade-up"
                       data-aos-delay={500}
-                      data-aos-once="true" data-aos-duration={1000}
+                      data-aos-once="true"
+                      data-aos-duration={1000}
                     >
                       <div className="square-83 bg-adl-3 shadow-adl-3 rounded-10 text-white font-size-7">
                         <i className="fa fa-link" />
@@ -48,7 +53,8 @@ const AboutUs = ({ className, ...rest }) => {
                       <div className="ml-8">
                         <h5>Fostering</h5>
                         <p className="font-size-5 mb-0">
-                          support for students who lack CS opportunities
+                          support for students who lack access to application
+                          development education
                         </p>
                       </div>
                     </div>
@@ -58,7 +64,8 @@ const AboutUs = ({ className, ...rest }) => {
                       className="py-7 d-flex"
                       data-aos="fade-up"
                       data-aos-delay={700}
-                      data-aos-once="true" data-aos-duration={1000}
+                      data-aos-once="true"
+                      data-aos-duration={1000}
                     >
                       <div className="square-83 rounded-10 bg-blue-3 shadow-dodger-blue-3 text-white font-size-7">
                         <i className="fa fa-level-up-alt" />
@@ -66,7 +73,7 @@ const AboutUs = ({ className, ...rest }) => {
                       <div className="ml-8">
                         <h5>Increasing</h5>
                         <p className="font-size-5 mb-0">
-                          the diversity in STEM communities and the workforce
+                          diversity in the developer community/workplace
                         </p>
                       </div>
                     </div>
@@ -76,7 +83,8 @@ const AboutUs = ({ className, ...rest }) => {
                       className="py-7 d-flex"
                       data-aos="fade-up"
                       data-aos-delay={900}
-                      data-aos-once="true" data-aos-duration={1000}
+                      data-aos-once="true"
+                      data-aos-duration={1000}
                     >
                       <div className="square-83 bg-dodger-blue-1 shadow-dodger-blue-1 rounded-10 text-white font-size-7">
                         <i className="fa fa-bolt" />
@@ -91,7 +99,17 @@ const AboutUs = ({ className, ...rest }) => {
                   </div>
                 </div>
                 <p className="heading-default-color font-size-6 mb-11">
-                  The COVID global pandemic has affected billions of individuals worldwide and most importantly <strong>students’ education. </strong>Through our various iniatiatives from a <strong>free teaching app </strong>to our monthly events and <strong>conferences</strong>, our students will have the power to make a <strong>global impact </strong>right from their homes by creating cool websites and apps!
+                  The COVID global pandemic has affected billions of individuals
+                  worldwide and most importantly students’ education. Resources
+                  and paid programs have opened all over the world for students
+                  to learn about computer science. However, these programs only
+                  further the digital divide and leave underrepresented
+                  communities in the dust. Our goal is to introduce a set of
+                  project-oriented and accessible curricula to bridge that gap.
+                  Our focus on application development education and initiatives
+                  uniquely powers these underprivileged communities to make both
+                  a local and global impact right from their homes through the
+                  power of Apps!
                 </p>
                 <div className="btn-group mb-8 mb-lg-12">
                   <Link href={"/about"}>

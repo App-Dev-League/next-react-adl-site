@@ -17,14 +17,13 @@ const Stats = () => {
               <h2 className="font-size-12 mb-5">
                 <LazyLoad>
                   <span className="counter">
-                    <CountUp duration={2} end={5000} />
+                    <CountUp duration={2} end={7500} />
                   </span>
-                  +
                 </LazyLoad>
               </h2>
 
               <p className="heading-default-color mb-0 font-size-5">
-                Students Reached
+                students impacted
               </p>
             </div>
           </div>
@@ -39,13 +38,12 @@ const Stats = () => {
               <h2 className="font-size-12 mb-5">
                 <LazyLoad>
                   <span className="counter">
-                    <CountUp duration={3} end={30} />
+                    <CountUp duration={3} end={75} />
                   </span>
-                  +
                 </LazyLoad>
               </h2>
               <p className="heading-default-color mb-0 font-size-5">
-                Schools Worked With
+                national/chapter members
               </p>
             </div>
           </div>
@@ -60,12 +58,12 @@ const Stats = () => {
               <h2 className="font-size-12 mb-5">
                 <LazyLoad>
                   <span className="counter">
-                    <CountUp duration={3} end={25} />
+                    <CountUp duration={3} end={50} />
                   </span>
                 </LazyLoad>
               </h2>
               <p className="heading-default-color mb-0 font-size-5">
-                Partners
+                sponsors, partners, and schools worked with
               </p>
             </div>
           </div>
@@ -80,12 +78,12 @@ const Stats = () => {
               <h2 className="font-size-12 mb-5">
                 <LazyLoad>
                   <span className="counter">
-                    <CountUp duration={3} end={15} />
+                    <CountUp duration={3} end={20} />
                   </span>
                 </LazyLoad>
               </h2>
               <p className="heading-default-color mb-0 font-size-5">
-                Events Hosted
+                events and initiatives
               </p>
             </div>
           </div>
