@@ -1,8 +1,6 @@
 import React from "react";
 
 import TeamMemberCard from "../../components/TeamMemberCard";
-import img1 from "../../assets/instructors/Matthew.jpg";
-import img2 from "../../assets/directors/sarthak.png";
 import img3 from "../../assets/directors/kamil.png";
 import img5 from "../../assets/outreach/jack.png";
 import img7 from "../../assets/instructors/Pranav.png";
@@ -22,7 +20,6 @@ import img29 from "../../assets/instructors/lester.png";
 import img30 from "../../assets/outreach/rashu.png";
 import img32 from "../../assets/outreach/nyna.png";
 import img33 from "../../assets/directors/aniketh.png";
-import img34 from "../../assets/directors/Zara.png";
 import img35 from "../../assets/directors/desiree.png";
 
 const instructors = [
@@ -36,11 +33,6 @@ const instructors = [
     image: img28,
     name: "Aarush Vailaya",
     title: "Web Dev Mentor",
-  },
-  {
-    image: img1,
-    name: "Matthew Lau",
-    title: "Basic Web Dev Instructor",
   },
   {
     image: img7,
@@ -72,9 +64,6 @@ const instructors = [
     name: "Vishnu Mangipudi",
     title: "AI Instructor",
   },
-];
-
-const outreach = [
   {
     image: img16,
     name: "Kenneth Choi",
@@ -90,11 +79,9 @@ const outreach = [
     name: "Kamil Pawlak",
     title: "Website Dev",
   },
-  {
-    image: img2,
-    name: "Sarthak Dayal",
-    title: "Workshop Coordinator",
-  },
+];
+
+const outreach = [
   {
     image: img33,
     name: "Aniketh Tummala",
@@ -104,11 +91,6 @@ const outreach = [
     image: img32,
     name: "Nyna Pinnamaraju",
     title: "Schools Coordinator",
-  },
-  {
-    image: img34,
-    name: "Zara Siddiqui",
-    title: "Recruitment Coordinator",
   },
   {
     image: img30,

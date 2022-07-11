@@ -1,12 +1,9 @@
 import React from "react";
 import Image from "next/image"
 
-import memberImage3 from "../../assets/execs/kabir.png";
 import memberImage6 from "../../assets/directors/sarthak.png";
 import memberImage8 from "../../assets/instructors/joshua.png";
-import memberImage9 from "../../assets/directors/desiree.png";
 import memberImage10 from "../../assets/directors/Zara.png";
-import memberImage11 from "../../assets/execs/ishir.png";
 
 const DirectorCard = ({ image, name, position, ...rest }) => {
   return (
@@ -38,16 +35,6 @@ const Directors = ({ className, ...rest }) => {
       },
     },
     {
-      image: memberImage3,
-      name: "Kabir Ramzan",
-      position: "Director of Curriculum",
-      animation: {
-        animationName: "fade-up",
-        delay: 300,
-        duration: null,
-      },
-    },
-    {
       image: memberImage6,
       name: "Sarthak Dayal",
       position: "Director of Initiatives",
@@ -71,26 +58,6 @@ const Directors = ({ className, ...rest }) => {
       image: memberImage8,
       name: "Joshua Zou",
       position: "Director of Development",
-      animation: {
-        animationName: "fade-up",
-        delay: 300,
-        duration: null,
-      },
-    },
-    {
-      image: memberImage9,
-      name: "Desiree Luo",
-      position: "Director of Marketing",
-      animation: {
-        animationName: "fade-up",
-        delay: 300,
-        duration: null,
-      },
-    },
-    {
-      image: memberImage11,
-      name: "Ishir Lakhani",
-      position: "Director of Partnerships",
       animation: {
         animationName: "fade-up",
         delay: 300,
