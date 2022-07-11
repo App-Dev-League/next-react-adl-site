@@ -22,7 +22,7 @@ import img29 from "../../assets/instructors/lester.png";
 import img30 from "../../assets/outreach/rashu.png";
 import img32 from "../../assets/outreach/nyna.png";
 import img33 from "../../assets/directors/aniketh.png";
-import img34 from "../../assets/directors/zara.png";
+import img34 from "../../assets/directors/Zara.png";
 import img35 from "../../assets/directors/desiree.png";
 
 const instructors = [
