@@ -2,43 +2,35 @@ import React from "react";
 
 import TeamMemberCard from "../../components/TeamMemberCard";
 import img1 from "../../assets/instructors/Matthew.jpg";
-import img2 from "../../assets/instructors/joshua.png";
-import img3 from "../../assets/instructors/Kunal.png";
-import img5 from "../../assets/instructors/pavan.png";
+import img2 from "../../assets/directors/sarthak.png";
+import img3 from "../../assets/directors/kamil.png";
+import img5 from "../../assets/outreach/jack.png";
 import img7 from "../../assets/instructors/Pranav.png";
-import img9 from "../../assets/outreach/KrishM.png";
 import img10 from "../../assets/outreach/amit.png";
 import img12 from "../../assets/instructors/harsh.png";
-import img15 from "../../assets/instructors/reeva.png";
+import img15 from "../../assets/instructors/vishnu.png";
 import img16 from "../../assets/instructors/kenneth.png";
 import img17 from "../../assets/instructors/athreya.png";
-import img20 from "../../assets/instructors/panth.png";
+import img20 from "../../assets/outreach/suden.png";
 import img22 from "../../assets/instructors/nolan.png";
 import img24 from "../../assets/outreach/raisa.png";
-import img25 from "../../assets/outreach/claire-su.png";
+import img25 from "../../assets/outreach/Isha.png";
 import img26 from "../../assets/instructors/aarav.png";
 import img27 from "../../assets/instructors/chiling.png";
 import img28 from "../../assets/instructors/aarush.png";
 import img29 from "../../assets/instructors/lester.png";
 import img30 from "../../assets/outreach/rashu.png";
-import img31 from "../../assets/outreach/srivibha.png";
 import img32 from "../../assets/outreach/nyna.png";
+import img33 from "../../assets/directors/aniketh.png";
+import img34 from "../../assets/directors/zara.png";
+import img35 from "../../assets/directors/desiree.png";
 
 const instructors = [
+  
   {
-    image: img1,
-    name: "Matthew Lau",
+    image: img29,
+    name: "Lester Heredia-Gopar",
     title: "Basic Web Dev Instructor",
-  },
-  {
-    image: img2,
-    name: "Joshua Zou",
-    title: "Advanced Web Dev Instructor",
-  },
-  {
-    image: img26,
-    name: "Aarav Borthakur",
-    title: "Advanced Web Dev Instructor",
   },
   {
     image: img28,
@@ -46,14 +38,14 @@ const instructors = [
     title: "Web Dev Mentor",
   },
   {
-    image: img5,
-    name: "Pavan Yeddanapudi",
-    title: "Competitive Coding Instructor",
+    image: img1,
+    name: "Matthew Lau",
+    title: "Basic Web Dev Instructor",
   },
   {
-    image: img12,
-    name: "Harsh Nagouda",
-    title: "Advanced AI Instructor",
+    image: img7,
+    name: "Pranav Gunhal",
+    title: "Web Dev Instructor",
   },
   {
     image: img27,
@@ -61,14 +53,9 @@ const instructors = [
     title: "Advanced AI Instructor",
   },
   {
-    image: img15,
-    name: "Reeva Khokar",
-    title: "Intro to CS Mentor",
-  },
-  {
-    image: img16,
-    name: "Kenneth Choi",
-    title: "Basic AI Mentor",
+    image: img17,
+    name: "Athreya Daniel",
+    title: "Basic AI Instructor",
   },
   {
     image: img22,
@@ -76,22 +63,77 @@ const instructors = [
     title: "Advanced AI Mentor",
   },
   {
-    image: img17,
-    name: "Athreya Daniel",
-    title: "Basic AI Instructor",
+    image: img12,
+    name: "Harsh Nagouda",
+    title: "Advanced AI Instructor",
   },
   {
-    image: img29,
-    name: "Lester Heredia-Gopar",
-    title: "Basic Web Dev Instructor",
+    image: img15,
+    name: "Vishnu Mangipudi",
+    title: "AI Instructor",
   },
 ];
 
 const outreach = [
   {
-    image: img9,
-    name: "Krish Mendapara",
-    title: "Grant Coordinator",
+    image: img16,
+    name: "Kenneth Choi",
+    title: "CAMP Lead",
+  },
+  {
+    image: img26,
+    name: "Aarav Borthakur",
+    title: "Devnetic Lead",
+  },
+  {
+    image: img3,
+    name: "Kamil Pawlak",
+    title: "Website Dev",
+  },
+  {
+    image: img2,
+    name: "Sarthak Dayal",
+    title: "Workshop Coordinator",
+  },
+  {
+    image: img33,
+    name: "Aniketh Tummala",
+    title: "Mentorship Manager",
+  },
+  {
+    image: img32,
+    name: "Nyna Pinnamaraju",
+    title: "Schools Coordinator",
+  },
+  {
+    image: img34,
+    name: "Zara Siddiqui",
+    title: "Recruitment Coordinator",
+  },
+  {
+    image: img30,
+    name: "Rashu Sharda",
+    title: "Chapter Program Manager",
+  },
+  {
+    image: img5,
+    name: "Jack Guarnery",
+    title: "Sponsorship Coordinator",
+  },
+  {
+    image: img20,
+    name: "Suden Prashar",
+    title: "Workshop Coordinator",
+  },
+  {
+    image: img25,
+    name: "Isha Kotalwar",
+    title: "Partnership Manager",
+  },
+  {
+    image: img35,
+    name: "Desiree Luo",
+    title: "Social Media Designer",
   },
   {
     image: img10,
@@ -99,40 +141,10 @@ const outreach = [
     title: "Video Editor",
   },
   {
-    image: img7,
-    name: "Pranav Gunhal",
-    title: "Event Coordinator",
-  },
-  {
-    image: img20,
-    name: "Panth Desai",
-    title: "Sponsorship Coordinator",
-  },
-  {
-    image: img25,
-    name: "Claire Su",
-    title: "Social Media Designer",
-  },
-  {
     image: img24,
     name: "Raisa Nirjhar",
     title: "Blog Writer",
   },
-  {
-    image: img30,
-    name: "Rashu Sharda",
-    title: "Onboarding Manager",
-  },
-  {
-    image: img31,
-    name: "Srivibha Madarapu",
-    title: "Social Media Designer",
-  },
-  {
-    image: img32,
-    name: "Nyna Pinnamaraju",
-    title: "Social Media Designer",
-  }
 ];
 
 const Officers = () => {
