@@ -3,7 +3,7 @@ import Image from "next/image"
 
 import memberImage6 from "../../assets/directors/sarthak.png";
 import memberImage8 from "../../assets/instructors/joshua.png";
-import memberImage10 from "../../assets/directors/Zara.png";
+import memberImage10 from "../../assets/directors/zaraS.png";
 
 const DirectorCard = ({ image, name, position, ...rest }) => {
   return (
