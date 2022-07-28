@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Slider from "react-slick";
-import Image from "next/image"
+import Image from "next/image";
 
-import imgB from "../../assets/execs/kabir.png";
-import imgB2 from "../../assets/execs/shafin.png";
-import imgB3 from "../../assets/execs/ishir.png";
-import imgU1 from "../../assets/execs/kabir.png";
-import imgU2 from "../../assets/execs/shafin.png";
-import imgU3 from "../../assets/execs/ishir.png";
+import memberImage6 from "../../assets/execs/kabir.png";
+import memberImage8 from "../../assets/execs/shafin.png";
+import memberImage10 from "../../assets/execs/ishir.png";
 
 const SliderSmall = styled(Slider)`
   .slick-slide {
@@ -23,7 +20,7 @@ const SliderSmall = styled(Slider)`
 const sliderConfig1 = {
   slidesToShow: 1,
   arrows: false,
-  fade:true
+  fade: true,
 };
 
 const sliderConfig2 = {
@@ -44,128 +41,107 @@ const sliderConfig2 = {
   ],
 };
 
-const Execs = () => {
-  const [nav1, setNav1] = useState();
-  const [nav2, setNav2] = useState();
-
+const ExecCard = ({ image, name, position, ...rest }) => {
   return (
-    <div className="pt-4 pt-md-9 pt-lg-14 pb-4 pb-md-9 pb-lg-18">
+    <>
+      {/* Single Team */}
+      <div className="text-center mb-10 mb-lg-15">
+        <div className="mb-8 rounded-10">
+          <Image
+            className="w-50 w-md-75"
+            src={image}
+            alt=""
+            width={262}
+            height={262}
+          />
+        </div>
+        <div className="content">
+          <h4 className="font-size-7 mb-1">{name}</h4>
+          <p className="font-size-5 font-weight-normal mb-0">{position}</p>
+        </div>
+      </div>
+      {/* Single Team */}
+    </>
+  );
+};
+const Execs = ({ className, ...rest }) => {
+  const ExecsData = [
+    {
+      image: memberImage6,
+      name: "Kabir Ramzan",
+      position: "VP of Technology",
+      animation: {
+        animationName: "fade-up",
+        delay: 300,
+        duration: null,
+      },
+    },
+    {
+      image: memberImage8,
+      name: "Shafin Haque",
+      position: "VP of Operations",
+      animation: {
+        animationName: "fade-up",
+        delay: 300,
+        duration: null,
+      },
+    },
+    /*{
+      image: memberImage7,
+      name: "Luis Varona",
+      position: "Director of Expansion",
+      animation: {
+        animationName: "fade-up",
+        delay: 300,
+        duration: null,
+      },
+    },*/
+    {
+      image: memberImage10,
+      name: "Ishir Lakhani",
+      position: "VP of Outreach",
+      animation: {
+        animationName: "fade-up",
+        delay: 300,
+        duration: null,
+      },
+    },
+  ];
+  return (
+    <div className={className} {...rest}>
       <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-xl-6 col-lg-7 col-sm-10">
-            <div
-              className="text-center mb-9 mb-lg-15"
-              data-aos="fade-up"
-              data-aos-delay={500}
-              data-aos-duration={500}
-            >
-              <h2 className="font-size-10 mb-0">Executive Team</h2>
+        {/* section title */}
+        <div
+          className="row justify-content-center"
+          data-aos="fade-up"
+          data-aos-delay={500}
+          data-aos-once="true"
+          data-aos-duration={1000}
+        >
+          <div className="col-12">
+            <div className="text-center mb-12 mb-lg-19">
+              <h2 className="font-size-10 mb-8 letter-spacing-n83">
+                Executive Team
+              </h2>
             </div>
           </div>
         </div>
-        <div className="row justify-content-center">
-          <div
-            className="col-xl-7 col-lg-9 col-md-10"
-            data-aos="zoom-in"
-            data-aos-delay={500}
-            data-aos-once="true" data-aos-duration={1000}
-          >
-            <Slider
-              asNavFor={nav2}
-              ref={(slider) => setNav1(slider)}
-              className="l5-review-slider mx-xl-0 mx-lg-10"
-              {...sliderConfig1}
-            >
-              {/* Single Review */}
-              <div className="single-review text-center focus-reset">
-                <div className="mb-8 circle-265 mx-auto">
-                  <Image src={imgB} alt="" className="w-100" width={265} height={265}/>
-                </div>
-                <div>
-                  <h5 className="font-size-7 mb-0">Kabir Ramzan</h5>
-                  <p className="font-size-5">VP of Technology</p>
-                </div>
-                <p className="font-size-6 heading-default-color mt-7">
-                  Kabir Ramzan is a sophomore at The Harker School who is passionate about software development. As the VP of tech, he manages the technological operations and infrastructure of ADL, as well as oversees most internal teams. His skills include full-stack web development and Python. In his free time, Kabir enjoys building apps for his school and developing his software company (TogaTech).
-                </p>
+        {/* section title */}
+        <div
+          className="row justify-content-center"
+          data-aos="fade-up"
+          data-aos-delay={500}
+          data-aos-once="true"
+          data-aos-duration={1000}
+        >
+          {ExecsData.map(({ image, name, position }, index) => {
+            return (
+              <div className="col-lg-4 col-sm-6 col-xs-8" key={index}>
+                <ExecCard image={image} name={name} position={position} />
               </div>
-              {/* End Single Review */}
-              {/* Single Review */}
-              <div className="single-review text-center focus-reset">
-                <div className="mb-8 circle-265 mx-auto">
-                  <Image src={imgB2} alt="" className="w-100" width={265} height={265} />
-                </div>
-                <div>
-                  <h5 className="font-size-7 mb-0">Shafin Haque</h5>
-                  <p className="font-size-5">VP of Operations</p>
-                </div>
-                <p className="font-size-6 heading-default-color mt-7">
-                  Shafin Haque is a junior at Saratoga High School and started coding since he was in middle school. As the VP of operations, he manages logistics and event planning for ADL, as well as oversees most internal teams. His skills include Machine Learning with Python and R, as well as web development with HTML. In his free time, Shafin enjoys competing in hackathons and playing video games.
-                </p>
-              </div>
-              {/* End Single Review */}
-              {/* Single Review */}
-              <div className="single-review text-center focus-reset">
-                <div className="mb-8 circle-265 mx-auto">
-                  <Image src={imgB3} alt="" className="w-100" width={265} height={265} />
-                </div>
-                <div>
-                  <h5 className="font-size-7 mb-0">Ishir Lakhani</h5>
-                  <p className="font-size-5">VP of Outreach</p>
-                </div>
-                <p className="font-size-6 heading-default-color mt-7">
-                  Ishir Lakhani is a junior at Saratoga High School who got into programming in order to express his creativity through personal projects. As the VP of marketing, he manages the social media, graphic design, and video editing teams. His skills include interpersonal communication, as well as C++, Python, Java, and JavaScript.
-                </p>
-              </div>
-              {/* End Single Review */}
-            </Slider>
-          </div>
+            );
+          })}
         </div>
-        {/* l5-slider-dots */}
-        <div className="row justify-content-center">
-          <div
-            className="col-xl-4 col-lg-5 col-md-6 col-sm-8 col-xs-9 d-flex align-items-center mt-10 mx-xs-4 mx-md-0 mx-xl-6 justify-content-center"
-            data-aos="zoom-in"
-            data-aos-delay={500}
-            data-aos-once="true" data-aos-duration={1000}
-          >
-            <button
-              type="button"
-              className="slick-prev bg-white border-0 font-size-8"
-              onClick={() => {
-                nav1.slickPrev();
-              }}
-            >
-              <i className="icon icon-minimal-left"></i>
-            </button>
-            <SliderSmall
-              asNavFor={nav1}
-              ref={(slider) => setNav2(slider)}
-              className="l5-slider-dots text-center"
-              {...sliderConfig2}
-            >
-              <div className="single-img circle-73 mx-3 cursor-pointe exec-image">
-                <Image src={imgU1} alt="" className="w-100" width={73} height={73} />
-              </div>
-              <div className="single-img circle-73 mx-3 cursor-pointer exec-image">
-                <Image src={imgU2} alt="" className="w-100" width={73} height={73} />
-              </div>
-              <div className="single-img circle-73 mx-3 cursor-pointer exec-image">
-                <Image src={imgU3} alt="" className="w-100" width={73} height={73} />
-              </div>
-            </SliderSmall>
-            <button
-              type="button"
-              className="slick-next bg-white border-0 font-size-8"
-              onClick={() => {
-                nav1.slickNext();
-              }}
-            >
-              <i className="icon icon-minimal-right"></i>
-            </button>
-          </div>
-        </div>
-        {/* End l5-slider-dots */}
       </div>
     </div>
   );
