@@ -61,7 +61,7 @@ const ContentTwo = ({ className, ...rest }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    ADL Appathon 2021
+                    ADL Appathon 2022
                   </a>
                 </div>
               </div>

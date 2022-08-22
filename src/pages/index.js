@@ -9,31 +9,36 @@ import Stats from "../sections/home1/Stats";
 import Events from "../sections/home1/Events";
 import TechHelp from "../sections/home1/TechHelp";
 import Testimonials from "../sections/home1/Testimonials";
-import FAQ from "../sections/home1/FAQ"; 
-import Popup from 'reactjs-popup';
+import FAQ from "../sections/home1/FAQ";
+import Popup from "reactjs-popup";
 
 const IndexPage = () => {
   const [open, setOpen] = useState(false);
   useEffect(() => {
-    setOpen(!sessionStorage.getItem("adl-recap-2021-popup-closed"))
-  }, [])
+    setOpen(!sessionStorage.getItem("adl-recap-2021-popup-closed"));
+  }, []);
   const closeModal = () => {
-    setOpen(false)
-    sessionStorage.setItem("adl-recap-2021-popup-closed", "true")
+    setOpen(false);
+    sessionStorage.setItem("adl-recap-2021-popup-closed", "true");
   };
-
 
   return (
     <>
       <Head>
         <title>Home | App Dev League</title>
-        <meta name="description" content="App Dev League, a student-led non profit, is devoted to bringing computer science education to underrepresented students." />
-        <meta property="og:description" content="App Dev League, a student-led non profit, is devoted to bringing computer science education to underrepresented students." />
+        <meta
+          name="description"
+          content="App Dev League, a student-led non profit, is devoted to bringing computer science education to underrepresented students."
+        />
+        <meta
+          property="og:description"
+          content="App Dev League, a student-led non profit, is devoted to bringing computer science education to underrepresented students."
+        />
       </Head>
       <PageWrapper
         themeConfig={{
           headerClassName: "site-header--menu-right dark-mode-texts",
-          footerStyle: "style3"
+          footerStyle: "style3",
         }}
       >
         <Hero className="position-relative pt-25 pt-md-31 pt-lg-35 pb-14 pb-md-19 pb-lg-33 position-relative overflow-hidden hero-bg dark-mode-texts" />
@@ -48,11 +53,31 @@ const IndexPage = () => {
           {process.browser && (
             <Popup open={open} closeOnDocumentClick onClose={closeModal}>
               <div className="d-flex flex-column align-items-center">
-                <button onClick={closeModal} className="button btn h-auto w-auto d-flex justify-content-end align-self-end py-0 px-3" style={{minWidth: "0"}}>
+                <button
+                  onClick={closeModal}
+                  className="button btn h-auto w-auto d-flex justify-content-end align-self-end py-0 px-3"
+                  style={{ minWidth: "0" }}
+                >
                   <i className="fa fa-times font-size-8" />
                 </button>
-                <p>Our Appathon event held this past August 2021 was a great success with 300 participants, 50 submissions, 20 sponsors, and 10 speakers! 🥳 Check out our recap video!</p>
-                <iframe width="480" height="270" src="https://www.youtube-nocookie.com/embed/yscfPiaSpmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>
+                  Our Appathon event held this past August 2022 was a great
+                  success! Check out our trailer video for the event! <br />
+                  <br /> Feel free to also check out our soon-to-be-released
+                  App Store desktop application:{" "}
+                  <a href="https://devnetic.appdevleague.org" target="_blank">
+                    https://devnetic.appdevleague.org/
+                  </a>
+                </p>
+                <iframe
+                  width="480"
+                  height="270"
+                  src="https://www.youtube-nocookie.com/embed/TVCJol3zaRE"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
             </Popup>
           )}

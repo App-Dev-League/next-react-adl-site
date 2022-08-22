@@ -7,35 +7,46 @@ import brand4 from "../../assets/partners/1609798444498.png";
 import brand5 from "../../assets/partners/brand_logo.png";
 import brand6 from "../../assets/partners/Fly-High-Logo.png";
 import brand7 from "../../assets/partners/youthai.png";
+import brand8 from "../../assets/partners/ypws.png";
+import brand9 from "../../assets/partners/csta.png";
+import brand10 from "../../assets/partners/ncwit.png";
+import brand11 from "../../assets/partners/spiral.png";
 
-const SingleBrand = ({image, darkBg}) => {
+const SingleBrand = ({ image, darkBg }) => {
   return (
     <>
       {/* Single Brand */}
-      <div className={`single-brand-logo mx-5 my-6 ${darkBg ? 'bg-black' : ''}`}>
+      <div
+        className={`single-brand-logo mx-5 my-6 ${darkBg ? "bg-black" : ""}`}
+      >
         <img src={image} alt="" loading="lazy" />
       </div>
       {/* Single Brand */}
     </>
   );
-}
+};
 
 const Partners = ({ className, ...rest }) => {
-    const images = [
-      brand1,
-      brand2,
-      brand3,
-      brand4,
-      brand5,
-      brand6,
-      brand7
-    ];
+  const images = [
+    brand1,
+    brand2,
+    brand3,
+    brand4,
+    brand5,
+    brand6,
+    brand7,
+    brand8,
+    brand9,
+    brand10,
+    brand11,
+  ];
   return (
     <>
       {/* Company Section */}
       <div className={className} {...rest}>
         <div
-          className="container" id="partners"
+          className="container"
+          id="partners"
           data-aos="fade-in"
           data-aos-once="true"
           data-aos-delay={500}

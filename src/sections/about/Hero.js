@@ -14,7 +14,7 @@ const Hero = () => {
               data-aos-duration={500}
               data-aos-delay={500}
             >
-              <h2 className="font-size-11 mb-5">About us</h2>
+              <h2 className="font-size-11 mb-5">About Us</h2>
               <p className="font-size-7 mb-0">
                 Largest Student-Run AppDev Non Profit
               </p>

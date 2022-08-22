@@ -7,6 +7,9 @@ import img3 from "../../assets/chapters/oguntunde.png";
 import img4 from "../../assets/chapters/angela.png";
 import img5 from "../../assets/chapters/vaishnavi.png";
 import img6 from "../../assets/chapters/sahana.png";
+import img7 from "../../assets/directors/sarthak.png";
+import img8 from "../../assets/chapters/huzaifa.png";
+import img9 from "../../assets/chapters/kabith.png";
 
 const members = [
   {
@@ -38,7 +41,22 @@ const members = [
     image: img6,
     name: "Sahana Sundar",
     title: "New York Chapter Leader",
-  }
+  },
+  {
+    image: img7,
+    name: "Sarthak Dayal",
+    title: "Texas Chapter Leader",
+  },
+  {
+    image: img8,
+    name: "Huzaifa Azhar",
+    title: "Pakistan Chapter Leader",
+  },
+  {
+    image: img9,
+    name: "Kabith Kuber",
+    title: "Brampton Chapter Leader",
+  },
 ];
 
 const Chapters = () => {
@@ -53,9 +71,20 @@ const Chapters = () => {
               data-aos-delay={500}
               data-aos-duration={1000}
             >
-              <h2 className="font-size-9 mb-0">International Chapter Leaders</h2>
+              <h2 className="font-size-9 mb-0">
+                International Chapter Leaders
+              </h2>
               <p className="mt-8 mb-10">
-              <strong>Passionate about what we do? </strong>Want to join an international team of leaders, creators, and app dev enthusiasts? <a href="https://docs.google.com/forms/d/e/1FAIpQLSczBe_2sbRhR5QK0Ek-KrZa7JCNlvVBQZHlEHBNbLwqRcl3ug/viewform" target="_blank" rel="noopener noreferrer">Apply here.</a>
+                <strong>Passionate about what we do? </strong>Want to join an
+                international team of leaders, creators, and app dev
+                enthusiasts?{" "}
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSczBe_2sbRhR5QK0Ek-KrZa7JCNlvVBQZHlEHBNbLwqRcl3ug/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Apply here.
+                </a>
               </p>
             </div>
           </div>
@@ -68,10 +97,7 @@ const Chapters = () => {
           data-aos-duration={1000}
         >
           {members.map((item, index) => (
-            <div
-              className="col-lg-4 col-md-6 col-xs-9"
-              key={index}
-            >
+            <div className="col-lg-4 col-md-6 col-xs-9" key={index}>
               <TeamMemberCard options={item} />
             </div>
           ))}

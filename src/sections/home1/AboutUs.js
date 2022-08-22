@@ -17,7 +17,7 @@ const AboutUs = ({ className, ...rest }) => {
               >
                 <h2 className="font-size-11 mb-6">About Us</h2>
                 <h3 className="font-size-7 text-default-color mb-12">
-                  World's largest student-run application development nonprofit
+                  Student-run application development nonprofit
                 </h3>
               </div>
             </div>
@@ -35,8 +35,8 @@ const AboutUs = ({ className, ...rest }) => {
                   App Dev League, a student-led nonprofit, is devoted to
                   introducing the world of application development to
                   underrepresented students. We don't just teach students how to
-                  code. We teach them how to make an impact with their code.
-                  <strong>Our goals include:</strong>
+                  code. We teach them how to make an impact on society with
+                  their code in an ethically-responsible way.
                 </p>
                 <div className="row justify-content-center py-7">
                   <div className="col-lg-4 col-md-6 col-xs-10">
@@ -106,10 +106,10 @@ const AboutUs = ({ className, ...rest }) => {
                   further the digital divide and leave underrepresented
                   communities in the dust. Our goal is to introduce a set of
                   project-oriented and accessible curricula to bridge that gap.
-                  Our focus on application development education and initiatives
-                  uniquely powers these underprivileged communities to make both
-                  a local and global impact right from their homes through the
-                  power of Apps!
+                  Our focus on application development education and ethics in
+                  technology uniquely powers these underprivileged communities
+                  to make both a local and global impact right from their homes
+                  through the power of Apps!
                 </p>
                 <div className="btn-group mb-8 mb-lg-12">
                   <Link href={"/about"}>
