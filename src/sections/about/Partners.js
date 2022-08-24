@@ -45,7 +45,7 @@ const Partners = ({ className, ...rest }) => {
       {/* Company Section */}
       <div className={className} {...rest}>
         <div
-          className="container"
+          className="container-fluid"
           id="partners"
           data-aos="fade-in"
           data-aos-once="true"
