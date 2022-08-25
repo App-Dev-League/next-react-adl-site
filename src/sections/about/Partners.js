@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 
 import brand1 from "../../assets/partners/csforall-logo.svg";
 import brand2 from "../../assets/partners/logo.png";
@@ -12,12 +12,19 @@ import brand9 from "../../assets/partners/csta.png";
 import brand10 from "../../assets/partners/ncwit.png";
 import brand11 from "../../assets/partners/spiral.png";
 
-const SingleBrand = ({ image, darkBg }) => {
+const SingleBrand = ({ image, darkBg, first, last }) => {
+  const xMarginClassName = useMemo(() => {
+    if (first) return "ml-5 ml-sm-auto mr-5";
+    if (last) return "mr-5 mr-sm-auto ml-5";
+    return "mx-5";
+  }, []);
   return (
     <>
       {/* Single Brand */}
       <div
-        className={`single-brand-logo mx-5 my-6 ${darkBg ? "bg-black" : ""}`}
+        className={`single-brand-logo my-6 ${
+          darkBg ? "bg-black" : ""
+        } ${xMarginClassName}`}
       >
         <img src={image} alt="" loading="lazy" />
       </div>
@@ -60,9 +67,15 @@ const Partners = ({ className, ...rest }) => {
             </div>
           </div>
           {/* Brand Logos */}
-          <div className="brand-logo-small d-flex align-items-center justify-content-center justify-content-lg-between flex-wrap">
+          <div className="brand-logo-small d-flex flex-column flex-sm-row align-items-center align-items-sm-start overflow-sm-auto">
             {images.map((brand, index) => (
-              <SingleBrand image={brand} key={index} darkBg={index === 1} />
+              <SingleBrand
+                image={brand}
+                key={index}
+                darkBg={index === 1}
+                first={index === 0}
+                last={index === images.length - 1}
+              />
             ))}
           </div>
         </div>

@@ -183,7 +183,7 @@ const EventList = () => {
               </h2>
               <div className="bg-white d-inline-block p-6 border rounded mx-auto mt-8">
                 <p className="m-0">
-                  Several in-person events upcoming for Fall 2022!
+                  Over 5 in-person events in Oakland and SF for Fall 2022!
                 </p>
               </div>
             </div>

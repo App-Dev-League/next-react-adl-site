@@ -29,7 +29,7 @@ const Devnetic = ({ className, ...rest }) => {
               For students
             </p>
             <h2 className="font-size-9 mb-6">
-              A fun, easy to use learning app
+              Devnetic - a fun, easy to use learning app
             </h2>
           </div>
 

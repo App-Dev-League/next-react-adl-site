@@ -88,14 +88,6 @@ const TechHelp = ({ className, ...rest }) => {
                     an integrated code editor, project-oriented curriculum, and
                     a gamified leveling up system.
                   </p>
-                  <a
-                    href="https://devnetic.appdevleague.org/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-dodger-blue-2 btn-3 rounded-5 mr-6 mb-6 align-self-start"
-                  >
-                    Learn More
-                  </a>
                   <div className="d-flex justify-content-center">
                     <Image
                       src={img2}
@@ -105,6 +97,14 @@ const TechHelp = ({ className, ...rest }) => {
                       height={248}
                     />
                   </div>
+                  <a
+                    href="https://devnetic.appdevleague.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-dodger-blue-2 btn-3 rounded-5 mr-6 mt-6 align-self-center"
+                  >
+                    Learn More
+                  </a>
                 </Card.Body>
               </Card>
             </div>
