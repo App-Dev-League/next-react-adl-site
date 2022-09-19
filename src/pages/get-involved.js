@@ -52,7 +52,7 @@ const Faq = () => {
             <div className="row justify-content-center">
               {/* Single Faq */}
               <div className="col-lg-6 col-md-10 mb-10">
-                <Card className="bg-white shadow-2 border-0 h-100 gr-hover-2 transition-200 p-6">
+                <Card className="bg-white shadow-2  h-100 gr-hover-2 transition-200 p-6">
                   <div className="d-flex">
                     <div className="mr-6">
                       <div className="bg-light-orange circle-28 text-white mt-1">
@@ -99,7 +99,7 @@ const Faq = () => {
               {/* End Single Faq */}
               {/* Single Faq */}
               <div className="col-lg-6 col-md-10 mb-10">
-                <Card className="bg-white shadow-2 border-0 h-100 gr-hover-2 transition-200 p-6">
+                <Card className="bg-white shadow-2  h-100 gr-hover-2 transition-200 p-6">
                   <div className="d-flex">
                     <div className="mr-6">
                       <div className="bg-light-orange circle-28 text-white mt-1">
@@ -142,7 +142,7 @@ const Faq = () => {
               {/* End Single Faq */}
               {/* Single Faq */}
               <div className="col-lg-6 col-md-10 mb-10">
-                <Card className="bg-white shadow-2 border-0 h-100 gr-hover-2 transition-200 p-6">
+                <Card className="bg-white shadow-2  h-100 gr-hover-2 transition-200 p-6">
                   <div className="d-flex">
                     <div className="mr-6">
                       <div className="bg-light-orange circle-28 text-white mt-1">
@@ -202,7 +202,7 @@ const Faq = () => {
               {/* End Single Faq */}
               {/* Single Faq */}
               <div className="col-lg-6 col-md-10 align-self-start">
-                <Card className="bg-white shadow-2 border-0 h-100 gr-hover-2 transition-200 p-6">
+                <Card className="bg-white shadow-2 h-100 gr-hover-2 transition-200 p-6">
                   <div className="d-flex">
                     <div className="mr-6">
                       <div className="bg-light-orange circle-28 text-white mt-1">
