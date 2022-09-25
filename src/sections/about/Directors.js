@@ -57,9 +57,9 @@ const Directors = ({ className, ...rest }) => {
       },
     },
     {
-      image: memberImage10,
-      name: "Zara Siddiqui",
-      position: "Director of Onboarding",
+      image: memberImage6,
+      name: "Sarthak Dayal",
+      position: "Director of Initiatives",
       animation: {
         animationName: "fade-up",
         delay: 300,
@@ -67,9 +67,9 @@ const Directors = ({ className, ...rest }) => {
       },
     },
     {
-      image: memberImage6,
-      name: "Sarthak Dayal",
-      position: "Director of Initiatives",
+      image: memberImage10,
+      name: "Zara Siddiqui",
+      position: "Director of Onboarding",
       animation: {
         animationName: "fade-up",
         delay: 300,
