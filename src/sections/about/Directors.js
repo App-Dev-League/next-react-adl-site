@@ -4,6 +4,8 @@ import Image from "next/image"
 import memberImage6 from "../../assets/directors/sarthak.png";
 import memberImage8 from "../../assets/instructors/joshua.png";
 import memberImage10 from "../../assets/directors/zaraS.png";
+import memberImage11 from "../../assets/directors/chiling.png";
+import memberImage12 from "../../assets/directors/desiree.jpg";
 
 const DirectorCard = ({ image, name, position, ...rest }) => {
   return (
@@ -24,6 +26,36 @@ const DirectorCard = ({ image, name, position, ...rest }) => {
 };
 const Directors = ({ className, ...rest }) => {
   const DirectorsData = [
+    /*{
+      image: memberImage7,
+      name: "Luis Varona",
+      position: "Director of Expansion",
+      animation: {
+        animationName: "fade-up",
+        delay: 300,
+        duration: null,
+      },
+    },*/
+    {
+      image: memberImage11,
+      name: "Chiling Han",
+      position: "Director of Curriculum",
+      animation: {
+        animationName: "fade-up",
+        delay: 300,
+        duration: null,
+      },
+    },
+    {
+      image: memberImage8,
+      name: "Joshua Zou",
+      position: "Director of Development",
+      animation: {
+        animationName: "fade-up",
+        delay: 300,
+        duration: null,
+      },
+    },
     {
       image: memberImage10,
       name: "Zara Siddiqui",
@@ -44,20 +76,10 @@ const Directors = ({ className, ...rest }) => {
         duration: null,
       },
     },
-    /*{
-      image: memberImage7,
-      name: "Luis Varona",
-      position: "Director of Expansion",
-      animation: {
-        animationName: "fade-up",
-        delay: 300,
-        duration: null,
-      },
-    },*/
     {
-      image: memberImage8,
-      name: "Joshua Zou",
-      position: "Director of Development",
+      image: memberImage12,
+      name: "Desiree Luo",
+      position: "Director of Marketing",
       animation: {
         animationName: "fade-up",
         delay: 300,

@@ -39,11 +39,11 @@ const instructors = [
     name: "Pranav Gunhal",
     title: "Web Dev Instructor",
   },
-  {
-    image: img27,
-    name: "Chiling Han",
-    title: "Advanced AI Instructor",
-  },
+  // {
+  //   image: img27,
+  //   name: "Chiling Han",
+  //   title: "Advanced AI Instructor",
+  // },
   {
     image: img17,
     name: "Athreya Daniel",
@@ -112,11 +112,11 @@ const outreach = [
     name: "Isha Kotalwar",
     title: "Partnership Manager",
   },
-  {
-    image: img35,
-    name: "Desiree Luo",
-    title: "Social Media Designer",
-  },
+  // {
+  //   image: img35,
+  //   name: "Desiree Luo",
+  //   title: "Social Media Designer",
+  // },
   {
     image: img10,
     name: "Amit Karoshi",
