@@ -43,7 +43,7 @@ const Stats = () => {
                 </LazyLoad>
               </h2>
               <p className="heading-default-color mb-0 font-size-5">
-                national/chapter members
+                national/chapter officers
               </p>
             </div>
           </div>

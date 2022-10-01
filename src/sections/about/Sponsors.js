@@ -54,6 +54,10 @@ const Sponsors = ({ className, ...rest }) => {
               <SingleBrand image={brand} key={index} />
             ))}
           </div>
+          <p className="text-center mt-8">
+            For more information regarding our full list of partners and
+            sponsors, please contact us at <a href="mailto:contact@appdevleague.org">contact@appdevleague.org</a>
+          </p>
         </div>
       </div>
       {/* End Company Section */}
