@@ -47,7 +47,7 @@ const Hero = ({ className, ...rest }) => {
               allowfullscreen="true"
               mozallowfullscreen="true"
               webkitallowfullscreen="true"
-              style={{ minHeight: "300px" }}
+              style={{ minHeight: "300px", borderRadius: ".75rem" }}
             ></iframe>
           </div>
           {/* End Hero Content */}
