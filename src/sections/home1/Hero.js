@@ -38,25 +38,17 @@ const Hero = ({ className, ...rest }) => {
           </div>
           {/* End Hero Image */}
           {/* Hero Content */}
-          <div className="col-xl-6 col-lg-6 col-md-7 col-xs-8 position-static">
-            <div className="l6-hero-image-group">
-              <img
-                className="w-100"
-                src={imgM}
-                alt=""
-                data-aos="fade-up"
-                data-aos-delay={500}
-              />
-              <div className="img-1">
-                <img
-                  className="w-100"
-                  src={imgYS}
-                  alt=""
-                  data-aos="fade-right"
-                  data-aos-delay={750}
-                />
-              </div>
-            </div>
+          <div className="col-xl-6 col-lg-6 col-md-12 position-static">
+            <iframe
+              src="https://docs.google.com/presentation/d/e/2PACX-1vRRqCoPoOEW4q5KdnK_HYGhSJ3eHWazJHBfAZrt8TWbDI6jbFa7YhPjg37PJ8GVY5BZmacL5sHMKEC2/embed?start=false&loop=false&delayms=3000"
+              frameborder="0"
+              width="100%"
+              height="100%"
+              allowfullscreen="true"
+              mozallowfullscreen="true"
+              webkitallowfullscreen="true"
+              style={{ minHeight: "300px" }}
+            ></iframe>
           </div>
           {/* End Hero Content */}
         </div>
