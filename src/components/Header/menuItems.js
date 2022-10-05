@@ -80,6 +80,7 @@ export const menuItems = [
       { name: "meet-program", label: "MEET Program" },
       { name: "star-program", label: "STAR Program" },
       { name: "camp-program", label: "CAMP Program" },
+      { name: "https://devnetic.appdevleague.org/", label: "Devnetic", isExternal: true },
     ],
   },
   {
