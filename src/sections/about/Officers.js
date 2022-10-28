@@ -21,6 +21,8 @@ import img30 from "../../assets/outreach/rashu.png";
 import img32 from "../../assets/outreach/nyna.png";
 import img33 from "../../assets/directors/aniketh.png";
 import img35 from "../../assets/directors/desiree.jpg";
+import img36 from "../../assets/directors/ishnu.png";
+import img37 from "../../assets/directors/huzaifa.png";
 
 const instructors = [
   
@@ -37,6 +39,11 @@ const instructors = [
   {
     image: img7,
     name: "Pranav Gunhal",
+    title: "Web Dev Instructor",
+  },
+  {
+    image: img37,
+    name: "Huzaifa Azhar",
     title: "Web Dev Instructor",
   },
   // {
@@ -62,6 +69,11 @@ const instructors = [
   {
     image: img15,
     name: "Vishnu Mangipudi",
+    title: "AI Instructor",
+  },
+  {
+    image: img36,
+    name: "Ishnu",
     title: "AI Instructor",
   },
   {
