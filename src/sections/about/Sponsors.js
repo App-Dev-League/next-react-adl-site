@@ -6,6 +6,8 @@ import brand3 from "../../assets/sponsors/inspirit.png";
 import brand4 from "../../assets/sponsors/jetbrains.png";
 import brand5 from "../../assets/sponsors/replit.png";
 import brand6 from "../../assets/sponsors/wolfram.png";
+import brand7 from "../../assets/sponsors/anth.png";
+import brand8 from "../../assets/sponsors/type.png";
 
 const SingleBrand = ({ image, darkBg }) => {
   return (
@@ -28,7 +30,16 @@ const SingleBrand = ({ image, darkBg }) => {
 };
 
 const Sponsors = ({ className, ...rest }) => {
-  const images = [brand1, brand2, brand3, brand4, brand5, brand6];
+  const images = [
+    brand2,
+    brand8,
+    brand7,
+    brand1,
+    brand3,
+    brand4,
+    brand5,
+    brand6,
+  ];
   return (
     <>
       {/* Company Section */}
@@ -49,14 +60,17 @@ const Sponsors = ({ className, ...rest }) => {
             </div>
           </div>
           {/* Brand Logos */}
-          <div className="brand-logo-small d-flex align-items-center justify-content-center justify-content-lg-between flex-wrap">
+          <div className="brand-logo-small d-flex align-items-center justify-content-center justify-content-lg-start flex-wrap">
             {images.map((brand, index) => (
               <SingleBrand image={brand} key={index} />
             ))}
           </div>
           <p className="text-center mt-8">
             For more information regarding our full list of partners and
-            sponsors, please contact us at <a href="mailto:contact@appdevleague.org">contact@appdevleague.org</a>
+            sponsors, please contact us at{" "}
+            <a href="mailto:contact@appdevleague.org">
+              contact@appdevleague.org
+            </a>
           </p>
         </div>
       </div>
