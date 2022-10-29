@@ -48,11 +48,6 @@ const members = [
     title: "Texas Chapter Leader",
   },
   {
-    image: img8,
-    name: "Huzaifa Azhar",
-    title: "Pakistan Chapter Leader",
-  },
-  {
     image: img9,
     name: "Kabith Kuber",
     title: "Brampton Chapter Leader",
