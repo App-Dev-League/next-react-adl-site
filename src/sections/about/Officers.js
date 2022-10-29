@@ -21,8 +21,8 @@ import img30 from "../../assets/outreach/rashu.png";
 import img32 from "../../assets/outreach/nyna.png";
 import img33 from "../../assets/directors/aniketh.png";
 import img35 from "../../assets/directors/desiree.jpg";
-import img36 from "../../assets/directors/ishnu.png";
-import img37 from "../../assets/directors/huzaifa.png";
+import img36 from "../../assets/instructors/ishnu.png";
+import img37 from "../../assets/instructors/huzaifa.png";
 
 const instructors = [
   
