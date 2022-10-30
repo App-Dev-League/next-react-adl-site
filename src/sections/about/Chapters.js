@@ -101,6 +101,17 @@ const Chapters = () => {
               <TeamMemberCard options={item} />
             </div>
           ))}
+          <div className="col-lg-4 col-md-6 col-xs-9">
+            <div className="bg-white border rounded-10 mb-9 px-8 py-14">
+              <div className="d-flex align-items-center">
+                <div className="mb-0">
+                  <h4 className="font-size-7 line-height-reset text-dark-cloud mb-0 text-center">
+                    Announcing our Other Chapters Soon!
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

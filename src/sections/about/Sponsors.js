@@ -6,7 +6,7 @@ import brand3 from "../../assets/sponsors/inspirit.png";
 import brand4 from "../../assets/sponsors/jetbrains.png";
 import brand5 from "../../assets/sponsors/replit.png";
 import brand6 from "../../assets/sponsors/wolfram.png";
-import brand7 from "../../assets/sponsors/anth.png";
+import brand7 from "../../assets/sponsors/anth.svg";
 import brand8 from "../../assets/sponsors/type.png";
 
 const SingleBrand = ({ image, darkBg }) => {
@@ -14,7 +14,9 @@ const SingleBrand = ({ image, darkBg }) => {
     <>
       {/* Single Brand */}
       <div
-        className={`single-brand-logo mx-5 my-6 ${darkBg ? "bg-black" : ""}`}
+        className={`col-6 col-md-4 col-lg-3 single-brand-logo my-6 d-flex align-items-center justify-content-center ${
+          darkBg ? "bg-black" : ""
+        }`}
       >
         <img
           src={image}
@@ -22,6 +24,8 @@ const SingleBrand = ({ image, darkBg }) => {
           data-aos="fade-in"
           data-aos-once="true"
           data-aos-duration={1000}
+          className="w-100"
+          style={{ objectFit: "contain" }}
         />
       </div>
       {/* Single Brand */}
@@ -60,14 +64,14 @@ const Sponsors = ({ className, ...rest }) => {
             </div>
           </div>
           {/* Brand Logos */}
-          <div className="brand-logo-small d-flex align-items-center justify-content-center justify-content-lg-start flex-wrap">
+          <div className="brand-logo-small row">
             {images.map((brand, index) => (
               <SingleBrand image={brand} key={index} />
             ))}
           </div>
           <p className="text-center mt-8">
-            For more information regarding our full list of partners and
-            sponsors, please contact us at{" "}
+            For more information regarding our full list of partners, sponsors,
+            and chapter leaders, please contact us at{" "}
             <a href="mailto:contact@appdevleague.org">
               contact@appdevleague.org
             </a>
