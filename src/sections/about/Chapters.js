@@ -101,7 +101,7 @@ const Chapters = () => {
               <div className="d-flex align-items-center">
                 <div className="mb-0">
                   <h4 className="font-size-7 line-height-reset text-dark-cloud mb-0 text-center">
-                    Announcing our Other Chapters Soon!
+                  Announcing our other chapters soon!
                   </h4>
                 </div>
               </div>
