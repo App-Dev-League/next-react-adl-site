@@ -61,18 +61,12 @@ const IndexPage = () => {
                   <i className="fa fa-times font-size-8" />
                 </button>
                 <p>
-                  Our Appathon event held this past August 2022 was a great
-                  success! Check out our trailer video for the event! <br />
-                  <br /> Feel free to also check out our soon-to-be-released
-                  App Store desktop application:{" "}
-                  <a href="https://devnetic.appdevleague.org" target="_blank">
-                    https://devnetic.appdevleague.org/
-                  </a>
+                  This past fall, we organized multiple in person events in Oakland and SF! Check out the recap :)
                 </p>
                 <iframe
                   width="480"
                   height="270"
-                  src="https://www.youtube-nocookie.com/embed/TVCJol3zaRE"
+                  src="https://www.youtube.com/embed/AUvVho1o7iY"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
