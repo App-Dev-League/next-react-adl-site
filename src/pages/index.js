@@ -14,9 +14,9 @@ import Popup from "reactjs-popup";
 
 const IndexPage = () => {
   const [open, setOpen] = useState(false);
-  // useEffect(() => {
-  //   setOpen(!sessionStorage.getItem("adl-recap-2021-popup-closed"));
-  // }, []);
+  useEffect(() => {
+    setOpen(!sessionStorage.getItem("adl-recap-2021-popup-closed"));
+  }, []);
   const closeModal = () => {
     setOpen(false);
     sessionStorage.setItem("adl-recap-2021-popup-closed", "true");
