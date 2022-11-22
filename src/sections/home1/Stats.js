@@ -78,7 +78,7 @@ const Stats = () => {
               <h2 className="font-size-12 mb-5">
                 <LazyLoad>
                   <span className="counter">
-                    <CountUp duration={3} end={20} />
+                    <CountUp duration={3} end={25} />
                   </span>
                 </LazyLoad>
               </h2>
