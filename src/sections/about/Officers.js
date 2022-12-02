@@ -82,11 +82,6 @@ const instructors = [
     title: "CAMP Lead",
   },
   {
-    image: img26,
-    name: "Aarav Borthakur",
-    title: "Devnetic Lead",
-  },
-  {
     image: img3,
     name: "Kamil Pawlak",
     title: "Website Dev",
