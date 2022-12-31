@@ -294,14 +294,25 @@ const EventList = () => {
               <hr className="mx-12 my-2" />
               <Card.Body className="d-flex flex-column justify-content-between">
                 <p>
-                  NeoHacks 2.0 - Intro to React <br /> HackMerced VII - ReactJS
-                  TODO
+                  Skynet Hacks - Intro to AI
                   <br />
-                  App LancerHacks - Intro to AI
-                  <br /> RecessHacks - Intro to AI
+                  EcoHacks - Intro to AI
+                  <br />
+                  AIHacks4Good - Intro to AI
+                  <br />
+                  ROBOHackIT2022 - Intro to AI
+                  <br />
+                  NeoHacks 2.0 - Intro to React
+                  <br />
+                  HackMerced VII - ReactJS
+                  <br />
+                  LancerHacks - Intro to AI
+                  <br />
+                  RecessHacks - Intro to AI
                   <br />
                   NeoHacks 1.0 - Intro to AI
-                  <br /> NeoHacks 1.0 - MIT App Inventor
+                  <br />
+                  NeoHacks 1.0 - MIT App Inventor
                 </p>
               </Card.Body>
             </Card>
