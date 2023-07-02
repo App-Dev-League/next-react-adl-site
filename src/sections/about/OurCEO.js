@@ -1,6 +1,6 @@
 import React from "react";
 
-import imgM from "../../assets/krish.jpg";
+import imgM from "../../assets/krish_1.jpg";
 import imgDP from "../../assets/image/home-2/png/dot-pattern-black.png";
 
 import Image from "next/image";
