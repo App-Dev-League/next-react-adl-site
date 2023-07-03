@@ -60,7 +60,7 @@ const OurCEO = ({ className, ...rest }) => {
               data-aos-duration={1000}
             >
               <p className="font-size-7 mb-0 pr-xs-15 pr-md-0 pl-xl-2 mt-7 mt-lg-0 pr-lg-18">
-                Krish Maniar is a senior at The Harker School. As the Founder
+                Krish Maniar is an incoming freshman at Stanford University. As the Founder
                 and CEO of App Dev League, he hopes to provide accessible
                 computer science and application development education to
                 students of underprivileged backgrounds. Alongside 15 branches,
